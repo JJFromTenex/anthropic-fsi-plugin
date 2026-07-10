@@ -1,0 +1,13 @@
+{
+  "name": "catalyst",
+  "owner": {
+    "name": "Tenex"
+  },
+  "plugins": [
+    {
+      "name": "catalyst",
+      "source": "./",
+      "description": "Project Catalyst — FSI Claude Code adoption workshop simulation + real-company adoption advisor."
+    }
+  ]
+}

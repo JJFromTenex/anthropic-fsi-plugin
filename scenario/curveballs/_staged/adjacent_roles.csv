@@ -1,0 +1,2001 @@
+employee_id,name,role,division,location,primary_tool,technical_proficiency_1to10
+200001,Isabella Chen,Business Analyst,Core Banking & Payments,New York,Python,4
+200002,Mateo Robinson,Business Analyst,Retail & Digital Banking,London,SQL,4
+200003,Mateo Kapoor,Business Analyst,Risk & Compliance Tech,London,Python,2
+200004,Kiran Pillai,Business Analyst,Core Banking & Payments,Charlotte,Excel,4
+200005,Sophia Byrne,Business Analyst,Retail & Digital Banking,Toronto,SQL,5
+200006,Chen Rao,Business Analyst,Investment Banking Tech,Toronto,Excel,3
+200007,Mei Singh,Business Analyst,Risk & Compliance Tech,Pune,Python,6
+200008,Chen Kelly,Business Analyst,Risk & Compliance Tech,Mumbai,Python,2
+200009,Hana Das,Business Analyst,Platform & DevEx,New York,Python,6
+200010,Aoife Zhang,Business Analyst,Core Banking & Payments,Pune,SQL,4
+200011,Mei Banerjee,Business Analyst,Core Banking & Payments,Charlotte,Excel,3
+200012,Mei Rao,Business Analyst,Risk & Compliance Tech,New York,Python,3
+200013,Benjamin Li,Business Analyst,Core Banking & Payments,Toronto,Python,3
+200014,Olivia Hall,Business Analyst,Risk & Compliance Tech,Singapore,Python,5
+200015,Mia Brown,Business Analyst,Retail & Digital Banking,Pune,SQL,3
+200016,Ethan O'Brien,Business Analyst,Platform & DevEx,New York,Excel,4
+200017,Ananya Jackson,Business Analyst,Retail & Digital Banking,London,Excel,2
+200018,Rohan Mehta,Business Analyst,Core Banking & Payments,Dublin,SQL,2
+200019,Marcus Hall,Business Analyst,Core Banking & Payments,Dublin,Python,3
+200020,Jack Pillai,Business Analyst,Core Banking & Payments,Charlotte,Excel,4
+200021,Aarav Chen,Business Analyst,Retail & Digital Banking,London,Python,3
+200022,Isabella Iyer,Business Analyst,Risk & Compliance Tech,Toronto,Excel,5
+200023,James Jackson,Business Analyst,Retail & Digital Banking,Pune,Excel,2
+200024,Grace Li,Business Analyst,Retail & Digital Banking,Toronto,Python,4
+200025,Mateo Patel,Business Analyst,Retail & Digital Banking,London,Excel,4
+200026,Takeshi White,Business Analyst,Retail & Digital Banking,Charlotte,SQL,6
+200027,Marcus Anderson,Business Analyst,Investment Banking Tech,Singapore,Python,2
+200028,Liam White,Business Analyst,Investment Banking Tech,Singapore,SQL,5
+200029,Takeshi O'Brien,Business Analyst,Retail & Digital Banking,Charlotte,Python,2
+200030,Olivia Hall,Business Analyst,Platform & DevEx,London,Python,6
+200031,Rahul Patel,Business Analyst,Platform & DevEx,Singapore,SQL,2
+200032,Olivia Anderson,Business Analyst,Platform & DevEx,London,SQL,3
+200033,Rohan Garcia,Business Analyst,Retail & Digital Banking,Pune,SQL,6
+200034,Layla Smith,Business Analyst,Retail & Digital Banking,Toronto,Excel,4
+200035,Takeshi Tanaka,Business Analyst,Investment Banking Tech,Charlotte,Excel,6
+200036,Aarav Thompson,Business Analyst,Retail & Digital Banking,New York,Excel,6
+200037,Zara Ryan,Business Analyst,Risk & Compliance Tech,Mumbai,Excel,6
+200038,Omar Byrne,Business Analyst,Investment Banking Tech,London,SQL,3
+200039,Isabella Kumar,Business Analyst,Platform & DevEx,Toronto,Excel,6
+200040,Akira Kelly,Business Analyst,Platform & DevEx,New York,Excel,4
+200041,Layla Patel,Business Analyst,Investment Banking Tech,Dublin,Python,2
+200042,Conor Thomas,Business Analyst,Platform & DevEx,Charlotte,SQL,4
+200043,Niamh Ryan,Business Analyst,Retail & Digital Banking,New York,SQL,5
+200044,Isabella Walsh,Business Analyst,Investment Banking Tech,Mumbai,Python,6
+200045,Ava Nakamura,Business Analyst,Investment Banking Tech,Singapore,Excel,2
+200046,Wei Gupta,Business Analyst,Risk & Compliance Tech,Toronto,SQL,2
+200047,Wei Johnson,Business Analyst,Core Banking & Payments,Dublin,SQL,4
+200048,Wei Wilson,Business Analyst,Investment Banking Tech,New York,Excel,4
+200049,Zara Jackson,Business Analyst,Retail & Digital Banking,Singapore,Python,4
+200050,Pooja Martinez,Business Analyst,Retail & Digital Banking,Pune,Excel,3
+200051,Saoirse O'Brien,Business Analyst,Risk & Compliance Tech,Singapore,Python,4
+200052,Conor Brown,Business Analyst,Retail & Digital Banking,Charlotte,Excel,4
+200053,Sophia Gupta,Business Analyst,Platform & DevEx,London,Excel,6
+200054,Aoife Malhotra,Business Analyst,Core Banking & Payments,London,Python,6
+200055,Hiroshi Tanaka,Business Analyst,Risk & Compliance Tech,Singapore,Excel,5
+200056,Arjun Malhotra,Business Analyst,Platform & DevEx,Toronto,Python,2
+200057,Emma Rao,Business Analyst,Investment Banking Tech,Charlotte,Excel,6
+200058,Ananya Gupta,Business Analyst,Retail & Digital Banking,Pune,SQL,6
+200059,Emma Johnson,Business Analyst,Risk & Compliance Tech,New York,Excel,2
+200060,Daniel Clark,Business Analyst,Platform & DevEx,Charlotte,SQL,3
+200061,Saoirse Young,Business Analyst,Investment Banking Tech,Dublin,SQL,2
+200062,Mia Harris,Business Analyst,Core Banking & Payments,Singapore,SQL,2
+200063,Emma Jackson,Business Analyst,Core Banking & Payments,New York,Excel,4
+200064,Rahul Banerjee,Business Analyst,Investment Banking Tech,London,Excel,3
+200065,Sanjay Smith,Business Analyst,Retail & Digital Banking,Dublin,Python,5
+200066,Rahul Agarwal,Business Analyst,Platform & DevEx,London,Python,6
+200067,Rohan Wang,Business Analyst,Risk & Compliance Tech,New York,Excel,3
+200068,Akira Clark,Business Analyst,Retail & Digital Banking,Charlotte,Excel,3
+200069,Priya Garcia,Business Analyst,Platform & DevEx,Singapore,Excel,2
+200070,Liam Robinson,Business Analyst,Risk & Compliance Tech,Charlotte,Python,5
+200071,Conor Ryan,Business Analyst,Core Banking & Payments,Dublin,Excel,4
+200072,Rohan Martin,Business Analyst,Retail & Digital Banking,Toronto,Python,3
+200073,Mei Taylor,Business Analyst,Retail & Digital Banking,Singapore,Excel,3
+200074,Emma Sharma,Business Analyst,Core Banking & Payments,Mumbai,SQL,4
+200075,Aarav Shah,Business Analyst,Risk & Compliance Tech,Singapore,SQL,5
+200076,Sanjay Pillai,Business Analyst,Retail & Digital Banking,Dublin,Excel,3
+200077,Niamh Johnson,Business Analyst,Core Banking & Payments,London,Python,5
+200078,Sakura Anderson,Business Analyst,Risk & Compliance Tech,Pune,SQL,5
+200079,Yuki Tanaka,Business Analyst,Risk & Compliance Tech,Dublin,Python,6
+200080,Sophia Chen,Business Analyst,Core Banking & Payments,Singapore,Python,3
+200081,Olivia Mehta,Business Analyst,Risk & Compliance Tech,Dublin,SQL,4
+200082,Marcus Pillai,Business Analyst,Core Banking & Payments,Mumbai,Python,3
+200083,Sanjay Das,Business Analyst,Investment Banking Tech,Singapore,SQL,2
+200084,Mateo Mehta,Business Analyst,Core Banking & Payments,Toronto,Python,2
+200085,Ava Wang,Business Analyst,Platform & DevEx,London,Python,5
+200086,Sneha Thomas,Business Analyst,Retail & Digital Banking,London,SQL,2
+200087,Hana Clark,Business Analyst,Retail & Digital Banking,Dublin,SQL,4
+200088,Takeshi Martin,Business Analyst,Core Banking & Payments,Toronto,Excel,5
+200089,Sean Taylor,Business Analyst,Investment Banking Tech,Dublin,Python,4
+200090,Benjamin Kumar,Business Analyst,Core Banking & Payments,Mumbai,Excel,4
+200091,Hana Harris,Business Analyst,Investment Banking Tech,London,Excel,5
+200092,Akira Ryan,Business Analyst,Risk & Compliance Tech,Mumbai,SQL,4
+200093,Sneha Malhotra,Business Analyst,Core Banking & Payments,London,Python,4
+200094,Declan Nguyen,Business Analyst,Platform & DevEx,Charlotte,SQL,4
+200095,Rohan Ryan,Business Analyst,Platform & DevEx,Charlotte,SQL,6
+200096,Rahul Nakamura,Business Analyst,Platform & DevEx,Pune,SQL,3
+200097,Zara Verma,Business Analyst,Risk & Compliance Tech,Toronto,Excel,3
+200098,Ananya Singh,Business Analyst,Retail & Digital Banking,Charlotte,Python,6
+200099,Daniel Clark,Business Analyst,Core Banking & Payments,Dublin,SQL,3
+200100,Sean Walker,Business Analyst,Platform & DevEx,Pune,SQL,6
+200101,Takeshi Shah,Business Analyst,Retail & Digital Banking,Mumbai,Excel,4
+200102,Jack Iyer,Business Analyst,Platform & DevEx,Toronto,Excel,4
+200103,Zara Nguyen,Business Analyst,Platform & DevEx,New York,SQL,6
+200104,Lucas Verma,Business Analyst,Investment Banking Tech,Mumbai,Excel,2
+200105,Rahul Das,Business Analyst,Platform & DevEx,New York,Python,2
+200106,Ava Johnson,Business Analyst,Risk & Compliance Tech,Mumbai,Python,6
+200107,Lucas Walker,Business Analyst,Risk & Compliance Tech,New York,Excel,3
+200108,Pooja Harris,Business Analyst,Retail & Digital Banking,Toronto,Excel,2
+200109,Rahul Martin,Business Analyst,Platform & DevEx,Charlotte,Excel,3
+200110,Rahul Murphy,Business Analyst,Investment Banking Tech,Pune,Python,4
+200111,Takeshi Rao,Business Analyst,Risk & Compliance Tech,Pune,Excel,3
+200112,Noah Zhang,Business Analyst,Core Banking & Payments,Charlotte,Excel,6
+200113,Niamh Zhang,Business Analyst,Core Banking & Payments,Pune,Excel,4
+200114,Chloe Murphy,Business Analyst,Retail & Digital Banking,Dublin,Python,6
+200115,Isabella Patel,Business Analyst,Core Banking & Payments,New York,SQL,4
+200116,Layla Martin,Business Analyst,Core Banking & Payments,New York,Python,4
+200117,Pooja Martinez,Business Analyst,Retail & Digital Banking,Pune,Python,2
+200118,Rohan Gupta,Business Analyst,Core Banking & Payments,London,SQL,2
+200119,Aoife Martinez,Business Analyst,Investment Banking Tech,Pune,Excel,2
+200120,Akira Walker,Business Analyst,Investment Banking Tech,London,Python,5
+200121,Hana Patel,Business Analyst,Core Banking & Payments,Pune,Python,3
+200122,Sean Murphy,Business Analyst,Platform & DevEx,London,Python,2
+200123,James Shah,Business Analyst,Investment Banking Tech,London,Excel,2
+200124,Sakura Kumar,Business Analyst,Risk & Compliance Tech,Singapore,Python,2
+200125,Layla Mehta,Business Analyst,Retail & Digital Banking,Toronto,SQL,6
+200126,Benjamin Kapoor,Business Analyst,Core Banking & Payments,New York,Excel,6
+200127,Divya Taylor,Business Analyst,Risk & Compliance Tech,Pune,SQL,3
+200128,Ethan O'Brien,Business Analyst,Investment Banking Tech,Toronto,Excel,2
+200129,Sakura Anderson,Business Analyst,Retail & Digital Banking,Dublin,Excel,3
+200130,Sean Das,Business Analyst,Core Banking & Payments,Dublin,Excel,3
+200131,Layla Wang,Business Analyst,Retail & Digital Banking,Dublin,Python,5
+200132,Charlotte Kapoor,Business Analyst,Core Banking & Payments,Singapore,SQL,4
+200133,Yuki Wilson,Business Analyst,Investment Banking Tech,Dublin,SQL,6
+200134,Mei Martin,Business Analyst,Platform & DevEx,Mumbai,Python,6
+200135,Benjamin Zhang,Business Analyst,Platform & DevEx,Charlotte,Python,5
+200136,Isabella Pillai,Business Analyst,Risk & Compliance Tech,Mumbai,Python,4
+200137,Niamh Garcia,Business Analyst,Risk & Compliance Tech,Toronto,Excel,4
+200138,Saoirse Agarwal,Business Analyst,Risk & Compliance Tech,New York,Excel,6
+200139,Marcus Zhang,Business Analyst,Investment Banking Tech,London,Python,4
+200140,Mei Patel,Business Analyst,Investment Banking Tech,New York,Python,6
+200141,Akira Clark,Business Analyst,Core Banking & Payments,Charlotte,Excel,6
+200142,Pooja Smith,Business Analyst,Risk & Compliance Tech,Mumbai,Excel,2
+200143,Mateo Mehta,Business Analyst,Retail & Digital Banking,Charlotte,Excel,5
+200144,Chloe Kapoor,Business Analyst,Risk & Compliance Tech,London,Python,6
+200145,Mateo Pillai,Business Analyst,Core Banking & Payments,New York,SQL,6
+200146,Mia Mehta,Business Analyst,Retail & Digital Banking,London,SQL,4
+200147,Mia Malhotra,Business Analyst,Core Banking & Payments,New York,Excel,4
+200148,Wei Murphy,Business Analyst,Platform & DevEx,Dublin,Excel,5
+200149,Yuki Chen,Business Analyst,Investment Banking Tech,Charlotte,Python,5
+200150,Ava Thomas,Business Analyst,Investment Banking Tech,Pune,SQL,5
+200151,Zara Young,Business Analyst,Investment Banking Tech,Singapore,SQL,4
+200152,Ethan Clark,Business Analyst,Platform & DevEx,Charlotte,Excel,4
+200153,Omar Verma,Business Analyst,Core Banking & Payments,London,SQL,6
+200154,Marcus Martinez,Business Analyst,Risk & Compliance Tech,New York,Python,3
+200155,Grace Walsh,Business Analyst,Core Banking & Payments,Charlotte,Excel,4
+200156,Liam Harris,Business Analyst,Risk & Compliance Tech,Dublin,SQL,6
+200157,Divya Thompson,Business Analyst,Investment Banking Tech,Mumbai,Excel,6
+200158,Emma Agarwal,Business Analyst,Core Banking & Payments,New York,Excel,3
+200159,Priya Nguyen,Business Analyst,Core Banking & Payments,Singapore,Python,6
+200160,Ava Kapoor,Business Analyst,Risk & Compliance Tech,Toronto,SQL,2
+200161,Chen Garcia,Business Analyst,Investment Banking Tech,New York,Python,4
+200162,Sanjay Li,Business Analyst,Core Banking & Payments,Singapore,Python,5
+200163,Hana Patel,Business Analyst,Core Banking & Payments,Singapore,Excel,4
+200164,Lucas Shah,Business Analyst,Retail & Digital Banking,Charlotte,SQL,3
+200165,Chloe Patel,Business Analyst,Core Banking & Payments,Mumbai,SQL,4
+200166,Rahul Wilson,Business Analyst,Platform & DevEx,Pune,Python,3
+200167,James Brown,Business Analyst,Risk & Compliance Tech,Charlotte,Python,6
+200168,Fatima Walker,Business Analyst,Core Banking & Payments,London,Python,5
+200169,Marcus Garcia,Business Analyst,Platform & DevEx,Singapore,Excel,6
+200170,Hana Shah,Business Analyst,Investment Banking Tech,Charlotte,Excel,4
+200171,Conor Walsh,Business Analyst,Investment Banking Tech,Mumbai,SQL,3
+200172,Fatima Gupta,Business Analyst,Core Banking & Payments,Charlotte,Excel,5
+200173,Isabella Li,Business Analyst,Investment Banking Tech,Toronto,Excel,4
+200174,Jack Ryan,Business Analyst,Risk & Compliance Tech,New York,Python,4
+200175,Mateo Garcia,Business Analyst,Platform & DevEx,Mumbai,SQL,5
+200176,Daniel Martin,Business Analyst,Risk & Compliance Tech,Dublin,Python,2
+200177,Aoife Gupta,Business Analyst,Core Banking & Payments,London,Python,6
+200178,Layla Singh,Business Analyst,Retail & Digital Banking,New York,Excel,6
+200179,Fatima O'Brien,Business Analyst,Investment Banking Tech,Dublin,SQL,3
+200180,Priya Banerjee,Business Analyst,Platform & DevEx,New York,SQL,6
+200181,Ethan Nakamura,Business Analyst,Risk & Compliance Tech,Charlotte,Excel,3
+200182,Akira Wang,Business Analyst,Risk & Compliance Tech,New York,Excel,6
+200183,Aoife Taylor,Business Analyst,Risk & Compliance Tech,London,Excel,2
+200184,Sneha Singh,Business Analyst,Investment Banking Tech,Charlotte,SQL,2
+200185,Zara Singh,Business Analyst,Core Banking & Payments,Charlotte,SQL,5
+200186,Akira Johnson,Business Analyst,Retail & Digital Banking,Charlotte,Python,6
+200187,Liam Smith,Business Analyst,Investment Banking Tech,London,Python,4
+200188,Conor Gupta,Business Analyst,Investment Banking Tech,Dublin,Excel,6
+200189,Chen Smith,Business Analyst,Retail & Digital Banking,Toronto,Excel,5
+200190,Rahul Smith,Business Analyst,Risk & Compliance Tech,Dublin,Excel,3
+200191,Layla Walsh,Business Analyst,Risk & Compliance Tech,London,Excel,2
+200192,Sophia Sharma,Business Analyst,Core Banking & Payments,Singapore,Excel,3
+200193,Hana Patel,Business Analyst,Platform & DevEx,Mumbai,Python,4
+200194,Charlotte Agarwal,Business Analyst,Core Banking & Payments,London,Python,6
+200195,Olivia Nguyen,Business Analyst,Platform & DevEx,Charlotte,SQL,6
+200196,Kiran Clark,Business Analyst,Risk & Compliance Tech,Toronto,Excel,5
+200197,Rohan Brown,Business Analyst,Investment Banking Tech,Toronto,Python,2
+200198,Grace Ryan,Business Analyst,Risk & Compliance Tech,London,Python,5
+200199,Sean Agarwal,Business Analyst,Retail & Digital Banking,New York,Python,5
+200200,James Verma,Business Analyst,Investment Banking Tech,Mumbai,Python,5
+200201,Jack Brown,Business Analyst,Platform & DevEx,Charlotte,SQL,4
+200202,Noah Wilson,Business Analyst,Platform & DevEx,Charlotte,Excel,2
+200203,Daniel Kapoor,Business Analyst,Platform & DevEx,Toronto,SQL,2
+200204,Lucas Ryan,Business Analyst,Risk & Compliance Tech,Singapore,Python,5
+200205,Marcus Joshi,Business Analyst,Core Banking & Payments,Toronto,SQL,4
+200206,Daniel Joshi,Business Analyst,Core Banking & Payments,New York,Excel,2
+200207,Wei Iyer,Business Analyst,Investment Banking Tech,Pune,Python,5
+200208,Sakura Zhang,Business Analyst,Risk & Compliance Tech,Toronto,Python,3
+200209,Saoirse Kumar,Business Analyst,Platform & DevEx,London,Python,2
+200210,Pooja Wilson,Business Analyst,Risk & Compliance Tech,Pune,Excel,6
+200211,Sanjay Joshi,Business Analyst,Investment Banking Tech,Dublin,Python,6
+200212,Conor Malhotra,Business Analyst,Investment Banking Tech,Dublin,SQL,5
+200213,Ava Reddy,Business Analyst,Investment Banking Tech,Toronto,Python,3
+200214,Sophia Sharma,Business Analyst,Platform & DevEx,Charlotte,SQL,2
+200215,Rohan Singh,Business Analyst,Risk & Compliance Tech,Charlotte,SQL,4
+200216,Pooja Nakamura,Business Analyst,Risk & Compliance Tech,London,Excel,2
+200217,Takeshi Reddy,Business Analyst,Retail & Digital Banking,Charlotte,Excel,5
+200218,Emma Thompson,Business Analyst,Core Banking & Payments,London,Python,4
+200219,Liam Tanaka,Business Analyst,Risk & Compliance Tech,London,Python,5
+200220,Benjamin Mehta,Business Analyst,Retail & Digital Banking,Charlotte,SQL,3
+200221,Layla Patel,Business Analyst,Core Banking & Payments,London,Excel,6
+200222,Charlotte Nakamura,Business Analyst,Core Banking & Payments,New York,SQL,5
+200223,Divya Shah,Business Analyst,Risk & Compliance Tech,Mumbai,Excel,5
+200224,Marcus Hall,Business Analyst,Core Banking & Payments,Dublin,Excel,3
+200225,Mei Banerjee,Business Analyst,Risk & Compliance Tech,London,Python,3
+200226,Pooja Brown,Business Analyst,Platform & DevEx,Charlotte,Python,6
+200227,Isabella Sharma,Business Analyst,Retail & Digital Banking,Toronto,Python,4
+200228,Hana Mehta,Business Analyst,Platform & DevEx,New York,SQL,2
+200229,Chen Smith,Business Analyst,Core Banking & Payments,Dublin,SQL,4
+200230,Omar Walsh,Business Analyst,Core Banking & Payments,Toronto,Excel,6
+200231,Benjamin Jackson,Business Analyst,Core Banking & Payments,New York,SQL,2
+200232,Sakura Kelly,Business Analyst,Platform & DevEx,Dublin,SQL,4
+200233,Jack Verma,Business Analyst,Retail & Digital Banking,New York,Excel,4
+200234,Aarav Iyer,Business Analyst,Core Banking & Payments,Toronto,SQL,5
+200235,Marcus Tanaka,Business Analyst,Retail & Digital Banking,New York,Excel,5
+200236,Ananya Verma,Business Analyst,Risk & Compliance Tech,Dublin,SQL,3
+200237,Isabella O'Brien,Business Analyst,Investment Banking Tech,London,Excel,4
+200238,James Walsh,Business Analyst,Platform & DevEx,Mumbai,Excel,6
+200239,Isabella Kumar,Business Analyst,Core Banking & Payments,New York,Excel,6
+200240,Omar Young,Business Analyst,Investment Banking Tech,London,SQL,3
+200241,Aarav Mehta,Business Analyst,Core Banking & Payments,Charlotte,Excel,3
+200242,Conor Nguyen,Business Analyst,Platform & DevEx,Dublin,Excel,2
+200243,Hiroshi White,Business Analyst,Retail & Digital Banking,Charlotte,Python,6
+200244,Rohan Gupta,Business Analyst,Platform & DevEx,Singapore,Python,6
+200245,Olivia Wilson,Business Analyst,Risk & Compliance Tech,Dublin,Excel,6
+200246,Sakura Ryan,Business Analyst,Platform & DevEx,Singapore,Python,6
+200247,Mateo Byrne,Business Analyst,Core Banking & Payments,Charlotte,Excel,2
+200248,Declan Smith,Business Analyst,Platform & DevEx,Pune,Excel,4
+200249,Emma Das,Business Analyst,Retail & Digital Banking,Singapore,Python,4
+200250,Emma Clark,Business Analyst,Platform & DevEx,Singapore,Python,4
+200251,Arjun Byrne,Business Analyst,Risk & Compliance Tech,Singapore,SQL,4
+200252,Chen Martinez,Business Analyst,Retail & Digital Banking,Singapore,SQL,2
+200253,Hiroshi Martin,Business Analyst,Investment Banking Tech,London,Python,2
+200254,Olivia Hall,Business Analyst,Risk & Compliance Tech,Singapore,Python,5
+200255,Hana Walker,Business Analyst,Risk & Compliance Tech,Charlotte,SQL,3
+200256,Mia Brown,Business Analyst,Retail & Digital Banking,Charlotte,Excel,3
+200257,Daniel Ryan,Business Analyst,Retail & Digital Banking,Toronto,Excel,4
+200258,Mei Malhotra,Business Analyst,Risk & Compliance Tech,Pune,Excel,4
+200259,Chen Ryan,Business Analyst,Core Banking & Payments,New York,SQL,4
+200260,Layla Harris,Business Analyst,Investment Banking Tech,Dublin,SQL,6
+200261,Akira Malhotra,Business Analyst,Core Banking & Payments,Mumbai,SQL,5
+200262,Declan Tanaka,Business Analyst,Risk & Compliance Tech,Dublin,SQL,5
+200263,Rahul Byrne,Business Analyst,Risk & Compliance Tech,London,SQL,2
+200264,Olivia Taylor,Business Analyst,Retail & Digital Banking,Singapore,Python,5
+200265,Omar Taylor,Business Analyst,Core Banking & Payments,New York,SQL,2
+200266,Daniel Pillai,Business Analyst,Platform & DevEx,Dublin,SQL,6
+200267,Noah Nguyen,Business Analyst,Core Banking & Payments,Pune,Python,5
+200268,Mei O'Brien,Business Analyst,Retail & Digital Banking,Charlotte,SQL,3
+200269,Ethan Byrne,Business Analyst,Core Banking & Payments,London,SQL,2
+200270,James Kelly,Business Analyst,Core Banking & Payments,London,Python,4
+200271,Emma Li,Business Analyst,Retail & Digital Banking,Charlotte,Excel,6
+200272,Liam Kumar,Business Analyst,Platform & DevEx,Dublin,Python,3
+200273,Daniel Reddy,Business Analyst,Core Banking & Payments,Pune,SQL,5
+200274,Saoirse Gupta,Business Analyst,Retail & Digital Banking,New York,Python,5
+200275,Olivia Garcia,Business Analyst,Retail & Digital Banking,London,Python,2
+200276,Ananya Verma,Business Analyst,Risk & Compliance Tech,London,Excel,4
+200277,Mia Agarwal,Business Analyst,Core Banking & Payments,Pune,Python,6
+200278,James Thomas,Business Analyst,Platform & DevEx,Toronto,SQL,3
+200279,Marcus Kumar,Business Analyst,Core Banking & Payments,Mumbai,Python,4
+200280,Pooja Robinson,Business Analyst,Core Banking & Payments,Mumbai,SQL,4
+200281,Ananya Patel,Business Analyst,Retail & Digital Banking,London,Excel,5
+200282,Fatima Gupta,Business Analyst,Platform & DevEx,New York,Excel,2
+200283,Ethan Gupta,Business Analyst,Core Banking & Payments,Toronto,Python,3
+200284,Hana Tanaka,Business Analyst,Core Banking & Payments,Mumbai,Excel,2
+200285,Kiran Li,Business Analyst,Risk & Compliance Tech,Mumbai,Python,6
+200286,Divya White,Business Analyst,Core Banking & Payments,Mumbai,Excel,3
+200287,Chen Iyer,Business Analyst,Retail & Digital Banking,Pune,Excel,4
+200288,Sean Tanaka,Business Analyst,Investment Banking Tech,Singapore,Python,3
+200289,Mateo Taylor,Business Analyst,Platform & DevEx,Charlotte,Excel,2
+200290,Daniel Young,Business Analyst,Platform & DevEx,London,SQL,2
+200291,Daniel Clark,Business Analyst,Retail & Digital Banking,London,Python,3
+200292,Conor Wilson,Business Analyst,Platform & DevEx,Singapore,SQL,3
+200293,Lucas Kumar,Business Analyst,Retail & Digital Banking,Singapore,Python,2
+200294,Ava Banerjee,Business Analyst,Investment Banking Tech,Pune,Excel,2
+200295,Chen Kumar,Business Analyst,Risk & Compliance Tech,Charlotte,Excel,6
+200296,Akira Harris,Business Analyst,Retail & Digital Banking,London,Excel,2
+200297,Aarav Robinson,Business Analyst,Core Banking & Payments,London,SQL,3
+200298,Niamh Kapoor,Business Analyst,Investment Banking Tech,London,SQL,2
+200299,Saoirse Clark,Business Analyst,Retail & Digital Banking,Dublin,Python,6
+200300,Charlotte Gupta,Business Analyst,Investment Banking Tech,Singapore,Python,6
+200301,Rohan Mehta,Business Analyst,Retail & Digital Banking,Mumbai,Excel,6
+200302,Niamh Nakamura,Business Analyst,Core Banking & Payments,Singapore,Python,6
+200303,Grace Kapoor,Business Analyst,Platform & DevEx,Charlotte,Python,2
+200304,Grace White,Business Analyst,Platform & DevEx,Charlotte,Excel,4
+200305,Aoife Patel,Business Analyst,Retail & Digital Banking,London,Excel,3
+200306,Liam O'Brien,Business Analyst,Retail & Digital Banking,Toronto,Excel,6
+200307,Hana Kapoor,Business Analyst,Platform & DevEx,Singapore,Excel,4
+200308,Noah Wilson,Business Analyst,Retail & Digital Banking,Singapore,SQL,5
+200309,Daniel Agarwal,Business Analyst,Platform & DevEx,Mumbai,Python,3
+200310,Charlotte Joshi,Business Analyst,Retail & Digital Banking,Mumbai,SQL,2
+200311,Benjamin Wang,Business Analyst,Retail & Digital Banking,New York,Python,5
+200312,Emma Agarwal,Business Analyst,Investment Banking Tech,London,Python,4
+200313,Daniel Anderson,Business Analyst,Retail & Digital Banking,London,Python,2
+200314,Marcus Pillai,Business Analyst,Core Banking & Payments,Singapore,Python,5
+200315,Omar Agarwal,Business Analyst,Risk & Compliance Tech,Mumbai,Python,3
+200316,Sanjay Sharma,Business Analyst,Retail & Digital Banking,Toronto,SQL,2
+200317,Sanjay Mehta,Business Analyst,Risk & Compliance Tech,Charlotte,SQL,3
+200318,Grace Byrne,Business Analyst,Retail & Digital Banking,London,Python,2
+200319,Yuki Walker,Business Analyst,Platform & DevEx,New York,Excel,6
+200320,Yuki Wang,Business Analyst,Investment Banking Tech,Pune,SQL,5
+200321,Rohan Johnson,Business Analyst,Retail & Digital Banking,Pune,Excel,2
+200322,Hana Iyer,Business Analyst,Platform & DevEx,Charlotte,Python,6
+200323,James Sharma,Business Analyst,Risk & Compliance Tech,Pune,SQL,6
+200324,James Iyer,Business Analyst,Core Banking & Payments,Dublin,SQL,5
+200325,Conor Byrne,Business Analyst,Investment Banking Tech,Dublin,Excel,4
+200326,Sanjay Murphy,Business Analyst,Investment Banking Tech,Toronto,SQL,2
+200327,Kiran Brown,Business Analyst,Risk & Compliance Tech,London,SQL,3
+200328,Priya Garcia,Business Analyst,Investment Banking Tech,New York,Python,4
+200329,Grace Kelly,Business Analyst,Platform & DevEx,London,SQL,4
+200330,Lucas Anderson,Business Analyst,Risk & Compliance Tech,Charlotte,Excel,6
+200331,Sanjay Wang,Business Analyst,Investment Banking Tech,Singapore,Python,5
+200332,Mei Taylor,Business Analyst,Risk & Compliance Tech,Mumbai,Excel,5
+200333,Mateo Walker,Business Analyst,Investment Banking Tech,Dublin,SQL,6
+200334,Sneha Zhang,Business Analyst,Core Banking & Payments,Singapore,Python,5
+200335,Mei Walker,Business Analyst,Investment Banking Tech,London,SQL,6
+200336,Hiroshi Agarwal,Business Analyst,Platform & DevEx,New York,Excel,2
+200337,Noah Nguyen,Business Analyst,Core Banking & Payments,Charlotte,Excel,2
+200338,Niamh Pillai,Business Analyst,Core Banking & Payments,Singapore,SQL,3
+200339,Kiran Joshi,Business Analyst,Core Banking & Payments,Toronto,SQL,6
+200340,Noah Thompson,Business Analyst,Risk & Compliance Tech,Singapore,Excel,6
+200341,Jack Ryan,Business Analyst,Risk & Compliance Tech,Pune,SQL,5
+200342,Chen Thompson,Business Analyst,Core Banking & Payments,Dublin,Python,5
+200343,Grace Young,Business Analyst,Retail & Digital Banking,Charlotte,SQL,6
+200344,Hana Harris,Business Analyst,Core Banking & Payments,Toronto,SQL,5
+200345,Ananya Harris,Business Analyst,Risk & Compliance Tech,Pune,Python,6
+200346,Mateo Thompson,Business Analyst,Retail & Digital Banking,New York,SQL,4
+200347,Sean Johnson,Business Analyst,Core Banking & Payments,Singapore,Excel,6
+200348,Noah Jackson,Business Analyst,Investment Banking Tech,Dublin,Python,6
+200349,Declan Hall,Business Analyst,Retail & Digital Banking,Dublin,SQL,3
+200350,Benjamin Zhang,Business Analyst,Investment Banking Tech,Charlotte,SQL,4
+200351,James Brown,Business Analyst,Core Banking & Payments,Charlotte,SQL,6
+200352,Conor Nakamura,Business Analyst,Platform & DevEx,Charlotte,SQL,5
+200353,Rohan Nguyen,Business Analyst,Risk & Compliance Tech,Charlotte,Python,3
+200354,Mateo Murphy,Business Analyst,Risk & Compliance Tech,Charlotte,Python,2
+200355,Rahul Singh,Business Analyst,Retail & Digital Banking,Charlotte,Python,3
+200356,Priya Martinez,Business Analyst,Risk & Compliance Tech,Toronto,Python,2
+200357,Aarav O'Brien,Business Analyst,Retail & Digital Banking,Toronto,SQL,4
+200358,Jack Kelly,Business Analyst,Risk & Compliance Tech,Mumbai,Excel,4
+200359,Olivia Zhang,Business Analyst,Investment Banking Tech,Toronto,Python,5
+200360,Hiroshi Kelly,Business Analyst,Platform & DevEx,Dublin,SQL,4
+200361,Aoife Thomas,Business Analyst,Platform & DevEx,New York,SQL,4
+200362,Sneha Banerjee,Business Analyst,Retail & Digital Banking,Singapore,SQL,6
+200363,Elena Thomas,Business Analyst,Risk & Compliance Tech,Toronto,SQL,6
+200364,Benjamin Walker,Business Analyst,Platform & DevEx,Charlotte,SQL,3
+200365,Akira Wilson,Business Analyst,Investment Banking Tech,Singapore,SQL,3
+200366,Divya Sharma,Business Analyst,Retail & Digital Banking,Toronto,SQL,2
+200367,Emma Robinson,Business Analyst,Core Banking & Payments,London,Excel,3
+200368,Layla Kelly,Business Analyst,Risk & Compliance Tech,Singapore,Excel,2
+200369,Sakura Robinson,Business Analyst,Investment Banking Tech,Dublin,Python,5
+200370,Rohan Agarwal,Business Analyst,Investment Banking Tech,London,SQL,6
+200371,Yuki Mehta,Business Analyst,Investment Banking Tech,Mumbai,SQL,3
+200372,James Mehta,Business Analyst,Risk & Compliance Tech,Toronto,SQL,2
+200373,Hana Ryan,Business Analyst,Retail & Digital Banking,Charlotte,Python,4
+200374,Fatima Anderson,Business Analyst,Core Banking & Payments,Toronto,SQL,4
+200375,Akira Das,Business Analyst,Retail & Digital Banking,Dublin,SQL,3
+200376,Grace Shah,Business Analyst,Platform & DevEx,Singapore,Excel,5
+200377,Rohan Agarwal,Business Analyst,Core Banking & Payments,New York,SQL,3
+200378,Mateo Harris,Business Analyst,Investment Banking Tech,Pune,SQL,4
+200379,Takeshi Walker,Business Analyst,Platform & DevEx,New York,Excel,5
+200380,Marcus Patel,Business Analyst,Retail & Digital Banking,Toronto,Python,2
+200381,Sneha Pillai,Business Analyst,Risk & Compliance Tech,New York,Python,2
+200382,Priya Jackson,Business Analyst,Retail & Digital Banking,Singapore,SQL,2
+200383,Chloe Sharma,Business Analyst,Retail & Digital Banking,Pune,Excel,3
+200384,James Brown,Business Analyst,Investment Banking Tech,Pune,Excel,4
+200385,Ethan Kumar,Business Analyst,Retail & Digital Banking,Toronto,Excel,2
+200386,Divya Brown,Business Analyst,Retail & Digital Banking,London,Python,5
+200387,Declan Clark,Business Analyst,Core Banking & Payments,New York,Excel,3
+200388,Sean Li,Business Analyst,Core Banking & Payments,London,SQL,6
+200389,Wei Nakamura,Business Analyst,Risk & Compliance Tech,Dublin,Python,5
+200390,Ava O'Brien,Business Analyst,Core Banking & Payments,London,SQL,2
+200391,Sakura Garcia,Business Analyst,Platform & DevEx,Toronto,SQL,3
+200392,Aarav Thompson,Business Analyst,Core Banking & Payments,Charlotte,Excel,5
+200393,Isabella Kumar,Business Analyst,Core Banking & Payments,Singapore,Excel,3
+200394,Grace Jackson,Business Analyst,Platform & DevEx,London,Excel,6
+200395,Noah White,Business Analyst,Platform & DevEx,Charlotte,SQL,6
+200396,Emma Smith,Business Analyst,Investment Banking Tech,Toronto,Excel,5
+200397,Sneha Jackson,Business Analyst,Platform & DevEx,New York,Python,6
+200398,Sophia O'Brien,Business Analyst,Retail & Digital Banking,Toronto,Excel,5
+200399,Conor Malhotra,Business Analyst,Core Banking & Payments,Toronto,SQL,4
+200400,Divya Malhotra,Business Analyst,Retail & Digital Banking,Pune,Excel,5
+200401,Hiroshi Agarwal,Business Analyst,Platform & DevEx,Singapore,Python,5
+200402,Divya Zhang,Business Analyst,Platform & DevEx,Dublin,Python,3
+200403,Elena Sharma,Business Analyst,Risk & Compliance Tech,Dublin,Excel,4
+200404,Arjun Anderson,Business Analyst,Platform & DevEx,Dublin,Python,3
+200405,Mateo Thomas,Business Analyst,Investment Banking Tech,Mumbai,SQL,6
+200406,Isabella Walker,Business Analyst,Platform & DevEx,London,SQL,6
+200407,Charlotte Martin,Business Analyst,Platform & DevEx,Pune,SQL,2
+200408,Wei Reddy,Business Analyst,Core Banking & Payments,Singapore,Python,5
+200409,Hiroshi Robinson,Business Analyst,Platform & DevEx,Dublin,Python,3
+200410,Liam Harris,Business Analyst,Core Banking & Payments,Dublin,Python,3
+200411,Mateo Joshi,Business Analyst,Risk & Compliance Tech,Charlotte,Python,2
+200412,Kiran Sharma,Business Analyst,Core Banking & Payments,Singapore,Python,4
+200413,Sakura Smith,Business Analyst,Investment Banking Tech,London,Python,2
+200414,Arjun Nakamura,Business Analyst,Investment Banking Tech,London,SQL,2
+200415,Takeshi Wilson,Business Analyst,Risk & Compliance Tech,Mumbai,Excel,3
+200416,Mateo Chen,Business Analyst,Retail & Digital Banking,Dublin,SQL,6
+200417,Sakura Zhang,Business Analyst,Platform & DevEx,Charlotte,Excel,4
+200418,Liam Taylor,Business Analyst,Retail & Digital Banking,Charlotte,SQL,3
+200419,Ananya Nakamura,Business Analyst,Retail & Digital Banking,New York,Excel,6
+200420,Lucas Garcia,Business Analyst,Investment Banking Tech,Singapore,SQL,4
+200421,Omar Li,Business Analyst,Platform & DevEx,Toronto,Excel,2
+200422,Zara Patel,Business Analyst,Retail & Digital Banking,Mumbai,Python,3
+200423,Akira Garcia,Business Analyst,Investment Banking Tech,Toronto,SQL,2
+200424,Isabella Gupta,Business Analyst,Retail & Digital Banking,Charlotte,Python,6
+200425,Takeshi Zhang,Business Analyst,Investment Banking Tech,Charlotte,Excel,3
+200426,Rohan Iyer,Business Analyst,Core Banking & Payments,Singapore,SQL,6
+200427,Hiroshi Ryan,Business Analyst,Platform & DevEx,Mumbai,Excel,4
+200428,Saoirse Young,Business Analyst,Risk & Compliance Tech,Singapore,Excel,6
+200429,Sakura Shah,Business Analyst,Investment Banking Tech,Toronto,SQL,5
+200430,Chen Wang,Business Analyst,Risk & Compliance Tech,Toronto,SQL,4
+200431,Ethan Gupta,Business Analyst,Retail & Digital Banking,Mumbai,Excel,6
+200432,Ethan Iyer,Business Analyst,Core Banking & Payments,Mumbai,Python,3
+200433,Ananya O'Brien,Business Analyst,Retail & Digital Banking,Toronto,SQL,6
+200434,Niamh Byrne,Business Analyst,Core Banking & Payments,New York,Excel,3
+200435,Sophia Chen,Business Analyst,Core Banking & Payments,London,SQL,3
+200436,Mei Das,Business Analyst,Investment Banking Tech,Mumbai,SQL,5
+200437,Takeshi Martin,Business Analyst,Risk & Compliance Tech,New York,Python,4
+200438,Mateo Taylor,Business Analyst,Core Banking & Payments,Charlotte,Excel,2
+200439,Elena Thompson,Business Analyst,Risk & Compliance Tech,New York,Python,5
+200440,Grace Martinez,Business Analyst,Core Banking & Payments,Pune,Python,6
+200441,Wei O'Brien,Business Analyst,Investment Banking Tech,Pune,Excel,3
+200442,Olivia Agarwal,Business Analyst,Core Banking & Payments,Mumbai,SQL,5
+200443,Sean Verma,Business Analyst,Investment Banking Tech,Dublin,Excel,5
+200444,Kiran Gupta,Business Analyst,Retail & Digital Banking,Singapore,SQL,2
+200445,Benjamin Joshi,Business Analyst,Investment Banking Tech,Pune,Excel,6
+200446,Jack O'Brien,Business Analyst,Platform & DevEx,Dublin,SQL,2
+200447,Takeshi Tanaka,Business Analyst,Core Banking & Payments,Mumbai,Python,5
+200448,Sneha Zhang,Business Analyst,Retail & Digital Banking,London,Excel,3
+200449,Sanjay Das,Business Analyst,Platform & DevEx,Dublin,SQL,5
+200450,Hana Harris,Business Analyst,Platform & DevEx,Singapore,Excel,2
+200451,Aoife Murphy,Business Analyst,Investment Banking Tech,Toronto,SQL,6
+200452,Niamh Nguyen,Business Analyst,Core Banking & Payments,Charlotte,Excel,5
+200453,Aoife Reddy,Business Analyst,Core Banking & Payments,Pune,Excel,6
+200454,Pooja Patel,Business Analyst,Retail & Digital Banking,Mumbai,Excel,2
+200455,Benjamin Murphy,Business Analyst,Risk & Compliance Tech,Singapore,Excel,4
+200456,Noah Singh,Business Analyst,Core Banking & Payments,Singapore,Excel,6
+200457,Fatima Robinson,Business Analyst,Retail & Digital Banking,Charlotte,SQL,4
+200458,Rahul Smith,Business Analyst,Platform & DevEx,Singapore,Python,5
+200459,Yuki Harris,Business Analyst,Retail & Digital Banking,Singapore,Excel,5
+200460,Sophia Li,Business Analyst,Investment Banking Tech,Singapore,Excel,4
+200461,Elena Murphy,Business Analyst,Retail & Digital Banking,Pune,Excel,4
+200462,Sakura Anderson,Business Analyst,Core Banking & Payments,Mumbai,Excel,6
+200463,Aarav Ryan,Business Analyst,Platform & DevEx,Dublin,Python,5
+200464,Jack Joshi,Business Analyst,Retail & Digital Banking,Mumbai,Python,2
+200465,Chloe Kapoor,Business Analyst,Core Banking & Payments,London,Python,4
+200466,Rahul Ryan,Business Analyst,Core Banking & Payments,Charlotte,Python,6
+200467,Yuki Joshi,Business Analyst,Investment Banking Tech,Pune,SQL,3
+200468,Aoife Hall,Business Analyst,Investment Banking Tech,Pune,SQL,5
+200469,Lucas Das,Business Analyst,Core Banking & Payments,New York,Python,3
+200470,Charlotte Rao,Business Analyst,Core Banking & Payments,Pune,Excel,2
+200471,Sneha Das,Business Analyst,Retail & Digital Banking,New York,Python,2
+200472,James Anderson,Business Analyst,Investment Banking Tech,Toronto,Python,2
+200473,James Chen,Business Analyst,Investment Banking Tech,London,Excel,4
+200474,Liam Johnson,Business Analyst,Core Banking & Payments,Charlotte,Excel,4
+200475,Yuki Patel,Business Analyst,Investment Banking Tech,New York,SQL,5
+200476,Rohan Wilson,Business Analyst,Risk & Compliance Tech,Dublin,SQL,4
+200477,Ananya Gupta,Business Analyst,Retail & Digital Banking,New York,Excel,5
+200478,Sakura Martin,Business Analyst,Investment Banking Tech,Singapore,Python,6
+200479,Olivia Joshi,Business Analyst,Retail & Digital Banking,Toronto,SQL,2
+200480,Layla Das,Business Analyst,Platform & DevEx,Charlotte,Python,6
+200481,Hiroshi Tanaka,Business Analyst,Retail & Digital Banking,Singapore,Excel,4
+200482,Omar Thomas,Business Analyst,Retail & Digital Banking,Charlotte,Excel,2
+200483,Sanjay Clark,Business Analyst,Investment Banking Tech,Dublin,Excel,6
+200484,Sneha Ryan,Business Analyst,Investment Banking Tech,London,Python,2
+200485,Takeshi Patel,Business Analyst,Platform & DevEx,New York,Excel,5
+200486,Conor Hall,Business Analyst,Risk & Compliance Tech,New York,Excel,2
+200487,Fatima Nakamura,Business Analyst,Risk & Compliance Tech,Charlotte,Excel,6
+200488,Benjamin Johnson,Business Analyst,Retail & Digital Banking,New York,Python,3
+200489,Sneha Martinez,Business Analyst,Risk & Compliance Tech,London,Python,2
+200490,Mia Brown,Business Analyst,Core Banking & Payments,Singapore,SQL,5
+200491,Chen Thompson,Business Analyst,Retail & Digital Banking,London,SQL,3
+200492,Jack Zhang,Business Analyst,Investment Banking Tech,Singapore,Excel,3
+200493,Takeshi Das,Business Analyst,Risk & Compliance Tech,Charlotte,Python,5
+200494,Daniel O'Brien,Business Analyst,Core Banking & Payments,London,Python,6
+200495,Liam Sharma,Business Analyst,Retail & Digital Banking,Toronto,Python,5
+200496,Grace Nguyen,Business Analyst,Platform & DevEx,Dublin,Python,2
+200497,Grace Shah,Business Analyst,Platform & DevEx,Dublin,SQL,5
+200498,Marcus Kapoor,Business Analyst,Risk & Compliance Tech,Dublin,SQL,2
+200499,Aoife Wilson,Business Analyst,Platform & DevEx,London,Python,5
+200500,Sneha White,Business Analyst,Investment Banking Tech,Pune,SQL,6
+200501,Ananya Mehta,Business Analyst,Core Banking & Payments,Pune,Python,6
+200502,Lucas Hall,Business Analyst,Retail & Digital Banking,London,SQL,3
+200503,Hiroshi Kelly,Business Analyst,Investment Banking Tech,Pune,Python,2
+200504,Elena Thomas,Business Analyst,Retail & Digital Banking,Pune,Excel,6
+200505,Conor Walker,Business Analyst,Risk & Compliance Tech,Dublin,SQL,4
+200506,Mei Brown,Business Analyst,Platform & DevEx,Singapore,SQL,4
+200507,Chloe Thomas,Business Analyst,Retail & Digital Banking,Toronto,SQL,5
+200508,Lucas Sharma,Business Analyst,Investment Banking Tech,Pune,SQL,4
+200509,Layla Verma,Business Analyst,Investment Banking Tech,New York,Python,6
+200510,Rahul Jackson,Business Analyst,Platform & DevEx,Pune,SQL,5
+200511,Jack Martin,Business Analyst,Retail & Digital Banking,London,SQL,4
+200512,Liam Jackson,Business Analyst,Core Banking & Payments,Charlotte,Excel,6
+200513,Rohan Ryan,Business Analyst,Risk & Compliance Tech,Toronto,Excel,4
+200514,Emma Tanaka,Business Analyst,Investment Banking Tech,Pune,Python,2
+200515,Elena Kelly,Business Analyst,Risk & Compliance Tech,New York,Python,3
+200516,Sean Kumar,Business Analyst,Platform & DevEx,Singapore,Excel,3
+200517,Liam Patel,Business Analyst,Platform & DevEx,Dublin,Excel,5
+200518,Fatima Wilson,Business Analyst,Risk & Compliance Tech,Toronto,Excel,6
+200519,Mateo Walsh,Business Analyst,Investment Banking Tech,London,Excel,4
+200520,Priya Tanaka,Business Analyst,Risk & Compliance Tech,Singapore,SQL,3
+200521,Yuki Shah,Business Analyst,Platform & DevEx,Singapore,Excel,6
+200522,Ananya Wang,Business Analyst,Investment Banking Tech,London,SQL,6
+200523,Benjamin Zhang,Business Analyst,Platform & DevEx,Pune,Excel,5
+200524,Divya Murphy,Business Analyst,Platform & DevEx,New York,Python,6
+200525,Hana Shah,Business Analyst,Risk & Compliance Tech,Charlotte,SQL,6
+200526,James Gupta,Business Analyst,Platform & DevEx,Dublin,Excel,3
+200527,Ananya Anderson,Business Analyst,Core Banking & Payments,Charlotte,Python,6
+200528,Kiran Agarwal,Business Analyst,Retail & Digital Banking,Singapore,Python,6
+200529,Aoife Agarwal,Business Analyst,Risk & Compliance Tech,London,SQL,4
+200530,Charlotte Garcia,Business Analyst,Core Banking & Payments,Mumbai,SQL,2
+200531,Declan Verma,Business Analyst,Investment Banking Tech,Pune,Excel,6
+200532,Hiroshi Das,Business Analyst,Investment Banking Tech,London,SQL,2
+200533,Sanjay Brown,Business Analyst,Investment Banking Tech,London,Excel,3
+200534,Divya Sharma,Business Analyst,Investment Banking Tech,Singapore,Excel,5
+200535,Mia Singh,Business Analyst,Platform & DevEx,New York,Python,3
+200536,Sakura Agarwal,Business Analyst,Core Banking & Payments,New York,Python,6
+200537,Ethan Banerjee,Business Analyst,Investment Banking Tech,Mumbai,Python,3
+200538,Sophia Brown,Business Analyst,Investment Banking Tech,Singapore,Excel,2
+200539,Sanjay Martinez,Business Analyst,Investment Banking Tech,Dublin,Python,4
+200540,James Iyer,Business Analyst,Risk & Compliance Tech,Dublin,Python,2
+200541,Rahul Clark,Business Analyst,Platform & DevEx,Toronto,Excel,6
+200542,Sakura Murphy,Business Analyst,Risk & Compliance Tech,Dublin,SQL,4
+200543,Wei Wilson,Business Analyst,Investment Banking Tech,Charlotte,SQL,6
+200544,Daniel Kelly,Business Analyst,Risk & Compliance Tech,Singapore,SQL,6
+200545,Takeshi Patel,Business Analyst,Core Banking & Payments,New York,SQL,6
+200546,Yuki Li,Business Analyst,Investment Banking Tech,Singapore,Python,6
+200547,Yuki Thompson,Business Analyst,Investment Banking Tech,Pune,SQL,4
+200548,Lucas Singh,Business Analyst,Risk & Compliance Tech,London,SQL,5
+200549,Wei Ryan,Business Analyst,Retail & Digital Banking,Mumbai,SQL,3
+200550,Chloe Smith,Business Analyst,Investment Banking Tech,Charlotte,Excel,6
+200551,Sophia Das,Business Analyst,Investment Banking Tech,London,Excel,5
+200552,Liam Martinez,Business Analyst,Risk & Compliance Tech,New York,SQL,5
+200553,Zara Ryan,Business Analyst,Risk & Compliance Tech,Pune,Python,6
+200554,Sneha Kapoor,Business Analyst,Risk & Compliance Tech,Singapore,SQL,6
+200555,Sakura Brown,Business Analyst,Investment Banking Tech,New York,Excel,3
+200556,Conor Johnson,Business Analyst,Core Banking & Payments,Pune,Excel,2
+200557,Jack Taylor,Business Analyst,Retail & Digital Banking,Toronto,Python,5
+200558,Grace Wilson,Business Analyst,Risk & Compliance Tech,New York,Python,3
+200559,Pooja Murphy,Business Analyst,Investment Banking Tech,New York,SQL,5
+200560,Liam Gupta,Business Analyst,Core Banking & Payments,Pune,Excel,2
+200561,Aarav Reddy,Business Analyst,Platform & DevEx,London,Excel,2
+200562,Omar Smith,Business Analyst,Retail & Digital Banking,Charlotte,Excel,2
+200563,Sophia Thomas,Business Analyst,Risk & Compliance Tech,Toronto,SQL,5
+200564,Yuki Walker,Business Analyst,Risk & Compliance Tech,Pune,Python,6
+200565,Takeshi Rao,Business Analyst,Platform & DevEx,Charlotte,Excel,3
+200566,Lucas O'Brien,Business Analyst,Investment Banking Tech,Dublin,SQL,4
+200567,Chloe Sharma,Business Analyst,Risk & Compliance Tech,Dublin,Python,6
+200568,Takeshi Rao,Business Analyst,Platform & DevEx,Pune,SQL,2
+200569,Aoife Walsh,Business Analyst,Risk & Compliance Tech,New York,Excel,5
+200570,Rohan Robinson,Business Analyst,Retail & Digital Banking,Toronto,Excel,2
+200571,Divya Reddy,Business Analyst,Risk & Compliance Tech,Charlotte,SQL,3
+200572,Sakura Kumar,Business Analyst,Platform & DevEx,Pune,SQL,5
+200573,Charlotte O'Brien,Business Analyst,Investment Banking Tech,Charlotte,Python,5
+200574,Lucas Joshi,Business Analyst,Platform & DevEx,Charlotte,Python,3
+200575,Zara Pillai,Business Analyst,Investment Banking Tech,Toronto,SQL,6
+200576,Sneha Walker,Business Analyst,Platform & DevEx,London,SQL,3
+200577,Olivia Rao,Business Analyst,Risk & Compliance Tech,Singapore,SQL,3
+200578,Chen Brown,Business Analyst,Core Banking & Payments,Mumbai,Python,5
+200579,Benjamin Murphy,Business Analyst,Core Banking & Payments,Mumbai,Python,5
+200580,Ava Brown,Business Analyst,Platform & DevEx,Mumbai,Excel,2
+200581,Yuki Anderson,Business Analyst,Platform & DevEx,Singapore,SQL,5
+200582,Mei Agarwal,Business Analyst,Core Banking & Payments,Charlotte,Excel,2
+200583,Sean Reddy,Business Analyst,Platform & DevEx,Mumbai,Excel,5
+200584,Ananya Kelly,Business Analyst,Retail & Digital Banking,London,SQL,3
+200585,Charlotte Pillai,Business Analyst,Retail & Digital Banking,Pune,SQL,4
+200586,Isabella Murphy,Business Analyst,Risk & Compliance Tech,Pune,Excel,6
+200587,Hana Harris,Business Analyst,Core Banking & Payments,London,Python,2
+200588,Aoife Taylor,Business Analyst,Platform & DevEx,Singapore,Python,5
+200589,Arjun Ryan,Business Analyst,Investment Banking Tech,Toronto,SQL,4
+200590,Noah Harris,Business Analyst,Investment Banking Tech,Mumbai,Excel,3
+200591,Sakura Chen,Business Analyst,Core Banking & Payments,New York,Python,4
+200592,Liam Johnson,Business Analyst,Risk & Compliance Tech,Charlotte,Excel,4
+200593,Fatima Agarwal,Business Analyst,Retail & Digital Banking,Pune,SQL,4
+200594,Lucas Chen,Business Analyst,Risk & Compliance Tech,Dublin,SQL,2
+200595,Akira Banerjee,Business Analyst,Retail & Digital Banking,Pune,SQL,3
+200596,Lucas Byrne,Business Analyst,Retail & Digital Banking,Mumbai,Python,4
+200597,Sneha Kumar,Business Analyst,Risk & Compliance Tech,Pune,Excel,6
+200598,Conor Kumar,Business Analyst,Risk & Compliance Tech,Charlotte,Excel,2
+200599,Lucas Martin,Business Analyst,Investment Banking Tech,Pune,SQL,5
+200600,Noah Li,Business Analyst,Retail & Digital Banking,Dublin,SQL,4
+200601,Ava Brown,Business Analyst,Investment Banking Tech,Singapore,Excel,3
+200602,Akira Patel,Business Analyst,Core Banking & Payments,New York,Excel,5
+200603,Elena Kumar,Business Analyst,Retail & Digital Banking,London,SQL,2
+200604,Rohan Kapoor,Business Analyst,Platform & DevEx,Dublin,Excel,5
+200605,Marcus Harris,Business Analyst,Platform & DevEx,Toronto,Excel,2
+200606,Hana Harris,Business Analyst,Investment Banking Tech,Charlotte,Python,3
+200607,Hiroshi Rao,Business Analyst,Investment Banking Tech,London,Python,3
+200608,Layla Li,Business Analyst,Retail & Digital Banking,Toronto,SQL,6
+200609,Liam Rao,Business Analyst,Risk & Compliance Tech,Charlotte,SQL,6
+200610,Arjun Patel,Business Analyst,Investment Banking Tech,Mumbai,Excel,3
+200611,Yuki Nakamura,Business Analyst,Investment Banking Tech,Pune,Python,4
+200612,Sean Kapoor,Business Analyst,Core Banking & Payments,London,Excel,6
+200613,Pooja Kapoor,Business Analyst,Investment Banking Tech,Mumbai,Python,6
+200614,Liam Ryan,Business Analyst,Platform & DevEx,Charlotte,SQL,3
+200615,Priya Taylor,Business Analyst,Investment Banking Tech,Charlotte,Python,5
+200616,Isabella Hall,Business Analyst,Core Banking & Payments,Toronto,Python,5
+200617,Aoife Martin,Business Analyst,Core Banking & Payments,Singapore,Excel,6
+200618,Omar White,Business Analyst,Risk & Compliance Tech,Charlotte,SQL,6
+200619,Sean Joshi,Business Analyst,Retail & Digital Banking,Charlotte,Excel,4
+200620,Aarav Agarwal,Business Analyst,Risk & Compliance Tech,Mumbai,Excel,4
+200621,Hana Harris,QA Engineer,Core Banking & Payments,New York,Python,7
+200622,Saoirse Nguyen,QA Engineer,Platform & DevEx,Singapore,Selenium,6
+200623,Niamh Walsh,QA Engineer,Investment Banking Tech,Pune,Java,8
+200624,Yuki Kapoor,QA Engineer,Investment Banking Tech,Mumbai,Java,4
+200625,Omar Nakamura,QA Engineer,Core Banking & Payments,New York,Java,5
+200626,Chen Thompson,QA Engineer,Retail & Digital Banking,Mumbai,Selenium,8
+200627,Hana Robinson,QA Engineer,Risk & Compliance Tech,New York,Python,4
+200628,Divya Li,QA Engineer,Platform & DevEx,Charlotte,Java,6
+200629,Charlotte Kapoor,QA Engineer,Investment Banking Tech,New York,Selenium,4
+200630,Sean Hall,QA Engineer,Risk & Compliance Tech,Charlotte,Python,4
+200631,Grace Gupta,QA Engineer,Retail & Digital Banking,Charlotte,Python,4
+200632,Ethan Wang,QA Engineer,Platform & DevEx,Dublin,Java,6
+200633,Mateo Wang,QA Engineer,Investment Banking Tech,London,Python,7
+200634,Elena Murphy,QA Engineer,Platform & DevEx,New York,Python,6
+200635,Ava Taylor,QA Engineer,Risk & Compliance Tech,Dublin,Selenium,5
+200636,Jack Chen,QA Engineer,Risk & Compliance Tech,Pune,Java,7
+200637,Hiroshi Martin,QA Engineer,Risk & Compliance Tech,Toronto,Python,6
+200638,Wei Harris,QA Engineer,Risk & Compliance Tech,Dublin,Java,5
+200639,Ava Agarwal,QA Engineer,Investment Banking Tech,London,Selenium,8
+200640,Niamh Das,QA Engineer,Retail & Digital Banking,Toronto,Selenium,8
+200641,Pooja Zhang,QA Engineer,Platform & DevEx,Dublin,Selenium,8
+200642,Olivia Tanaka,QA Engineer,Core Banking & Payments,Pune,Java,6
+200643,Ananya Thomas,QA Engineer,Platform & DevEx,Singapore,Python,4
+200644,Zara Murphy,QA Engineer,Core Banking & Payments,Pune,Selenium,7
+200645,Isabella Smith,QA Engineer,Risk & Compliance Tech,New York,Selenium,4
+200646,Olivia Malhotra,QA Engineer,Risk & Compliance Tech,Toronto,Java,6
+200647,Elena Rao,QA Engineer,Core Banking & Payments,Toronto,Java,5
+200648,Conor Sharma,QA Engineer,Core Banking & Payments,Dublin,Java,4
+200649,Charlotte Wilson,QA Engineer,Platform & DevEx,Mumbai,Java,4
+200650,Yuki Wilson,QA Engineer,Risk & Compliance Tech,Toronto,Selenium,5
+200651,Daniel Smith,QA Engineer,Retail & Digital Banking,Pune,Selenium,4
+200652,Charlotte Joshi,QA Engineer,Platform & DevEx,Dublin,Java,6
+200653,Ava Clark,QA Engineer,Core Banking & Payments,Toronto,Java,8
+200654,Mia Murphy,QA Engineer,Core Banking & Payments,Toronto,Java,5
+200655,Kiran Walsh,QA Engineer,Risk & Compliance Tech,Toronto,Java,7
+200656,Yuki Pillai,QA Engineer,Core Banking & Payments,Charlotte,Python,7
+200657,Daniel Zhang,QA Engineer,Retail & Digital Banking,Dublin,Python,6
+200658,Charlotte Byrne,QA Engineer,Core Banking & Payments,Singapore,Java,5
+200659,Divya Walker,QA Engineer,Platform & DevEx,New York,Python,4
+200660,Ava Shah,QA Engineer,Core Banking & Payments,Pune,Java,7
+200661,Marcus Mehta,QA Engineer,Investment Banking Tech,Singapore,Java,5
+200662,Priya Kelly,QA Engineer,Core Banking & Payments,Singapore,Selenium,5
+200663,Aoife Thompson,QA Engineer,Platform & DevEx,Dublin,Java,7
+200664,Omar Joshi,QA Engineer,Investment Banking Tech,New York,Python,5
+200665,Rahul Li,QA Engineer,Investment Banking Tech,Toronto,Java,5
+200666,Declan Martin,QA Engineer,Risk & Compliance Tech,London,Python,6
+200667,Sean Joshi,QA Engineer,Risk & Compliance Tech,Dublin,Selenium,8
+200668,Rohan Iyer,QA Engineer,Retail & Digital Banking,Toronto,Java,4
+200669,Sophia Ryan,QA Engineer,Investment Banking Tech,London,Selenium,8
+200670,Olivia Tanaka,QA Engineer,Risk & Compliance Tech,Toronto,Java,8
+200671,Rahul Das,QA Engineer,Platform & DevEx,Mumbai,Java,7
+200672,Sanjay Das,QA Engineer,Risk & Compliance Tech,Charlotte,Selenium,4
+200673,Chen Garcia,QA Engineer,Retail & Digital Banking,London,Selenium,5
+200674,Ethan Reddy,QA Engineer,Core Banking & Payments,Charlotte,Python,8
+200675,Hana Brown,QA Engineer,Core Banking & Payments,Dublin,Selenium,7
+200676,Emma Smith,QA Engineer,Platform & DevEx,Pune,Java,8
+200677,Declan Wang,QA Engineer,Core Banking & Payments,Toronto,Selenium,4
+200678,Rohan Joshi,QA Engineer,Retail & Digital Banking,Charlotte,Java,8
+200679,Wei Shah,QA Engineer,Core Banking & Payments,Singapore,Selenium,5
+200680,Ethan Young,QA Engineer,Platform & DevEx,Pune,Selenium,4
+200681,Marcus Taylor,QA Engineer,Investment Banking Tech,New York,Java,6
+200682,Wei Martinez,QA Engineer,Platform & DevEx,Dublin,Selenium,8
+200683,Wei Banerjee,QA Engineer,Core Banking & Payments,Dublin,Python,7
+200684,Noah Reddy,QA Engineer,Core Banking & Payments,New York,Python,8
+200685,Pooja Singh,QA Engineer,Investment Banking Tech,New York,Selenium,7
+200686,Mateo White,QA Engineer,Risk & Compliance Tech,Charlotte,Java,8
+200687,Lucas Iyer,QA Engineer,Investment Banking Tech,Charlotte,Java,4
+200688,Aarav Iyer,QA Engineer,Retail & Digital Banking,Toronto,Java,8
+200689,Pooja Clark,QA Engineer,Core Banking & Payments,Dublin,Selenium,8
+200690,Hana Wang,QA Engineer,Investment Banking Tech,Singapore,Java,7
+200691,Sakura Thompson,QA Engineer,Platform & DevEx,New York,Selenium,7
+200692,Grace Gupta,QA Engineer,Core Banking & Payments,Pune,Python,6
+200693,Benjamin Hall,QA Engineer,Platform & DevEx,Pune,Java,5
+200694,Declan Pillai,QA Engineer,Retail & Digital Banking,Toronto,Java,7
+200695,Elena Johnson,QA Engineer,Core Banking & Payments,London,Java,7
+200696,Emma Chen,QA Engineer,Retail & Digital Banking,New York,Python,7
+200697,Jack Rao,QA Engineer,Risk & Compliance Tech,London,Python,8
+200698,Niamh Verma,QA Engineer,Risk & Compliance Tech,Dublin,Java,7
+200699,Noah Das,QA Engineer,Platform & DevEx,Toronto,Selenium,8
+200700,Layla Robinson,QA Engineer,Risk & Compliance Tech,Dublin,Selenium,7
+200701,Declan Reddy,QA Engineer,Platform & DevEx,Charlotte,Java,7
+200702,Conor Clark,QA Engineer,Core Banking & Payments,London,Selenium,7
+200703,Jack White,QA Engineer,Risk & Compliance Tech,London,Python,4
+200704,James Mehta,QA Engineer,Core Banking & Payments,Toronto,Python,6
+200705,Rohan Clark,QA Engineer,Investment Banking Tech,Singapore,Selenium,4
+200706,Mia Taylor,QA Engineer,Core Banking & Payments,London,Selenium,5
+200707,Sakura Brown,QA Engineer,Risk & Compliance Tech,London,Selenium,7
+200708,Isabella Byrne,QA Engineer,Risk & Compliance Tech,Singapore,Python,5
+200709,Jack Zhang,QA Engineer,Platform & DevEx,London,Python,4
+200710,Kiran Byrne,QA Engineer,Platform & DevEx,London,Selenium,7
+200711,Niamh Brown,QA Engineer,Investment Banking Tech,Singapore,Selenium,8
+200712,Rahul Nguyen,QA Engineer,Risk & Compliance Tech,Toronto,Java,5
+200713,Olivia Shah,QA Engineer,Core Banking & Payments,Dublin,Java,4
+200714,Layla Mehta,QA Engineer,Investment Banking Tech,Charlotte,Python,8
+200715,Divya Joshi,QA Engineer,Platform & DevEx,London,Python,8
+200716,Marcus Kapoor,QA Engineer,Core Banking & Payments,Pune,Selenium,8
+200717,Ethan Robinson,QA Engineer,Platform & DevEx,Dublin,Python,6
+200718,Mateo Mehta,QA Engineer,Retail & Digital Banking,Mumbai,Selenium,5
+200719,Chloe Banerjee,QA Engineer,Core Banking & Payments,Singapore,Python,5
+200720,Akira Hall,QA Engineer,Risk & Compliance Tech,Pune,Python,7
+200721,Wei Smith,QA Engineer,Platform & DevEx,Dublin,Python,5
+200722,Aoife Banerjee,QA Engineer,Core Banking & Payments,London,Python,4
+200723,Jack Zhang,QA Engineer,Retail & Digital Banking,Mumbai,Java,4
+200724,Takeshi Iyer,QA Engineer,Retail & Digital Banking,Singapore,Python,4
+200725,Hana Pillai,QA Engineer,Core Banking & Payments,Dublin,Python,4
+200726,Kiran Das,QA Engineer,Investment Banking Tech,Pune,Selenium,5
+200727,Hiroshi Jackson,QA Engineer,Core Banking & Payments,Mumbai,Selenium,5
+200728,Takeshi Walker,QA Engineer,Core Banking & Payments,Mumbai,Python,5
+200729,Fatima Anderson,QA Engineer,Investment Banking Tech,Charlotte,Python,6
+200730,Daniel Kelly,QA Engineer,Platform & DevEx,Charlotte,Selenium,8
+200731,Ava Robinson,QA Engineer,Retail & Digital Banking,Dublin,Python,4
+200732,Rohan Wang,QA Engineer,Core Banking & Payments,London,Python,4
+200733,Olivia Anderson,QA Engineer,Platform & DevEx,Toronto,Selenium,5
+200734,Arjun Kumar,QA Engineer,Investment Banking Tech,Charlotte,Selenium,7
+200735,Conor Das,QA Engineer,Risk & Compliance Tech,Mumbai,Java,5
+200736,Ava Kelly,QA Engineer,Core Banking & Payments,Pune,Java,5
+200737,Elena Gupta,QA Engineer,Retail & Digital Banking,Charlotte,Python,7
+200738,Chloe Tanaka,QA Engineer,Retail & Digital Banking,Dublin,Selenium,8
+200739,Hana Reddy,QA Engineer,Investment Banking Tech,Toronto,Python,7
+200740,Daniel O'Brien,QA Engineer,Investment Banking Tech,Charlotte,Selenium,5
+200741,Benjamin Mehta,QA Engineer,Platform & DevEx,Pune,Selenium,8
+200742,Lucas Anderson,QA Engineer,Retail & Digital Banking,Toronto,Selenium,7
+200743,Hana Shah,QA Engineer,Risk & Compliance Tech,Singapore,Selenium,6
+200744,Benjamin Clark,QA Engineer,Retail & Digital Banking,Dublin,Python,8
+200745,Fatima Thomas,QA Engineer,Platform & DevEx,London,Java,7
+200746,Wei Wang,QA Engineer,Platform & DevEx,Dublin,Selenium,4
+200747,Priya Robinson,QA Engineer,Retail & Digital Banking,Pune,Selenium,5
+200748,Niamh Wilson,QA Engineer,Risk & Compliance Tech,Singapore,Selenium,4
+200749,Sakura Wang,QA Engineer,Core Banking & Payments,Charlotte,Python,6
+200750,Charlotte White,QA Engineer,Core Banking & Payments,Toronto,Python,6
+200751,Ananya Iyer,QA Engineer,Platform & DevEx,Singapore,Selenium,8
+200752,Rohan Johnson,QA Engineer,Retail & Digital Banking,Mumbai,Python,5
+200753,Isabella Robinson,QA Engineer,Investment Banking Tech,Mumbai,Python,6
+200754,Niamh Banerjee,QA Engineer,Investment Banking Tech,Dublin,Python,4
+200755,Arjun Taylor,QA Engineer,Investment Banking Tech,Charlotte,Selenium,6
+200756,Daniel Pillai,QA Engineer,Platform & DevEx,New York,Selenium,7
+200757,Zara Agarwal,QA Engineer,Risk & Compliance Tech,Toronto,Java,6
+200758,Takeshi Murphy,QA Engineer,Risk & Compliance Tech,Singapore,Java,4
+200759,Emma Shah,QA Engineer,Core Banking & Payments,Charlotte,Java,8
+200760,Chen Li,QA Engineer,Platform & DevEx,Dublin,Java,6
+200761,Benjamin Mehta,QA Engineer,Retail & Digital Banking,Pune,Java,4
+200762,Lucas Byrne,QA Engineer,Retail & Digital Banking,Pune,Java,4
+200763,Mei Joshi,QA Engineer,Investment Banking Tech,New York,Python,5
+200764,Sakura Smith,QA Engineer,Investment Banking Tech,Charlotte,Selenium,4
+200765,Priya Thompson,QA Engineer,Platform & DevEx,Pune,Selenium,5
+200766,Omar Tanaka,QA Engineer,Platform & DevEx,New York,Python,4
+200767,Aoife Brown,QA Engineer,Investment Banking Tech,Toronto,Python,8
+200768,James Brown,QA Engineer,Retail & Digital Banking,Singapore,Python,8
+200769,Chen White,QA Engineer,Retail & Digital Banking,New York,Python,8
+200770,Kiran Johnson,QA Engineer,Retail & Digital Banking,Singapore,Python,8
+200771,Elena Reddy,QA Engineer,Retail & Digital Banking,Charlotte,Selenium,6
+200772,Sean Verma,QA Engineer,Core Banking & Payments,Pune,Java,8
+200773,Omar Shah,QA Engineer,Retail & Digital Banking,New York,Python,5
+200774,Chen Walker,QA Engineer,Platform & DevEx,Pune,Python,4
+200775,Olivia Patel,QA Engineer,Investment Banking Tech,Mumbai,Selenium,7
+200776,Divya Taylor,QA Engineer,Risk & Compliance Tech,Charlotte,Selenium,6
+200777,Wei Agarwal,QA Engineer,Risk & Compliance Tech,New York,Java,7
+200778,Chen Martinez,QA Engineer,Retail & Digital Banking,Toronto,Java,7
+200779,Liam Hall,QA Engineer,Investment Banking Tech,London,Java,6
+200780,Olivia Walker,QA Engineer,Retail & Digital Banking,New York,Java,6
+200781,Wei White,QA Engineer,Retail & Digital Banking,Dublin,Python,4
+200782,Elena Nguyen,QA Engineer,Core Banking & Payments,Mumbai,Python,4
+200783,Ananya Byrne,QA Engineer,Core Banking & Payments,Dublin,Java,6
+200784,Rohan Wang,QA Engineer,Platform & DevEx,Singapore,Java,7
+200785,Daniel Mehta,QA Engineer,Investment Banking Tech,Charlotte,Python,6
+200786,Sneha Clark,QA Engineer,Retail & Digital Banking,Charlotte,Python,5
+200787,Pooja Wilson,QA Engineer,Risk & Compliance Tech,New York,Java,7
+200788,Wei Verma,QA Engineer,Retail & Digital Banking,Charlotte,Java,4
+200789,Chloe Walsh,QA Engineer,Risk & Compliance Tech,Toronto,Selenium,7
+200790,Layla Brown,QA Engineer,Retail & Digital Banking,London,Python,5
+200791,Isabella Das,QA Engineer,Platform & DevEx,Charlotte,Selenium,4
+200792,Lucas Ryan,QA Engineer,Platform & DevEx,New York,Python,5
+200793,Declan Malhotra,QA Engineer,Platform & DevEx,Toronto,Selenium,6
+200794,Hana Robinson,QA Engineer,Core Banking & Payments,Mumbai,Java,6
+200795,Declan Wang,QA Engineer,Investment Banking Tech,Charlotte,Java,4
+200796,Mia Reddy,QA Engineer,Platform & DevEx,Mumbai,Python,8
+200797,Hana Robinson,QA Engineer,Retail & Digital Banking,Toronto,Java,4
+200798,Emma White,QA Engineer,Platform & DevEx,Charlotte,Java,4
+200799,James Thomas,QA Engineer,Risk & Compliance Tech,Charlotte,Selenium,6
+200800,Takeshi Sharma,QA Engineer,Retail & Digital Banking,Mumbai,Java,7
+200801,Arjun Shah,QA Engineer,Retail & Digital Banking,Charlotte,Python,4
+200802,Noah Malhotra,QA Engineer,Risk & Compliance Tech,Dublin,Python,4
+200803,Noah Mehta,QA Engineer,Retail & Digital Banking,Toronto,Selenium,7
+200804,Arjun Kelly,QA Engineer,Investment Banking Tech,New York,Selenium,4
+200805,Benjamin Ryan,QA Engineer,Investment Banking Tech,Dublin,Selenium,7
+200806,Ananya Reddy,QA Engineer,Core Banking & Payments,Singapore,Java,7
+200807,Sneha Singh,QA Engineer,Retail & Digital Banking,Toronto,Selenium,4
+200808,Noah Rao,QA Engineer,Core Banking & Payments,Mumbai,Python,4
+200809,Ananya Brown,QA Engineer,Retail & Digital Banking,New York,Java,7
+200810,Zara Martinez,QA Engineer,Core Banking & Payments,Dublin,Python,8
+200811,Fatima Nakamura,QA Engineer,Platform & DevEx,Mumbai,Selenium,5
+200812,Ananya Nakamura,QA Engineer,Core Banking & Payments,Mumbai,Selenium,7
+200813,Mia Singh,QA Engineer,Retail & Digital Banking,Pune,Java,5
+200814,Priya Zhang,QA Engineer,Platform & DevEx,Pune,Selenium,5
+200815,Saoirse Martinez,QA Engineer,Platform & DevEx,Charlotte,Python,5
+200816,Noah O'Brien,QA Engineer,Core Banking & Payments,Dublin,Python,7
+200817,Hana Murphy,QA Engineer,Platform & DevEx,Toronto,Python,6
+200818,Benjamin Thomas,QA Engineer,Core Banking & Payments,London,Java,6
+200819,Elena Zhang,QA Engineer,Core Banking & Payments,Singapore,Selenium,7
+200820,Elena Joshi,QA Engineer,Investment Banking Tech,Pune,Java,8
+200821,Elena Harris,QA Engineer,Core Banking & Payments,New York,Selenium,7
+200822,Elena Joshi,QA Engineer,Risk & Compliance Tech,New York,Java,6
+200823,Omar Martin,QA Engineer,Retail & Digital Banking,Pune,Selenium,5
+200824,Arjun Taylor,QA Engineer,Platform & DevEx,Mumbai,Python,4
+200825,Sanjay Johnson,QA Engineer,Core Banking & Payments,Singapore,Selenium,4
+200826,Benjamin Wang,QA Engineer,Platform & DevEx,Singapore,Java,7
+200827,Olivia Li,QA Engineer,Risk & Compliance Tech,Pune,Selenium,5
+200828,Mateo Verma,QA Engineer,Platform & DevEx,New York,Python,6
+200829,Saoirse Jackson,QA Engineer,Risk & Compliance Tech,Dublin,Selenium,4
+200830,Ethan Kapoor,QA Engineer,Risk & Compliance Tech,Pune,Python,5
+200831,Sanjay Malhotra,QA Engineer,Risk & Compliance Tech,London,Java,7
+200832,Sneha Gupta,QA Engineer,Core Banking & Payments,New York,Selenium,5
+200833,Isabella Das,QA Engineer,Risk & Compliance Tech,Pune,Selenium,4
+200834,Niamh Garcia,QA Engineer,Risk & Compliance Tech,Charlotte,Java,6
+200835,Marcus Agarwal,QA Engineer,Core Banking & Payments,Charlotte,Selenium,6
+200836,Hana Kumar,QA Engineer,Core Banking & Payments,Dublin,Java,8
+200837,Sneha Wang,QA Engineer,Platform & DevEx,Singapore,Selenium,5
+200838,Takeshi Harris,QA Engineer,Investment Banking Tech,Mumbai,Selenium,5
+200839,Declan Banerjee,QA Engineer,Investment Banking Tech,Charlotte,Python,4
+200840,Jack Singh,QA Engineer,Risk & Compliance Tech,Singapore,Python,7
+200841,Wei Joshi,QA Engineer,Core Banking & Payments,Pune,Python,6
+200842,Sanjay Wang,QA Engineer,Investment Banking Tech,Pune,Selenium,4
+200843,Hana Nakamura,QA Engineer,Platform & DevEx,Charlotte,Java,7
+200844,Sanjay Kapoor,QA Engineer,Retail & Digital Banking,Charlotte,Python,8
+200845,Ava Clark,QA Engineer,Retail & Digital Banking,New York,Selenium,8
+200846,Niamh Kumar,QA Engineer,Core Banking & Payments,Charlotte,Selenium,5
+200847,Charlotte Malhotra,QA Engineer,Retail & Digital Banking,New York,Selenium,8
+200848,Chen Young,QA Engineer,Risk & Compliance Tech,Toronto,Python,7
+200849,Ava Verma,QA Engineer,Core Banking & Payments,Dublin,Python,6
+200850,Fatima Walsh,QA Engineer,Investment Banking Tech,Toronto,Java,4
+200851,Jack Johnson,QA Engineer,Platform & DevEx,Pune,Python,6
+200852,Benjamin O'Brien,QA Engineer,Core Banking & Payments,Pune,Selenium,6
+200853,Charlotte Kapoor,QA Engineer,Investment Banking Tech,Singapore,Python,6
+200854,Declan Byrne,QA Engineer,Core Banking & Payments,Singapore,Java,6
+200855,Hiroshi Jackson,QA Engineer,Investment Banking Tech,New York,Python,6
+200856,Takeshi Joshi,QA Engineer,Risk & Compliance Tech,Singapore,Java,6
+200857,Lucas Zhang,QA Engineer,Core Banking & Payments,Charlotte,Python,5
+200858,Noah Das,QA Engineer,Platform & DevEx,London,Java,4
+200859,Wei Nakamura,QA Engineer,Core Banking & Payments,Mumbai,Python,6
+200860,Akira O'Brien,QA Engineer,Investment Banking Tech,Pune,Python,7
+200861,Aarav Nguyen,QA Engineer,Platform & DevEx,Dublin,Python,7
+200862,Rohan Chen,QA Engineer,Retail & Digital Banking,Mumbai,Java,6
+200863,Pooja Murphy,QA Engineer,Core Banking & Payments,Dublin,Python,7
+200864,Emma Thomas,QA Engineer,Retail & Digital Banking,Mumbai,Java,8
+200865,Isabella Malhotra,QA Engineer,Risk & Compliance Tech,London,Selenium,7
+200866,Fatima Mehta,QA Engineer,Retail & Digital Banking,Toronto,Python,8
+200867,Niamh Tanaka,QA Engineer,Investment Banking Tech,Charlotte,Selenium,7
+200868,Sakura Murphy,QA Engineer,Risk & Compliance Tech,Pune,Java,6
+200869,Emma Das,QA Engineer,Retail & Digital Banking,Dublin,Python,5
+200870,Hiroshi Wilson,QA Engineer,Retail & Digital Banking,Charlotte,Python,8
+200871,Niamh Nguyen,QA Engineer,Risk & Compliance Tech,Pune,Java,8
+200872,Lucas Rao,QA Engineer,Core Banking & Payments,Toronto,Java,7
+200873,Benjamin Robinson,QA Engineer,Retail & Digital Banking,Dublin,Java,5
+200874,Marcus Jackson,QA Engineer,Platform & DevEx,Mumbai,Python,7
+200875,Zara Banerjee,QA Engineer,Risk & Compliance Tech,London,Selenium,4
+200876,Chen Robinson,QA Engineer,Investment Banking Tech,Mumbai,Selenium,8
+200877,Mia Mehta,QA Engineer,Core Banking & Payments,Pune,Selenium,5
+200878,Ethan Anderson,QA Engineer,Platform & DevEx,Dublin,Python,6
+200879,Grace Clark,QA Engineer,Core Banking & Payments,Toronto,Java,8
+200880,Ananya Sharma,QA Engineer,Investment Banking Tech,Pune,Selenium,5
+200881,Arjun Mehta,QA Engineer,Risk & Compliance Tech,Toronto,Java,4
+200882,Mia Li,QA Engineer,Retail & Digital Banking,Pune,Selenium,8
+200883,Fatima Li,QA Engineer,Core Banking & Payments,Pune,Selenium,8
+200884,Pooja Nguyen,QA Engineer,Risk & Compliance Tech,New York,Selenium,4
+200885,Conor Wang,QA Engineer,Investment Banking Tech,Charlotte,Python,8
+200886,Sean Banerjee,QA Engineer,Risk & Compliance Tech,Dublin,Python,5
+200887,Lucas Kelly,QA Engineer,Platform & DevEx,Toronto,Python,8
+200888,Sophia Tanaka,QA Engineer,Risk & Compliance Tech,Charlotte,Selenium,8
+200889,Kiran Martinez,QA Engineer,Investment Banking Tech,Dublin,Java,6
+200890,Niamh Thomas,QA Engineer,Risk & Compliance Tech,Pune,Java,5
+200891,Takeshi Wilson,QA Engineer,Investment Banking Tech,London,Python,4
+200892,Takeshi Tanaka,QA Engineer,Investment Banking Tech,Dublin,Python,4
+200893,Olivia Johnson,QA Engineer,Investment Banking Tech,Charlotte,Selenium,5
+200894,Sneha Singh,QA Engineer,Platform & DevEx,Charlotte,Python,8
+200895,Aarav Kapoor,QA Engineer,Risk & Compliance Tech,Mumbai,Java,7
+200896,Chen Smith,QA Engineer,Core Banking & Payments,Singapore,Python,6
+200897,Layla Johnson,QA Engineer,Retail & Digital Banking,Charlotte,Java,7
+200898,Wei Wang,QA Engineer,Investment Banking Tech,London,Java,7
+200899,Isabella Malhotra,QA Engineer,Core Banking & Payments,Mumbai,Java,4
+200900,Layla Mehta,QA Engineer,Core Banking & Payments,London,Java,7
+200901,Declan Ryan,QA Engineer,Investment Banking Tech,London,Java,7
+200902,Omar Hall,QA Engineer,Platform & DevEx,Pune,Selenium,5
+200903,Niamh Kumar,QA Engineer,Investment Banking Tech,New York,Selenium,8
+200904,Saoirse Kelly,QA Engineer,Platform & DevEx,Toronto,Selenium,8
+200905,Sneha Hall,QA Engineer,Retail & Digital Banking,Singapore,Python,7
+200906,Isabella Banerjee,QA Engineer,Core Banking & Payments,Dublin,Java,4
+200907,Mateo Garcia,QA Engineer,Risk & Compliance Tech,Singapore,Python,6
+200908,Sneha Thomas,QA Engineer,Risk & Compliance Tech,Charlotte,Java,5
+200909,Divya Anderson,QA Engineer,Core Banking & Payments,Toronto,Selenium,4
+200910,Akira Shah,QA Engineer,Investment Banking Tech,Dublin,Python,5
+200911,Daniel Ryan,QA Engineer,Risk & Compliance Tech,London,Selenium,4
+200912,Chloe Brown,QA Engineer,Platform & DevEx,Toronto,Java,6
+200913,Lucas Byrne,QA Engineer,Core Banking & Payments,Mumbai,Java,7
+200914,Mei Patel,QA Engineer,Core Banking & Payments,Charlotte,Python,6
+200915,Conor Zhang,QA Engineer,Risk & Compliance Tech,London,Python,7
+200916,James Zhang,QA Engineer,Risk & Compliance Tech,Singapore,Java,4
+200917,James Mehta,QA Engineer,Platform & DevEx,Charlotte,Selenium,8
+200918,Ananya Singh,QA Engineer,Risk & Compliance Tech,Dublin,Java,5
+200919,James Nakamura,QA Engineer,Platform & DevEx,Charlotte,Selenium,6
+200920,Sophia Joshi,QA Engineer,Investment Banking Tech,Toronto,Python,4
+200921,Charlotte Young,QA Engineer,Platform & DevEx,Mumbai,Java,4
+200922,Rahul White,QA Engineer,Platform & DevEx,Charlotte,Java,6
+200923,Takeshi Kapoor,QA Engineer,Retail & Digital Banking,Dublin,Selenium,8
+200924,Jack Young,QA Engineer,Platform & DevEx,Singapore,Selenium,8
+200925,Elena Ryan,QA Engineer,Retail & Digital Banking,London,Selenium,8
+200926,Sakura Tanaka,QA Engineer,Core Banking & Payments,Dublin,Python,7
+200927,Mei Nakamura,QA Engineer,Risk & Compliance Tech,New York,Selenium,8
+200928,Charlotte Kumar,QA Engineer,Risk & Compliance Tech,Pune,Python,6
+200929,Declan Young,QA Engineer,Platform & DevEx,New York,Selenium,4
+200930,Fatima Kelly,QA Engineer,Core Banking & Payments,London,Java,5
+200931,Zara Agarwal,QA Engineer,Platform & DevEx,Charlotte,Selenium,8
+200932,James Malhotra,QA Engineer,Platform & DevEx,London,Python,8
+200933,Omar Martinez,QA Engineer,Risk & Compliance Tech,Toronto,Selenium,4
+200934,Benjamin Pillai,QA Engineer,Investment Banking Tech,London,Selenium,8
+200935,Olivia Shah,QA Engineer,Retail & Digital Banking,Pune,Java,4
+200936,Isabella Garcia,QA Engineer,Core Banking & Payments,Pune,Java,6
+200937,Elena Zhang,QA Engineer,Core Banking & Payments,Singapore,Python,8
+200938,Lucas Shah,QA Engineer,Retail & Digital Banking,Toronto,Selenium,4
+200939,Yuki Malhotra,QA Engineer,Investment Banking Tech,New York,Java,7
+200940,Daniel Reddy,QA Engineer,Retail & Digital Banking,Charlotte,Java,8
+200941,Mei Rao,QA Engineer,Investment Banking Tech,Charlotte,Python,5
+200942,Ethan Shah,QA Engineer,Core Banking & Payments,Mumbai,Java,4
+200943,Fatima Thomas,QA Engineer,Platform & DevEx,Singapore,Python,5
+200944,Rohan Thomas,QA Engineer,Platform & DevEx,Pune,Java,8
+200945,Elena Gupta,QA Engineer,Retail & Digital Banking,Charlotte,Python,6
+200946,Pooja Robinson,QA Engineer,Risk & Compliance Tech,Charlotte,Java,7
+200947,Saoirse White,QA Engineer,Investment Banking Tech,Toronto,Python,8
+200948,Sanjay Reddy,QA Engineer,Core Banking & Payments,Toronto,Python,8
+200949,Ethan Martinez,QA Engineer,Platform & DevEx,London,Selenium,6
+200950,Olivia Pillai,QA Engineer,Retail & Digital Banking,Charlotte,Java,8
+200951,Liam Clark,QA Engineer,Investment Banking Tech,Mumbai,Java,5
+200952,Sean Zhang,QA Engineer,Investment Banking Tech,Pune,Selenium,7
+200953,Chloe Kelly,QA Engineer,Risk & Compliance Tech,Mumbai,Python,7
+200954,Sakura Singh,QA Engineer,Retail & Digital Banking,Dublin,Python,6
+200955,Ethan Kelly,QA Engineer,Investment Banking Tech,London,Python,5
+200956,Rahul Agarwal,QA Engineer,Retail & Digital Banking,Toronto,Java,7
+200957,Daniel Martinez,QA Engineer,Risk & Compliance Tech,Dublin,Selenium,5
+200958,Sophia Banerjee,QA Engineer,Investment Banking Tech,Pune,Selenium,6
+200959,Hiroshi White,QA Engineer,Core Banking & Payments,Singapore,Java,5
+200960,Olivia Pillai,QA Engineer,Investment Banking Tech,Toronto,Python,5
+200961,Aarav Iyer,QA Engineer,Core Banking & Payments,Toronto,Java,4
+200962,Benjamin Walker,QA Engineer,Risk & Compliance Tech,New York,Python,4
+200963,Ava Singh,QA Engineer,Retail & Digital Banking,Dublin,Java,7
+200964,Mei Malhotra,QA Engineer,Investment Banking Tech,New York,Python,7
+200965,Lucas Agarwal,QA Engineer,Core Banking & Payments,New York,Selenium,5
+200966,Hana Walsh,QA Engineer,Platform & DevEx,Charlotte,Python,8
+200967,James Thompson,QA Engineer,Retail & Digital Banking,Pune,Java,7
+200968,Aoife Young,QA Engineer,Risk & Compliance Tech,Charlotte,Selenium,5
+200969,Marcus Banerjee,QA Engineer,Retail & Digital Banking,Dublin,Java,7
+200970,Zara Li,QA Engineer,Investment Banking Tech,Charlotte,Python,8
+200971,Mateo Patel,QA Engineer,Platform & DevEx,Mumbai,Selenium,6
+200972,Declan Kumar,QA Engineer,Investment Banking Tech,London,Java,4
+200973,Divya Banerjee,QA Engineer,Platform & DevEx,Pune,Selenium,5
+200974,Saoirse Singh,QA Engineer,Core Banking & Payments,Mumbai,Selenium,6
+200975,Saoirse Sharma,QA Engineer,Investment Banking Tech,Charlotte,Java,8
+200976,Noah Robinson,QA Engineer,Retail & Digital Banking,Charlotte,Java,5
+200977,Yuki Gupta,QA Engineer,Platform & DevEx,Singapore,Python,4
+200978,Ava Sharma,QA Engineer,Core Banking & Payments,Charlotte,Python,6
+200979,Elena Ryan,QA Engineer,Risk & Compliance Tech,Pune,Java,4
+200980,Sakura Wilson,QA Engineer,Investment Banking Tech,London,Python,6
+200981,Kiran Gupta,QA Engineer,Risk & Compliance Tech,London,Java,4
+200982,Elena White,QA Engineer,Risk & Compliance Tech,Mumbai,Python,8
+200983,Omar Johnson,QA Engineer,Platform & DevEx,New York,Java,8
+200984,Mateo Johnson,QA Engineer,Risk & Compliance Tech,Charlotte,Python,6
+200985,Takeshi Byrne,QA Engineer,Retail & Digital Banking,Dublin,Selenium,5
+200986,Daniel Kapoor,QA Engineer,Platform & DevEx,Singapore,Python,8
+200987,Sanjay Singh,QA Engineer,Retail & Digital Banking,Charlotte,Python,6
+200988,Divya Jackson,QA Engineer,Retail & Digital Banking,Dublin,Java,8
+200989,Fatima Robinson,QA Engineer,Investment Banking Tech,Mumbai,Selenium,5
+200990,Declan Kelly,QA Engineer,Core Banking & Payments,Pune,Selenium,6
+200991,Ananya Taylor,QA Engineer,Retail & Digital Banking,Pune,Selenium,5
+200992,Takeshi Patel,QA Engineer,Platform & DevEx,London,Java,7
+200993,Sophia Smith,QA Engineer,Investment Banking Tech,New York,Selenium,4
+200994,Rohan Iyer,QA Engineer,Core Banking & Payments,Toronto,Java,8
+200995,James Singh,QA Engineer,Investment Banking Tech,Singapore,Java,7
+200996,Akira Ryan,QA Engineer,Retail & Digital Banking,Toronto,Selenium,4
+200997,Daniel Harris,QA Engineer,Risk & Compliance Tech,Charlotte,Java,7
+200998,Hana O'Brien,QA Engineer,Investment Banking Tech,Singapore,Selenium,6
+200999,Mateo Murphy,QA Engineer,Retail & Digital Banking,Singapore,Python,6
+201000,Layla Zhang,QA Engineer,Investment Banking Tech,Charlotte,Java,7
+201001,Emma Jackson,QA Engineer,Retail & Digital Banking,Mumbai,Selenium,6
+201002,Aoife O'Brien,QA Engineer,Risk & Compliance Tech,New York,Java,6
+201003,Takeshi Malhotra,QA Engineer,Retail & Digital Banking,Dublin,Python,4
+201004,Liam Walsh,QA Engineer,Platform & DevEx,Toronto,Java,8
+201005,Olivia Nakamura,QA Engineer,Core Banking & Payments,New York,Java,4
+201006,Sanjay Young,QA Engineer,Platform & DevEx,Pune,Java,7
+201007,Sneha Taylor,QA Engineer,Platform & DevEx,Singapore,Java,6
+201008,Sanjay Nakamura,QA Engineer,Platform & DevEx,New York,Selenium,4
+201009,Mei Walsh,QA Engineer,Retail & Digital Banking,Singapore,Selenium,5
+201010,Niamh Garcia,QA Engineer,Risk & Compliance Tech,Toronto,Python,4
+201011,Chen Shah,QA Engineer,Platform & DevEx,Pune,Python,7
+201012,Priya Murphy,QA Engineer,Investment Banking Tech,Charlotte,Java,6
+201013,Charlotte Kumar,QA Engineer,Core Banking & Payments,London,Selenium,6
+201014,Takeshi Wang,QA Engineer,Risk & Compliance Tech,Charlotte,Selenium,5
+201015,Hana Johnson,QA Engineer,Risk & Compliance Tech,Toronto,Python,8
+201016,Conor Martin,QA Engineer,Investment Banking Tech,London,Selenium,4
+201017,Fatima Sharma,QA Engineer,Platform & DevEx,Charlotte,Python,7
+201018,Sanjay Jackson,QA Engineer,Retail & Digital Banking,Mumbai,Selenium,6
+201019,Divya Walsh,QA Engineer,Core Banking & Payments,Singapore,Java,7
+201020,Yuki Shah,QA Engineer,Risk & Compliance Tech,Toronto,Java,5
+201021,James Sharma,QA Engineer,Risk & Compliance Tech,New York,Python,5
+201022,Benjamin Murphy,QA Engineer,Core Banking & Payments,Dublin,Java,8
+201023,Charlotte Singh,QA Engineer,Core Banking & Payments,Toronto,Selenium,5
+201024,Rohan Tanaka,QA Engineer,Risk & Compliance Tech,Dublin,Python,4
+201025,Hiroshi Kumar,QA Engineer,Platform & DevEx,Dublin,Python,6
+201026,Hana Ryan,QA Engineer,Core Banking & Payments,Dublin,Java,8
+201027,Yuki Nguyen,QA Engineer,Core Banking & Payments,Singapore,Selenium,7
+201028,Conor Nakamura,QA Engineer,Risk & Compliance Tech,Toronto,Java,5
+201029,Liam Johnson,QA Engineer,Core Banking & Payments,London,Selenium,4
+201030,Noah Thomas,QA Engineer,Retail & Digital Banking,Toronto,Python,8
+201031,Noah Joshi,QA Engineer,Retail & Digital Banking,Dublin,Python,7
+201032,Olivia Banerjee,QA Engineer,Retail & Digital Banking,Mumbai,Java,5
+201033,Mei Thompson,QA Engineer,Platform & DevEx,New York,Python,5
+201034,Layla Mehta,QA Engineer,Retail & Digital Banking,Pune,Python,7
+201035,Sakura Kapoor,QA Engineer,Core Banking & Payments,London,Selenium,7
+201036,Grace Thompson,QA Engineer,Investment Banking Tech,New York,Python,7
+201037,Akira Wang,QA Engineer,Risk & Compliance Tech,Toronto,Selenium,8
+201038,Zara Wilson,QA Engineer,Retail & Digital Banking,London,Selenium,7
+201039,Yuki Patel,QA Engineer,Retail & Digital Banking,Charlotte,Python,4
+201040,Layla Wang,QA Engineer,Retail & Digital Banking,New York,Python,6
+201041,Benjamin Walker,QA Engineer,Investment Banking Tech,London,Selenium,4
+201042,Kiran Johnson,QA Engineer,Investment Banking Tech,Charlotte,Python,4
+201043,Chen Chen,QA Engineer,Retail & Digital Banking,Singapore,Python,8
+201044,Noah Martinez,QA Engineer,Investment Banking Tech,Mumbai,Java,7
+201045,Marcus Walker,QA Engineer,Core Banking & Payments,Singapore,Selenium,6
+201046,Niamh Reddy,QA Engineer,Core Banking & Payments,Pune,Java,6
+201047,Chen Jackson,QA Engineer,Retail & Digital Banking,London,Selenium,4
+201048,Grace Shah,QA Engineer,Risk & Compliance Tech,Singapore,Java,6
+201049,Divya Rao,QA Engineer,Retail & Digital Banking,Mumbai,Selenium,7
+201050,Noah Robinson,QA Engineer,Retail & Digital Banking,Charlotte,Selenium,6
+201051,Liam Tanaka,QA Engineer,Investment Banking Tech,London,Python,8
+201052,Sakura Robinson,QA Engineer,Risk & Compliance Tech,Singapore,Python,7
+201053,Daniel Kumar,QA Engineer,Platform & DevEx,New York,Python,6
+201054,Ananya O'Brien,QA Engineer,Risk & Compliance Tech,Toronto,Java,4
+201055,Hana Nakamura,QA Engineer,Risk & Compliance Tech,Charlotte,Java,5
+201056,Sean Hall,QA Engineer,Investment Banking Tech,Mumbai,Selenium,4
+201057,Saoirse Pillai,QA Engineer,Risk & Compliance Tech,Singapore,Python,8
+201058,Pooja Tanaka,QA Engineer,Platform & DevEx,Toronto,Python,8
+201059,Fatima Kapoor,QA Engineer,Retail & Digital Banking,Mumbai,Selenium,5
+201060,Mia Das,QA Engineer,Retail & Digital Banking,Dublin,Python,6
+201061,Saoirse Thompson,QA Engineer,Core Banking & Payments,Toronto,Python,7
+201062,Arjun Joshi,QA Engineer,Risk & Compliance Tech,Singapore,Selenium,7
+201063,Noah Walsh,QA Engineer,Platform & DevEx,New York,Selenium,4
+201064,Omar Reddy,QA Engineer,Risk & Compliance Tech,Charlotte,Selenium,6
+201065,Grace O'Brien,QA Engineer,Platform & DevEx,Dublin,Java,5
+201066,Omar Sharma,QA Engineer,Risk & Compliance Tech,Dublin,Java,5
+201067,Rohan Walker,QA Engineer,Core Banking & Payments,Charlotte,Java,8
+201068,Conor Kumar,QA Engineer,Platform & DevEx,Charlotte,Java,6
+201069,Fatima Anderson,QA Engineer,Core Banking & Payments,Charlotte,Java,5
+201070,Liam Chen,QA Engineer,Platform & DevEx,Charlotte,Selenium,8
+201071,Conor Martin,QA Engineer,Platform & DevEx,Singapore,Python,8
+201072,Aarav Mehta,QA Engineer,Investment Banking Tech,Dublin,Selenium,7
+201073,Noah Nakamura,QA Engineer,Platform & DevEx,London,Java,8
+201074,Sean Clark,QA Engineer,Retail & Digital Banking,Charlotte,Java,8
+201075,Benjamin Li,QA Engineer,Risk & Compliance Tech,Pune,Python,6
+201076,Chen Kapoor,QA Engineer,Investment Banking Tech,Pune,Java,6
+201077,Mateo Thomas,QA Engineer,Platform & DevEx,Pune,Java,4
+201078,Niamh Walsh,QA Engineer,Core Banking & Payments,Toronto,Selenium,8
+201079,Isabella Kelly,QA Engineer,Platform & DevEx,London,Selenium,4
+201080,Declan Nguyen,QA Engineer,Platform & DevEx,London,Python,4
+201081,Mei Joshi,QA Engineer,Investment Banking Tech,London,Python,8
+201082,Elena Agarwal,QA Engineer,Investment Banking Tech,Singapore,Selenium,5
+201083,Aarav Martin,QA Engineer,Retail & Digital Banking,Singapore,Java,5
+201084,Sanjay Wang,QA Engineer,Retail & Digital Banking,Mumbai,Java,4
+201085,Lucas Shah,QA Engineer,Platform & DevEx,New York,Python,4
+201086,Rahul Thompson,QA Engineer,Retail & Digital Banking,New York,Java,6
+201087,Yuki O'Brien,QA Engineer,Retail & Digital Banking,Charlotte,Java,7
+201088,Elena Thomas,QA Engineer,Retail & Digital Banking,London,Python,7
+201089,Sophia Martinez,QA Engineer,Platform & DevEx,Toronto,Selenium,7
+201090,Sean Singh,QA Engineer,Platform & DevEx,Charlotte,Selenium,8
+201091,Declan Thompson,QA Engineer,Investment Banking Tech,Mumbai,Selenium,6
+201092,Conor White,QA Engineer,Platform & DevEx,Toronto,Selenium,8
+201093,Ava Joshi,QA Engineer,Core Banking & Payments,Charlotte,Java,4
+201094,Conor Rao,QA Engineer,Platform & DevEx,Dublin,Selenium,4
+201095,Akira Tanaka,QA Engineer,Platform & DevEx,Dublin,Selenium,7
+201096,Chen Thomas,QA Engineer,Investment Banking Tech,London,Selenium,6
+201097,Hana Mehta,QA Engineer,Core Banking & Payments,Charlotte,Selenium,7
+201098,Elena Thomas,QA Engineer,Platform & DevEx,Mumbai,Selenium,7
+201099,Hana Malhotra,QA Engineer,Investment Banking Tech,Pune,Selenium,4
+201100,Ethan Kumar,QA Engineer,Investment Banking Tech,Charlotte,Selenium,7
+201101,Chloe Agarwal,QA Engineer,Retail & Digital Banking,New York,Selenium,4
+201102,Mei Young,QA Engineer,Risk & Compliance Tech,Dublin,Python,4
+201103,Hiroshi White,QA Engineer,Retail & Digital Banking,Toronto,Python,8
+201104,Wei Taylor,QA Engineer,Risk & Compliance Tech,Toronto,Selenium,7
+201105,Sean O'Brien,QA Engineer,Risk & Compliance Tech,Pune,Java,7
+201106,Omar Jackson,QA Engineer,Risk & Compliance Tech,Charlotte,Python,8
+201107,Jack Tanaka,QA Engineer,Core Banking & Payments,Pune,Java,6
+201108,Olivia Thompson,QA Engineer,Investment Banking Tech,Dublin,Python,4
+201109,Kiran Johnson,QA Engineer,Risk & Compliance Tech,Mumbai,Selenium,5
+201110,Noah Smith,QA Engineer,Retail & Digital Banking,New York,Selenium,4
+201111,Marcus Kumar,QA Engineer,Core Banking & Payments,Dublin,Java,6
+201112,Isabella Harris,QA Engineer,Investment Banking Tech,Toronto,Java,5
+201113,Divya Jackson,QA Engineer,Platform & DevEx,Charlotte,Java,4
+201114,Chloe Nakamura,QA Engineer,Risk & Compliance Tech,Toronto,Selenium,8
+201115,Akira Kumar,QA Engineer,Retail & Digital Banking,Singapore,Python,6
+201116,Layla Sharma,QA Engineer,Risk & Compliance Tech,Dublin,Python,5
+201117,Noah Verma,QA Engineer,Core Banking & Payments,Dublin,Python,5
+201118,Aoife Taylor,QA Engineer,Platform & DevEx,Toronto,Selenium,7
+201119,Akira Kapoor,QA Engineer,Core Banking & Payments,Dublin,Selenium,4
+201120,Priya Byrne,QA Engineer,Platform & DevEx,Charlotte,Selenium,5
+201121,Aarav Joshi,QA Engineer,Platform & DevEx,Pune,Selenium,6
+201122,Kiran Hall,QA Engineer,Retail & Digital Banking,Singapore,Python,7
+201123,Charlotte Murphy,QA Engineer,Platform & DevEx,London,Java,6
+201124,Fatima Walker,QA Engineer,Retail & Digital Banking,Singapore,Python,6
+201125,Daniel Patel,QA Engineer,Risk & Compliance Tech,London,Python,8
+201126,Sean Wilson,QA Engineer,Retail & Digital Banking,Pune,Python,5
+201127,Ava Young,QA Engineer,Core Banking & Payments,Singapore,Python,6
+201128,Sophia Thomas,QA Engineer,Risk & Compliance Tech,London,Python,6
+201129,Zara Shah,QA Engineer,Core Banking & Payments,Singapore,Selenium,7
+201130,Pooja Wang,QA Engineer,Retail & Digital Banking,Toronto,Python,4
+201131,Mia Iyer,QA Engineer,Platform & DevEx,Toronto,Selenium,5
+201132,Charlotte Verma,QA Engineer,Investment Banking Tech,Dublin,Java,4
+201133,Divya Taylor,QA Engineer,Platform & DevEx,Singapore,Selenium,6
+201134,Aarav Rao,QA Engineer,Retail & Digital Banking,Singapore,Python,7
+201135,Priya Malhotra,QA Engineer,Platform & DevEx,Mumbai,Selenium,4
+201136,Marcus Thomas,QA Engineer,Risk & Compliance Tech,Mumbai,Selenium,5
+201137,Olivia Banerjee,QA Engineer,Retail & Digital Banking,Pune,Python,7
+201138,Sean Ryan,QA Engineer,Risk & Compliance Tech,London,Python,8
+201139,Mei Wilson,QA Engineer,Investment Banking Tech,Mumbai,Python,7
+201140,Omar Tanaka,QA Engineer,Core Banking & Payments,Toronto,Selenium,8
+201141,Liam Murphy,QA Engineer,Platform & DevEx,New York,Java,8
+201142,Sophia Gupta,QA Engineer,Retail & Digital Banking,Toronto,Java,4
+201143,Layla Patel,QA Engineer,Core Banking & Payments,Toronto,Python,5
+201144,Fatima Joshi,QA Engineer,Retail & Digital Banking,Pune,Selenium,7
+201145,Grace Nguyen,QA Engineer,Risk & Compliance Tech,New York,Java,5
+201146,Hana Nakamura,QA Engineer,Retail & Digital Banking,Mumbai,Selenium,7
+201147,Chloe Johnson,QA Engineer,Investment Banking Tech,Dublin,Java,8
+201148,Fatima Anderson,QA Engineer,Platform & DevEx,Dublin,Java,7
+201149,Takeshi Nakamura,QA Engineer,Platform & DevEx,Dublin,Selenium,7
+201150,Yuki Murphy,QA Engineer,Retail & Digital Banking,Toronto,Python,5
+201151,Sean Wang,QA Engineer,Core Banking & Payments,Singapore,Java,4
+201152,Grace Smith,QA Engineer,Investment Banking Tech,Dublin,Selenium,5
+201153,Pooja O'Brien,QA Engineer,Core Banking & Payments,Charlotte,Python,6
+201154,Mei Gupta,QA Engineer,Investment Banking Tech,London,Selenium,4
+201155,Saoirse Nguyen,QA Engineer,Risk & Compliance Tech,New York,Java,8
+201156,Sean Taylor,QA Engineer,Core Banking & Payments,Toronto,Selenium,5
+201157,Sean Patel,QA Engineer,Retail & Digital Banking,New York,Java,7
+201158,Akira Banerjee,QA Engineer,Retail & Digital Banking,Toronto,Selenium,8
+201159,Rohan Das,QA Engineer,Platform & DevEx,London,Java,7
+201160,Conor Harris,QA Engineer,Core Banking & Payments,Pune,Java,4
+201161,Yuki Walker,Quant Researcher,Platform & DevEx,Toronto,MATLAB,9
+201162,Yuki Joshi,Quant Researcher,Platform & DevEx,Dublin,MATLAB,9
+201163,Charlotte Young,Quant Researcher,Retail & Digital Banking,London,Python,8
+201164,Omar Iyer,Quant Researcher,Core Banking & Payments,Pune,MATLAB,6
+201165,Elena Wilson,Quant Researcher,Risk & Compliance Tech,London,Python,8
+201166,Daniel Walker,Quant Researcher,Investment Banking Tech,Charlotte,R,9
+201167,Saoirse Clark,Quant Researcher,Investment Banking Tech,Pune,R,8
+201168,Aarav Kumar,Quant Researcher,Core Banking & Payments,Mumbai,MATLAB,6
+201169,Sakura Ryan,Quant Researcher,Investment Banking Tech,London,MATLAB,7
+201170,Priya Verma,Quant Researcher,Retail & Digital Banking,Dublin,MATLAB,7
+201171,Mateo Martinez,Quant Researcher,Investment Banking Tech,Pune,MATLAB,9
+201172,Charlotte Kumar,Quant Researcher,Risk & Compliance Tech,Pune,MATLAB,9
+201173,Marcus Chen,Quant Researcher,Retail & Digital Banking,London,Python,9
+201174,Saoirse Byrne,Quant Researcher,Investment Banking Tech,Toronto,MATLAB,7
+201175,Mei Wang,Quant Researcher,Core Banking & Payments,Singapore,Python,8
+201176,Sophia Ryan,Quant Researcher,Platform & DevEx,Mumbai,Python,9
+201177,Mateo Sharma,Quant Researcher,Retail & Digital Banking,Charlotte,Python,9
+201178,Olivia Walsh,Quant Researcher,Risk & Compliance Tech,New York,R,8
+201179,Sneha Hall,Quant Researcher,Platform & DevEx,New York,R,9
+201180,Takeshi Agarwal,Quant Researcher,Platform & DevEx,Mumbai,Python,7
+201181,Saoirse Harris,Quant Researcher,Risk & Compliance Tech,Charlotte,MATLAB,9
+201182,Takeshi Thompson,Quant Researcher,Investment Banking Tech,Singapore,MATLAB,7
+201183,Ananya Martin,Quant Researcher,Platform & DevEx,Pune,R,9
+201184,Conor Chen,Quant Researcher,Investment Banking Tech,Pune,MATLAB,9
+201185,Benjamin Brown,Quant Researcher,Platform & DevEx,London,MATLAB,8
+201186,Sneha Harris,Quant Researcher,Retail & Digital Banking,Charlotte,Python,6
+201187,Lucas Young,Quant Researcher,Core Banking & Payments,London,Python,8
+201188,Rohan Martin,Quant Researcher,Core Banking & Payments,Singapore,Python,7
+201189,Priya Tanaka,Quant Researcher,Core Banking & Payments,Dublin,Python,8
+201190,Hiroshi Thomas,Quant Researcher,Core Banking & Payments,Singapore,R,9
+201191,Divya Walsh,Quant Researcher,Retail & Digital Banking,Singapore,R,7
+201192,Sneha Walsh,Quant Researcher,Core Banking & Payments,London,MATLAB,8
+201193,Elena Jackson,Quant Researcher,Investment Banking Tech,Pune,MATLAB,9
+201194,Ava Garcia,Quant Researcher,Investment Banking Tech,London,MATLAB,8
+201195,Jack Wang,Quant Researcher,Risk & Compliance Tech,Pune,R,6
+201196,Arjun Iyer,Quant Researcher,Core Banking & Payments,Dublin,MATLAB,9
+201197,Mei Johnson,Quant Researcher,Risk & Compliance Tech,Pune,R,6
+201198,Sean Clark,Quant Researcher,Core Banking & Payments,Toronto,R,7
+201199,James Ryan,Quant Researcher,Retail & Digital Banking,Singapore,Python,9
+201200,Mei Walsh,Quant Researcher,Platform & DevEx,London,R,7
+201201,Mei Thomas,Quant Researcher,Retail & Digital Banking,New York,MATLAB,6
+201202,Akira Sharma,Quant Researcher,Investment Banking Tech,Pune,MATLAB,6
+201203,Grace Li,Quant Researcher,Core Banking & Payments,London,Python,8
+201204,Divya Malhotra,Quant Researcher,Core Banking & Payments,London,MATLAB,7
+201205,Declan Mehta,Quant Researcher,Retail & Digital Banking,Dublin,MATLAB,7
+201206,Lucas Kelly,Quant Researcher,Investment Banking Tech,New York,Python,8
+201207,Zara Nguyen,Quant Researcher,Risk & Compliance Tech,New York,R,6
+201208,Benjamin Pillai,Quant Researcher,Risk & Compliance Tech,London,Python,7
+201209,Jack Chen,Quant Researcher,Platform & DevEx,London,MATLAB,6
+201210,Arjun O'Brien,Quant Researcher,Platform & DevEx,Dublin,MATLAB,7
+201211,Mia Kelly,Quant Researcher,Investment Banking Tech,Dublin,R,7
+201212,Rohan Walsh,Quant Researcher,Core Banking & Payments,Singapore,R,8
+201213,Mei Chen,Quant Researcher,Investment Banking Tech,New York,Python,6
+201214,Declan Agarwal,Quant Researcher,Investment Banking Tech,Toronto,MATLAB,7
+201215,Mia Garcia,Quant Researcher,Core Banking & Payments,London,R,7
+201216,Chloe Verma,Quant Researcher,Core Banking & Payments,Toronto,Python,9
+201217,Sean Walker,Quant Researcher,Retail & Digital Banking,Mumbai,MATLAB,9
+201218,Sean Iyer,Quant Researcher,Retail & Digital Banking,Singapore,MATLAB,8
+201219,Niamh Mehta,Quant Researcher,Platform & DevEx,Dublin,MATLAB,9
+201220,Zara Martinez,Quant Researcher,Retail & Digital Banking,Pune,R,8
+201221,Sophia Walker,Quant Researcher,Core Banking & Payments,Mumbai,MATLAB,7
+201222,Ananya Wang,Quant Researcher,Risk & Compliance Tech,London,MATLAB,9
+201223,Chen Li,Quant Researcher,Platform & DevEx,Pune,R,9
+201224,Fatima Anderson,Quant Researcher,Core Banking & Payments,Charlotte,Python,6
+201225,Ananya Mehta,Quant Researcher,Retail & Digital Banking,Singapore,MATLAB,6
+201226,Olivia Thompson,Quant Researcher,Platform & DevEx,New York,Python,8
+201227,Ava Iyer,Quant Researcher,Core Banking & Payments,Dublin,MATLAB,6
+201228,Benjamin O'Brien,Quant Researcher,Core Banking & Payments,New York,Python,6
+201229,Lucas O'Brien,Quant Researcher,Risk & Compliance Tech,Singapore,R,6
+201230,Emma Agarwal,Quant Researcher,Risk & Compliance Tech,Charlotte,Python,8
+201231,Sanjay Thompson,Quant Researcher,Platform & DevEx,Toronto,Python,8
+201232,Aoife Walsh,Quant Researcher,Core Banking & Payments,Singapore,R,7
+201233,Emma Thompson,Quant Researcher,Investment Banking Tech,Pune,R,7
+201234,Omar Mehta,Quant Researcher,Core Banking & Payments,New York,MATLAB,9
+201235,Takeshi Rao,Quant Researcher,Platform & DevEx,Dublin,MATLAB,7
+201236,Saoirse Nakamura,Quant Researcher,Core Banking & Payments,Toronto,MATLAB,6
+201237,Jack Martinez,Quant Researcher,Risk & Compliance Tech,Toronto,MATLAB,6
+201238,Priya White,Quant Researcher,Risk & Compliance Tech,Toronto,Python,9
+201239,Elena Thompson,Quant Researcher,Investment Banking Tech,Mumbai,Python,8
+201240,Takeshi Nguyen,Quant Researcher,Retail & Digital Banking,Charlotte,R,6
+201241,Sanjay Rao,Quant Researcher,Core Banking & Payments,Pune,Python,9
+201242,Lucas Garcia,Quant Researcher,Core Banking & Payments,Mumbai,R,7
+201243,Sneha Nakamura,Quant Researcher,Platform & DevEx,Pune,R,7
+201244,Divya Patel,Quant Researcher,Investment Banking Tech,Toronto,Python,6
+201245,Mateo Pillai,Quant Researcher,Core Banking & Payments,Singapore,MATLAB,9
+201246,Kiran Chen,Quant Researcher,Core Banking & Payments,Dublin,R,9
+201247,Rahul Walsh,Quant Researcher,Risk & Compliance Tech,Toronto,Python,7
+201248,Pooja Verma,Quant Researcher,Investment Banking Tech,Charlotte,MATLAB,9
+201249,Kiran Iyer,Quant Researcher,Risk & Compliance Tech,Charlotte,MATLAB,9
+201250,Lucas Nakamura,Quant Researcher,Platform & DevEx,Toronto,MATLAB,9
+201251,Mei Shah,Quant Researcher,Investment Banking Tech,Toronto,MATLAB,8
+201252,Sean Wang,Quant Researcher,Retail & Digital Banking,Mumbai,Python,8
+201253,Mia Walsh,Quant Researcher,Investment Banking Tech,Pune,MATLAB,7
+201254,Sean Iyer,Quant Researcher,Platform & DevEx,New York,MATLAB,6
+201255,Declan Mehta,Quant Researcher,Platform & DevEx,Pune,MATLAB,9
+201256,Ethan Verma,Quant Researcher,Retail & Digital Banking,Dublin,Python,9
+201257,Priya Iyer,Quant Researcher,Investment Banking Tech,London,Python,7
+201258,Chen Li,Quant Researcher,Risk & Compliance Tech,Toronto,MATLAB,8
+201259,Rohan Jackson,Quant Researcher,Platform & DevEx,New York,Python,6
+201260,Takeshi Rao,Quant Researcher,Retail & Digital Banking,London,MATLAB,6
+201261,Saoirse Young,Quant Researcher,Investment Banking Tech,Pune,Python,7
+201262,Akira Johnson,Quant Researcher,Core Banking & Payments,Pune,R,7
+201263,Rahul Li,Quant Researcher,Risk & Compliance Tech,New York,Python,6
+201264,Isabella Nakamura,Quant Researcher,Investment Banking Tech,New York,R,6
+201265,Benjamin Byrne,Quant Researcher,Risk & Compliance Tech,Dublin,Python,6
+201266,Mei Byrne,Quant Researcher,Retail & Digital Banking,Mumbai,MATLAB,8
+201267,Mei Joshi,Quant Researcher,Platform & DevEx,Charlotte,Python,8
+201268,Jack Sharma,Quant Researcher,Retail & Digital Banking,Charlotte,R,9
+201269,Emma White,Quant Researcher,Risk & Compliance Tech,London,R,6
+201270,Aoife Kelly,Quant Researcher,Retail & Digital Banking,Singapore,R,8
+201271,Niamh Nakamura,Quant Researcher,Core Banking & Payments,London,Python,9
+201272,Marcus Byrne,Quant Researcher,Investment Banking Tech,Charlotte,Python,7
+201273,Divya Rao,Quant Researcher,Platform & DevEx,Pune,Python,6
+201274,Akira Ryan,Quant Researcher,Platform & DevEx,Toronto,MATLAB,8
+201275,Akira Malhotra,Quant Researcher,Core Banking & Payments,Singapore,Python,9
+201276,Pooja Brown,Quant Researcher,Retail & Digital Banking,New York,R,7
+201277,Hiroshi Smith,Quant Researcher,Platform & DevEx,Charlotte,R,8
+201278,Omar Brown,Quant Researcher,Platform & DevEx,London,R,8
+201279,Yuki Anderson,Quant Researcher,Retail & Digital Banking,Dublin,Python,6
+201280,Conor Chen,Quant Researcher,Investment Banking Tech,New York,R,7
+201281,Niamh Byrne,Quant Researcher,Investment Banking Tech,Toronto,MATLAB,6
+201282,Lucas Brown,Quant Researcher,Investment Banking Tech,Mumbai,Python,9
+201283,Arjun Li,Quant Researcher,Investment Banking Tech,Mumbai,R,9
+201284,Ava Taylor,Quant Researcher,Investment Banking Tech,New York,MATLAB,6
+201285,Layla Murphy,Quant Researcher,Core Banking & Payments,London,MATLAB,6
+201286,Sean Joshi,Quant Researcher,Risk & Compliance Tech,Toronto,Python,9
+201287,Sneha Thomas,Quant Researcher,Core Banking & Payments,Toronto,Python,8
+201288,Aoife Pillai,Quant Researcher,Retail & Digital Banking,Toronto,MATLAB,9
+201289,Rohan Brown,Quant Researcher,Platform & DevEx,New York,Python,9
+201290,Noah Shah,Quant Researcher,Core Banking & Payments,Singapore,R,7
+201291,Kiran Murphy,Quant Researcher,Risk & Compliance Tech,London,MATLAB,7
+201292,Chloe Anderson,Quant Researcher,Retail & Digital Banking,Pune,Python,7
+201293,Ethan Kelly,Quant Researcher,Core Banking & Payments,Toronto,R,8
+201294,Takeshi Harris,Quant Researcher,Retail & Digital Banking,Pune,Python,8
+201295,Marcus Shah,Quant Researcher,Retail & Digital Banking,Singapore,Python,7
+201296,Sneha Ryan,Quant Researcher,Core Banking & Payments,Mumbai,MATLAB,6
+201297,Ava Rao,Quant Researcher,Core Banking & Payments,Pune,Python,9
+201298,Sean Gupta,Quant Researcher,Risk & Compliance Tech,Charlotte,MATLAB,8
+201299,Mia Murphy,Quant Researcher,Platform & DevEx,Singapore,MATLAB,6
+201300,Rahul Rao,Quant Researcher,Risk & Compliance Tech,Charlotte,R,7
+201301,Sophia O'Brien,Quant Researcher,Retail & Digital Banking,Mumbai,MATLAB,9
+201302,Daniel Johnson,Quant Researcher,Investment Banking Tech,New York,MATLAB,8
+201303,Niamh Thomas,Quant Researcher,Platform & DevEx,Charlotte,R,6
+201304,Declan Martin,Quant Researcher,Platform & DevEx,New York,MATLAB,9
+201305,Elena Singh,Quant Researcher,Retail & Digital Banking,London,MATLAB,9
+201306,Ananya Robinson,Quant Researcher,Risk & Compliance Tech,New York,Python,6
+201307,Divya Martinez,Quant Researcher,Investment Banking Tech,Pune,R,9
+201308,Priya Young,Quant Researcher,Retail & Digital Banking,Toronto,R,8
+201309,Ava Clark,Quant Researcher,Core Banking & Payments,New York,MATLAB,6
+201310,Chen Young,Quant Researcher,Platform & DevEx,New York,R,7
+201311,Niamh Li,Quant Researcher,Platform & DevEx,London,MATLAB,9
+201312,Sakura Martin,Quant Researcher,Core Banking & Payments,Singapore,Python,8
+201313,Yuki Martin,Quant Researcher,Risk & Compliance Tech,Toronto,MATLAB,6
+201314,Ava Mehta,Quant Researcher,Retail & Digital Banking,New York,R,6
+201315,Declan Sharma,Quant Researcher,Platform & DevEx,Charlotte,MATLAB,9
+201316,Hana Anderson,Quant Researcher,Platform & DevEx,New York,MATLAB,8
+201317,Arjun O'Brien,Quant Researcher,Core Banking & Payments,Mumbai,R,9
+201318,Niamh Li,Quant Researcher,Investment Banking Tech,Mumbai,MATLAB,8
+201319,Noah Garcia,Quant Researcher,Risk & Compliance Tech,Toronto,R,8
+201320,Conor Robinson,Quant Researcher,Core Banking & Payments,New York,Python,8
+201321,Yuki Wilson,Quant Researcher,Risk & Compliance Tech,London,MATLAB,9
+201322,Elena Nakamura,Quant Researcher,Platform & DevEx,New York,MATLAB,8
+201323,Chen Smith,Quant Researcher,Core Banking & Payments,Dublin,MATLAB,8
+201324,Arjun Kapoor,Quant Researcher,Platform & DevEx,Singapore,MATLAB,6
+201325,Hana Young,Quant Researcher,Platform & DevEx,London,MATLAB,6
+201326,Hiroshi Malhotra,Quant Researcher,Platform & DevEx,Toronto,R,6
+201327,Saoirse Martinez,Quant Researcher,Core Banking & Payments,Singapore,Python,9
+201328,Takeshi Garcia,Quant Researcher,Risk & Compliance Tech,Dublin,Python,6
+201329,Hana Walsh,Quant Researcher,Core Banking & Payments,Dublin,R,6
+201330,Olivia Clark,Quant Researcher,Platform & DevEx,London,Python,6
+201331,Fatima Thompson,Quant Researcher,Risk & Compliance Tech,Mumbai,Python,6
+201332,Aarav Taylor,Quant Researcher,Investment Banking Tech,Pune,MATLAB,9
+201333,Ananya Johnson,Quant Researcher,Retail & Digital Banking,Charlotte,Python,6
+201334,Layla Iyer,Quant Researcher,Investment Banking Tech,Mumbai,Python,8
+201335,Isabella Nguyen,Quant Researcher,Platform & DevEx,Mumbai,Python,7
+201336,Divya Ryan,Quant Researcher,Risk & Compliance Tech,New York,R,8
+201337,Aoife Li,Quant Researcher,Retail & Digital Banking,Mumbai,R,7
+201338,Yuki Thompson,Quant Researcher,Platform & DevEx,Mumbai,Python,9
+201339,Mateo Zhang,Quant Researcher,Core Banking & Payments,London,MATLAB,7
+201340,Divya Iyer,Quant Researcher,Retail & Digital Banking,Toronto,Python,7
+201341,Declan Brown,Quant Researcher,Platform & DevEx,Singapore,Python,7
+201342,Wei Ryan,Quant Researcher,Risk & Compliance Tech,Mumbai,MATLAB,9
+201343,Jack Walsh,Quant Researcher,Platform & DevEx,Dublin,Python,9
+201344,Yuki Pillai,Quant Researcher,Core Banking & Payments,Dublin,R,6
+201345,Niamh Patel,Quant Researcher,Core Banking & Payments,London,R,7
+201346,Sean Pillai,Quant Researcher,Core Banking & Payments,Toronto,Python,6
+201347,Jack Nguyen,Quant Researcher,Retail & Digital Banking,Charlotte,MATLAB,6
+201348,Mei Singh,Quant Researcher,Risk & Compliance Tech,New York,MATLAB,7
+201349,Saoirse Murphy,Quant Researcher,Platform & DevEx,Pune,MATLAB,6
+201350,Marcus Brown,Quant Researcher,Risk & Compliance Tech,London,R,7
+201351,Chen Zhang,Quant Researcher,Risk & Compliance Tech,Dublin,MATLAB,8
+201352,Emma Murphy,Quant Researcher,Risk & Compliance Tech,Dublin,R,9
+201353,Zara White,Quant Researcher,Risk & Compliance Tech,Dublin,MATLAB,8
+201354,Ava Harris,Quant Researcher,Core Banking & Payments,London,R,7
+201355,Yuki Wang,Quant Researcher,Core Banking & Payments,Dublin,MATLAB,9
+201356,Zara Taylor,Quant Researcher,Investment Banking Tech,London,MATLAB,9
+201357,Chen Thompson,Quant Researcher,Risk & Compliance Tech,Toronto,Python,8
+201358,Sean Taylor,Quant Researcher,Core Banking & Payments,New York,R,8
+201359,Sanjay Mehta,Quant Researcher,Investment Banking Tech,Toronto,Python,8
+201360,Isabella Kapoor,Quant Researcher,Core Banking & Payments,Charlotte,R,6
+201361,Takeshi Walsh,Quant Researcher,Retail & Digital Banking,Charlotte,MATLAB,9
+201362,Marcus Byrne,Quant Researcher,Retail & Digital Banking,New York,R,8
+201363,Liam Thomas,Quant Researcher,Core Banking & Payments,Singapore,R,6
+201364,Saoirse Walker,Quant Researcher,Core Banking & Payments,Mumbai,MATLAB,6
+201365,Lucas Singh,Quant Researcher,Core Banking & Payments,Mumbai,R,6
+201366,Wei Verma,Quant Researcher,Investment Banking Tech,Singapore,MATLAB,8
+201367,Declan Malhotra,Quant Researcher,Retail & Digital Banking,London,MATLAB,8
+201368,Ethan Young,Quant Researcher,Investment Banking Tech,Dublin,R,6
+201369,Layla Wang,Quant Researcher,Risk & Compliance Tech,Dublin,MATLAB,8
+201370,Grace Walker,Quant Researcher,Risk & Compliance Tech,Mumbai,Python,9
+201371,Declan Harris,Quant Researcher,Retail & Digital Banking,London,MATLAB,6
+201372,Kiran Walker,Quant Researcher,Core Banking & Payments,Mumbai,MATLAB,8
+201373,Hana Shah,Quant Researcher,Risk & Compliance Tech,Charlotte,Python,8
+201374,Akira Hall,Quant Researcher,Platform & DevEx,London,Python,8
+201375,Wei Byrne,Quant Researcher,Investment Banking Tech,Mumbai,R,9
+201376,Mei Robinson,Quant Researcher,Core Banking & Payments,Dublin,Python,6
+201377,Divya White,Quant Researcher,Core Banking & Payments,Charlotte,R,7
+201378,Arjun Malhotra,Quant Researcher,Retail & Digital Banking,Mumbai,Python,8
+201379,Emma Reddy,Quant Researcher,Risk & Compliance Tech,New York,Python,9
+201380,Mia Byrne,Quant Researcher,Core Banking & Payments,London,Python,9
+201381,Lucas Johnson,Quant Researcher,Retail & Digital Banking,Singapore,MATLAB,8
+201382,Mei Nakamura,Quant Researcher,Platform & DevEx,Singapore,Python,6
+201383,Pooja Shah,Quant Researcher,Core Banking & Payments,Mumbai,MATLAB,9
+201384,Benjamin O'Brien,Quant Researcher,Retail & Digital Banking,Dublin,MATLAB,9
+201385,Sean Brown,Quant Researcher,Core Banking & Payments,Toronto,MATLAB,8
+201386,Saoirse Ryan,Quant Researcher,Retail & Digital Banking,Singapore,Python,9
+201387,Hiroshi Verma,Quant Researcher,Core Banking & Payments,New York,R,9
+201388,Aoife Thompson,Quant Researcher,Investment Banking Tech,Dublin,Python,9
+201389,Sneha Kelly,Quant Researcher,Investment Banking Tech,Singapore,R,9
+201390,Sophia Walker,Quant Researcher,Retail & Digital Banking,New York,R,6
+201391,Jack Walker,Quant Researcher,Platform & DevEx,London,MATLAB,7
+201392,Priya Byrne,Quant Researcher,Retail & Digital Banking,Charlotte,MATLAB,9
+201393,Isabella Iyer,Quant Researcher,Risk & Compliance Tech,Toronto,Python,8
+201394,Kiran Mehta,Quant Researcher,Platform & DevEx,Dublin,Python,7
+201395,Rohan Johnson,Quant Researcher,Retail & Digital Banking,Mumbai,R,9
+201396,Saoirse Gupta,Quant Researcher,Investment Banking Tech,Pune,Python,9
+201397,Omar Malhotra,Quant Researcher,Risk & Compliance Tech,Singapore,MATLAB,8
+201398,Kiran Li,Quant Researcher,Investment Banking Tech,Dublin,R,6
+201399,Isabella Kapoor,Quant Researcher,Platform & DevEx,London,MATLAB,8
+201400,Pooja White,Quant Researcher,Risk & Compliance Tech,Charlotte,Python,9
+201401,Lucas Li,Quant Researcher,Risk & Compliance Tech,Dublin,R,7
+201402,Sakura Rao,Quant Researcher,Investment Banking Tech,London,MATLAB,9
+201403,Mei Hall,Quant Researcher,Retail & Digital Banking,Pune,Python,7
+201404,Divya Kapoor,Quant Researcher,Retail & Digital Banking,London,R,9
+201405,Akira Nguyen,Quant Researcher,Retail & Digital Banking,Mumbai,Python,9
+201406,Fatima Tanaka,Quant Researcher,Core Banking & Payments,Toronto,MATLAB,9
+201407,Grace Shah,Quant Researcher,Investment Banking Tech,Singapore,R,6
+201408,Aarav Harris,Quant Researcher,Retail & Digital Banking,London,R,8
+201409,Daniel Sharma,Quant Researcher,Core Banking & Payments,Charlotte,Python,7
+201410,Saoirse Joshi,Quant Researcher,Retail & Digital Banking,Toronto,Python,7
+201411,Yuki Martin,Quant Researcher,Core Banking & Payments,Pune,R,9
+201412,Akira Pillai,Quant Researcher,Retail & Digital Banking,Dublin,MATLAB,6
+201413,Aarav Walsh,Quant Researcher,Platform & DevEx,Mumbai,MATLAB,7
+201414,Kiran Wang,Quant Researcher,Platform & DevEx,Singapore,Python,8
+201415,Benjamin Byrne,Quant Researcher,Core Banking & Payments,London,Python,7
+201416,James Walsh,Quant Researcher,Investment Banking Tech,Charlotte,R,8
+201417,Mia Taylor,Quant Researcher,Retail & Digital Banking,New York,Python,7
+201418,Aoife Li,Quant Researcher,Core Banking & Payments,London,R,8
+201419,Arjun Nakamura,Quant Researcher,Investment Banking Tech,Singapore,Python,8
+201420,Kiran Kapoor,Quant Researcher,Risk & Compliance Tech,Charlotte,R,9
+201421,Divya Anderson,Quant Researcher,Risk & Compliance Tech,New York,R,9
+201422,Daniel White,Quant Researcher,Investment Banking Tech,Mumbai,R,7
+201423,Kiran Sharma,Quant Researcher,Platform & DevEx,Charlotte,Python,7
+201424,Daniel Martin,Quant Researcher,Platform & DevEx,New York,MATLAB,9
+201425,Layla Taylor,Quant Researcher,Investment Banking Tech,Singapore,Python,9
+201426,Wei Thompson,Quant Researcher,Core Banking & Payments,Pune,R,8
+201427,Chloe Harris,Quant Researcher,Retail & Digital Banking,New York,Python,8
+201428,Daniel Ryan,Quant Researcher,Core Banking & Payments,New York,MATLAB,8
+201429,Mia Harris,Quant Researcher,Platform & DevEx,Dublin,MATLAB,8
+201430,Chen Chen,Quant Researcher,Investment Banking Tech,Mumbai,R,9
+201431,Ananya Martin,Quant Researcher,Retail & Digital Banking,Singapore,R,9
+201432,Daniel Singh,Quant Researcher,Core Banking & Payments,Charlotte,MATLAB,9
+201433,Grace Malhotra,Quant Researcher,Platform & DevEx,London,MATLAB,7
+201434,Jack Johnson,Quant Researcher,Investment Banking Tech,Dublin,Python,9
+201435,Marcus Tanaka,Quant Researcher,Platform & DevEx,Charlotte,Python,8
+201436,Layla Jackson,Quant Researcher,Platform & DevEx,Pune,MATLAB,6
+201437,James Martinez,Quant Researcher,Core Banking & Payments,Toronto,R,9
+201438,Wei Wang,Quant Researcher,Investment Banking Tech,London,MATLAB,7
+201439,Layla Reddy,Quant Researcher,Investment Banking Tech,Dublin,R,9
+201440,Sophia Harris,Quant Researcher,Investment Banking Tech,London,MATLAB,7
+201441,Fatima O'Brien,Quant Researcher,Platform & DevEx,Mumbai,Python,9
+201442,Priya Hall,Quant Researcher,Platform & DevEx,Dublin,Python,6
+201443,Lucas Iyer,Quant Researcher,Investment Banking Tech,Pune,R,6
+201444,Hiroshi Tanaka,Quant Researcher,Platform & DevEx,Singapore,R,8
+201445,Fatima Jackson,Quant Researcher,Retail & Digital Banking,Pune,MATLAB,9
+201446,Chloe Tanaka,Quant Researcher,Risk & Compliance Tech,London,R,8
+201447,Sneha Patel,Quant Researcher,Platform & DevEx,London,MATLAB,6
+201448,Sneha Byrne,Quant Researcher,Platform & DevEx,Mumbai,R,6
+201449,Sneha Wang,Quant Researcher,Retail & Digital Banking,London,MATLAB,6
+201450,Lucas Shah,Quant Researcher,Investment Banking Tech,New York,MATLAB,8
+201451,Layla Pillai,Quant Researcher,Retail & Digital Banking,Mumbai,R,8
+201452,Arjun Nguyen,Quant Researcher,Retail & Digital Banking,London,R,8
+201453,Emma Zhang,Quant Researcher,Investment Banking Tech,Pune,R,6
+201454,Declan Mehta,Quant Researcher,Risk & Compliance Tech,Pune,Python,6
+201455,Sanjay Li,Quant Researcher,Core Banking & Payments,Mumbai,Python,9
+201456,Akira Sharma,Quant Researcher,Investment Banking Tech,Dublin,R,8
+201457,Olivia Taylor,Quant Researcher,Platform & DevEx,Toronto,Python,9
+201458,Benjamin Wilson,Quant Researcher,Core Banking & Payments,Singapore,Python,8
+201459,Akira Hall,Quant Researcher,Retail & Digital Banking,London,R,8
+201460,Hiroshi Thompson,Quant Researcher,Platform & DevEx,London,R,9
+201461,Pooja White,Quant Researcher,Risk & Compliance Tech,Charlotte,Python,9
+201462,Sophia Garcia,Quant Researcher,Core Banking & Payments,Pune,R,8
+201463,Rohan Johnson,Quant Researcher,Core Banking & Payments,New York,Python,6
+201464,Wei Clark,Quant Researcher,Platform & DevEx,Mumbai,R,8
+201465,Rahul Joshi,Quant Researcher,Core Banking & Payments,Charlotte,Python,6
+201466,Divya Brown,Quant Researcher,Core Banking & Payments,Toronto,R,6
+201467,James Patel,Quant Researcher,Platform & DevEx,Pune,Python,9
+201468,Grace Walsh,Quant Researcher,Core Banking & Payments,New York,R,8
+201469,Aarav Hall,Quant Researcher,Platform & DevEx,Dublin,R,9
+201470,Olivia Rao,Quant Researcher,Investment Banking Tech,Singapore,Python,9
+201471,Kiran Robinson,Technical Product Manager,Core Banking & Payments,Charlotte,SQL,4
+201472,Isabella Kelly,Technical Product Manager,Core Banking & Payments,London,Python,4
+201473,Divya Brown,Technical Product Manager,Risk & Compliance Tech,London,SQL,3
+201474,Omar Young,Technical Product Manager,Risk & Compliance Tech,Charlotte,Python,4
+201475,Rahul White,Technical Product Manager,Core Banking & Payments,New York,None,3
+201476,Mateo Walker,Technical Product Manager,Risk & Compliance Tech,Mumbai,Python,2
+201477,Marcus Shah,Technical Product Manager,Risk & Compliance Tech,Dublin,SQL,4
+201478,Aarav Jackson,Technical Product Manager,Core Banking & Payments,London,None,4
+201479,Sneha Zhang,Technical Product Manager,Retail & Digital Banking,Mumbai,None,3
+201480,Hiroshi Taylor,Technical Product Manager,Investment Banking Tech,Singapore,SQL,2
+201481,Grace Agarwal,Technical Product Manager,Retail & Digital Banking,Singapore,Python,2
+201482,Elena Wilson,Technical Product Manager,Platform & DevEx,Charlotte,None,2
+201483,Saoirse Martin,Technical Product Manager,Retail & Digital Banking,London,None,5
+201484,Akira Agarwal,Technical Product Manager,Retail & Digital Banking,Dublin,Python,5
+201485,Layla Pillai,Technical Product Manager,Risk & Compliance Tech,London,SQL,2
+201486,Noah Wilson,Technical Product Manager,Platform & DevEx,Toronto,Python,4
+201487,Mia Malhotra,Technical Product Manager,Retail & Digital Banking,New York,Python,5
+201488,Marcus Anderson,Technical Product Manager,Investment Banking Tech,New York,Python,3
+201489,Benjamin Mehta,Technical Product Manager,Investment Banking Tech,New York,None,3
+201490,Ava Mehta,Technical Product Manager,Platform & DevEx,Singapore,SQL,5
+201491,Chen Nguyen,Technical Product Manager,Platform & DevEx,Mumbai,None,4
+201492,Hiroshi Chen,Technical Product Manager,Core Banking & Payments,Mumbai,Python,5
+201493,Sneha Rao,Technical Product Manager,Platform & DevEx,Dublin,Python,2
+201494,Isabella Nguyen,Technical Product Manager,Retail & Digital Banking,Mumbai,Python,2
+201495,Sakura Jackson,Technical Product Manager,Investment Banking Tech,New York,SQL,2
+201496,Saoirse Iyer,Technical Product Manager,Platform & DevEx,Pune,Python,3
+201497,Pooja White,Technical Product Manager,Risk & Compliance Tech,London,Python,3
+201498,Sophia Garcia,Technical Product Manager,Platform & DevEx,Toronto,None,4
+201499,Sakura Jackson,Technical Product Manager,Risk & Compliance Tech,Charlotte,SQL,5
+201500,Daniel Sharma,Technical Product Manager,Core Banking & Payments,Mumbai,SQL,5
+201501,Benjamin Thompson,Technical Product Manager,Investment Banking Tech,Singapore,None,3
+201502,Ava Ryan,Technical Product Manager,Investment Banking Tech,Toronto,Python,5
+201503,Rohan Tanaka,Technical Product Manager,Retail & Digital Banking,London,None,3
+201504,Conor Li,Technical Product Manager,Investment Banking Tech,Mumbai,None,5
+201505,Akira Ryan,Technical Product Manager,Platform & DevEx,Mumbai,None,5
+201506,Conor Walsh,Technical Product Manager,Retail & Digital Banking,Charlotte,None,5
+201507,Sophia Harris,Technical Product Manager,Investment Banking Tech,Mumbai,None,2
+201508,Niamh Wilson,Technical Product Manager,Risk & Compliance Tech,Charlotte,Python,3
+201509,Divya Garcia,Technical Product Manager,Retail & Digital Banking,New York,Python,2
+201510,Ananya Zhang,Technical Product Manager,Retail & Digital Banking,Singapore,SQL,3
+201511,Yuki Joshi,Technical Product Manager,Risk & Compliance Tech,Dublin,Python,2
+201512,Ananya Thomas,Technical Product Manager,Risk & Compliance Tech,Dublin,None,5
+201513,Marcus Sharma,Technical Product Manager,Core Banking & Payments,Singapore,None,4
+201514,Fatima Banerjee,Technical Product Manager,Investment Banking Tech,Singapore,Python,3
+201515,Divya Wang,Technical Product Manager,Retail & Digital Banking,New York,None,4
+201516,Zara Agarwal,Technical Product Manager,Risk & Compliance Tech,Charlotte,None,5
+201517,Lucas Young,Technical Product Manager,Risk & Compliance Tech,Charlotte,SQL,2
+201518,Arjun Malhotra,Technical Product Manager,Risk & Compliance Tech,New York,None,3
+201519,Akira Reddy,Technical Product Manager,Investment Banking Tech,Singapore,None,3
+201520,Ava Clark,Technical Product Manager,Retail & Digital Banking,Pune,Python,3
+201521,Sean Agarwal,Technical Product Manager,Platform & DevEx,Mumbai,None,3
+201522,Jack Pillai,Technical Product Manager,Risk & Compliance Tech,Charlotte,SQL,4
+201523,Conor White,Technical Product Manager,Core Banking & Payments,Singapore,None,5
+201524,Ava Tanaka,Technical Product Manager,Investment Banking Tech,Charlotte,None,4
+201525,Olivia Johnson,Technical Product Manager,Investment Banking Tech,Mumbai,SQL,3
+201526,Declan Chen,Technical Product Manager,Risk & Compliance Tech,Mumbai,Python,2
+201527,Arjun O'Brien,Technical Product Manager,Retail & Digital Banking,London,None,5
+201528,Grace Gupta,Technical Product Manager,Risk & Compliance Tech,London,Python,4
+201529,Akira Chen,Technical Product Manager,Risk & Compliance Tech,Pune,Python,3
+201530,Grace Tanaka,Technical Product Manager,Investment Banking Tech,Dublin,None,4
+201531,Sophia Walker,Technical Product Manager,Platform & DevEx,Pune,None,4
+201532,Aoife Murphy,Technical Product Manager,Retail & Digital Banking,Charlotte,Python,3
+201533,Takeshi Martinez,Technical Product Manager,Risk & Compliance Tech,Dublin,Python,3
+201534,Marcus Kelly,Technical Product Manager,Investment Banking Tech,London,None,3
+201535,Ava Iyer,Technical Product Manager,Risk & Compliance Tech,Charlotte,None,3
+201536,Sakura Gupta,Technical Product Manager,Retail & Digital Banking,Singapore,Python,5
+201537,Sophia Pillai,Technical Product Manager,Retail & Digital Banking,Dublin,None,2
+201538,Benjamin Kumar,Technical Product Manager,Investment Banking Tech,Charlotte,SQL,3
+201539,Takeshi Jackson,Technical Product Manager,Investment Banking Tech,London,None,5
+201540,Mateo Thompson,Technical Product Manager,Risk & Compliance Tech,Dublin,None,3
+201541,Marcus Agarwal,Technical Product Manager,Retail & Digital Banking,New York,SQL,2
+201542,Aoife Wang,Technical Product Manager,Risk & Compliance Tech,Charlotte,SQL,3
+201543,Elena Wang,Technical Product Manager,Core Banking & Payments,Singapore,Python,4
+201544,Isabella Das,Technical Product Manager,Risk & Compliance Tech,New York,SQL,5
+201545,Elena Pillai,Technical Product Manager,Platform & DevEx,New York,None,3
+201546,Hana Hall,Technical Product Manager,Investment Banking Tech,Charlotte,SQL,5
+201547,Aoife Brown,Technical Product Manager,Risk & Compliance Tech,Singapore,Python,4
+201548,Ananya Li,Technical Product Manager,Investment Banking Tech,Mumbai,None,2
+201549,Benjamin Thomas,Technical Product Manager,Retail & Digital Banking,Mumbai,None,5
+201550,Isabella O'Brien,Technical Product Manager,Investment Banking Tech,New York,Python,5
+201551,Mia Kumar,Technical Product Manager,Retail & Digital Banking,Mumbai,Python,4
+201552,Omar Clark,Technical Product Manager,Platform & DevEx,London,Python,2
+201553,Mei Brown,Technical Product Manager,Retail & Digital Banking,London,Python,5
+201554,Mia Nguyen,Technical Product Manager,Core Banking & Payments,Mumbai,SQL,2
+201555,Saoirse Kumar,Technical Product Manager,Core Banking & Payments,Charlotte,SQL,4
+201556,Elena Rao,Technical Product Manager,Core Banking & Payments,New York,SQL,2
+201557,Takeshi Smith,Technical Product Manager,Investment Banking Tech,Toronto,SQL,5
+201558,Wei Nakamura,Technical Product Manager,Core Banking & Payments,London,Python,2
+201559,Arjun Martin,Technical Product Manager,Retail & Digital Banking,London,SQL,4
+201560,Rahul Byrne,Technical Product Manager,Retail & Digital Banking,London,Python,2
+201561,Arjun Shah,Technical Product Manager,Retail & Digital Banking,Dublin,Python,2
+201562,Ethan Kumar,Technical Product Manager,Platform & DevEx,Singapore,None,2
+201563,Omar Shah,Technical Product Manager,Core Banking & Payments,London,None,2
+201564,Fatima Shah,Technical Product Manager,Retail & Digital Banking,Charlotte,SQL,2
+201565,Priya Ryan,Technical Product Manager,Core Banking & Payments,Toronto,Python,4
+201566,Chen Robinson,Technical Product Manager,Retail & Digital Banking,London,SQL,5
+201567,Ananya Kumar,Technical Product Manager,Retail & Digital Banking,London,None,4
+201568,Liam Thomas,Technical Product Manager,Platform & DevEx,Pune,SQL,5
+201569,Aoife Hall,Technical Product Manager,Investment Banking Tech,Charlotte,Python,2
+201570,Isabella Brown,Technical Product Manager,Investment Banking Tech,Pune,SQL,2
+201571,Sakura Agarwal,Technical Product Manager,Investment Banking Tech,Pune,None,5
+201572,Chloe Zhang,Technical Product Manager,Investment Banking Tech,Singapore,None,3
+201573,Lucas Jackson,Technical Product Manager,Risk & Compliance Tech,Singapore,SQL,2
+201574,Pooja Chen,Technical Product Manager,Platform & DevEx,New York,None,3
+201575,Takeshi Robinson,Technical Product Manager,Risk & Compliance Tech,Pune,None,4
+201576,Wei Reddy,Technical Product Manager,Core Banking & Payments,Dublin,SQL,5
+201577,Sean Thomas,Technical Product Manager,Risk & Compliance Tech,London,None,3
+201578,Aarav Nguyen,Technical Product Manager,Retail & Digital Banking,Mumbai,None,3
+201579,Ava Wang,Technical Product Manager,Core Banking & Payments,Pune,SQL,2
+201580,Daniel Ryan,Technical Product Manager,Core Banking & Payments,Singapore,None,4
+201581,Declan Thompson,Technical Product Manager,Core Banking & Payments,New York,None,5
+201582,Grace Malhotra,Technical Product Manager,Investment Banking Tech,Dublin,None,3
+201583,Conor Patel,Technical Product Manager,Retail & Digital Banking,Pune,None,2
+201584,Kiran Wilson,Technical Product Manager,Investment Banking Tech,Mumbai,Python,4
+201585,Elena Clark,Technical Product Manager,Investment Banking Tech,Pune,None,4
+201586,Conor Kapoor,Technical Product Manager,Core Banking & Payments,Toronto,SQL,5
+201587,Marcus Singh,Technical Product Manager,Platform & DevEx,Dublin,Python,3
+201588,Mateo White,Technical Product Manager,Investment Banking Tech,Pune,Python,2
+201589,Takeshi Iyer,Technical Product Manager,Platform & DevEx,Pune,SQL,4
+201590,Pooja Smith,Technical Product Manager,Risk & Compliance Tech,Singapore,Python,2
+201591,Yuki Walsh,Technical Product Manager,Core Banking & Payments,London,SQL,3
+201592,Fatima Singh,Technical Product Manager,Risk & Compliance Tech,Dublin,None,3
+201593,Kiran Garcia,Technical Product Manager,Platform & DevEx,London,None,4
+201594,Takeshi Chen,Technical Product Manager,Retail & Digital Banking,London,Python,2
+201595,Lucas Brown,Technical Product Manager,Investment Banking Tech,New York,Python,5
+201596,Conor Walsh,Technical Product Manager,Retail & Digital Banking,Toronto,Python,5
+201597,James Jackson,Technical Product Manager,Platform & DevEx,Mumbai,SQL,4
+201598,Priya Banerjee,Technical Product Manager,Platform & DevEx,Toronto,SQL,5
+201599,Isabella Sharma,Technical Product Manager,Core Banking & Payments,New York,Python,2
+201600,Kiran Sharma,Technical Product Manager,Platform & DevEx,Dublin,SQL,3
+201601,Jack Joshi,Technical Product Manager,Risk & Compliance Tech,Pune,Python,4
+201602,Layla Martin,Technical Product Manager,Risk & Compliance Tech,Mumbai,Python,5
+201603,Hana Wilson,Technical Product Manager,Investment Banking Tech,Charlotte,Python,5
+201604,Isabella Pillai,Technical Product Manager,Core Banking & Payments,Singapore,Python,2
+201605,Aarav Patel,Technical Product Manager,Risk & Compliance Tech,London,None,4
+201606,Grace Walsh,Technical Product Manager,Risk & Compliance Tech,London,None,4
+201607,Elena Singh,Technical Product Manager,Investment Banking Tech,Pune,Python,3
+201608,Niamh Banerjee,Technical Product Manager,Platform & DevEx,Toronto,SQL,5
+201609,Zara Banerjee,Technical Product Manager,Retail & Digital Banking,New York,Python,5
+201610,Kiran Malhotra,Technical Product Manager,Retail & Digital Banking,Dublin,None,5
+201611,Benjamin Chen,Technical Product Manager,Risk & Compliance Tech,Charlotte,None,2
+201612,Takeshi Kapoor,Technical Product Manager,Risk & Compliance Tech,Charlotte,Python,2
+201613,Zara Smith,Technical Product Manager,Core Banking & Payments,Singapore,None,4
+201614,Benjamin Iyer,Technical Product Manager,Platform & DevEx,Dublin,None,2
+201615,Yuki Jackson,Technical Product Manager,Investment Banking Tech,Dublin,SQL,5
+201616,Fatima Brown,Technical Product Manager,Risk & Compliance Tech,Singapore,None,3
+201617,Hiroshi Zhang,Technical Product Manager,Platform & DevEx,Charlotte,SQL,3
+201618,Charlotte Brown,Technical Product Manager,Retail & Digital Banking,Mumbai,Python,3
+201619,Olivia Sharma,Technical Product Manager,Risk & Compliance Tech,Pune,SQL,3
+201620,Kiran Reddy,Technical Product Manager,Retail & Digital Banking,New York,SQL,5
+201621,Pooja Li,Technical Product Manager,Risk & Compliance Tech,Toronto,Python,4
+201622,Mei Brown,Technical Product Manager,Core Banking & Payments,Toronto,None,2
+201623,Sneha Clark,Technical Product Manager,Risk & Compliance Tech,Singapore,Python,5
+201624,Aoife Joshi,Technical Product Manager,Core Banking & Payments,Charlotte,Python,4
+201625,Ethan Wang,Technical Product Manager,Retail & Digital Banking,Toronto,SQL,2
+201626,Daniel Wang,Technical Product Manager,Core Banking & Payments,Pune,SQL,2
+201627,Aoife Taylor,Technical Product Manager,Core Banking & Payments,New York,Python,5
+201628,Hiroshi Shah,Technical Product Manager,Retail & Digital Banking,Toronto,Python,2
+201629,Niamh Patel,Technical Product Manager,Core Banking & Payments,Singapore,SQL,4
+201630,Saoirse Reddy,Technical Product Manager,Retail & Digital Banking,London,None,5
+201631,Aarav Wang,Technical Product Manager,Core Banking & Payments,Charlotte,Python,2
+201632,Aoife Byrne,Technical Product Manager,Retail & Digital Banking,Toronto,None,3
+201633,Liam Singh,Technical Product Manager,Investment Banking Tech,Pune,Python,2
+201634,Daniel Wang,Technical Product Manager,Investment Banking Tech,Pune,None,2
+201635,Sanjay Hall,Technical Product Manager,Retail & Digital Banking,Singapore,Python,5
+201636,Pooja Rao,Technical Product Manager,Retail & Digital Banking,London,SQL,5
+201637,Sakura Martinez,Technical Product Manager,Investment Banking Tech,Toronto,SQL,5
+201638,Liam Robinson,Technical Product Manager,Platform & DevEx,Dublin,None,4
+201639,Zara White,Technical Product Manager,Investment Banking Tech,Dublin,Python,5
+201640,Isabella Nakamura,Technical Product Manager,Risk & Compliance Tech,Mumbai,None,5
+201641,Charlotte Wilson,Technical Product Manager,Core Banking & Payments,Dublin,Python,4
+201642,Liam Li,Technical Product Manager,Risk & Compliance Tech,Singapore,Python,2
+201643,Elena Zhang,Technical Product Manager,Retail & Digital Banking,Toronto,SQL,4
+201644,Aoife Mehta,Technical Product Manager,Risk & Compliance Tech,Dublin,Python,4
+201645,Declan Clark,Technical Product Manager,Platform & DevEx,Dublin,None,5
+201646,Liam Gupta,Technical Product Manager,Retail & Digital Banking,Charlotte,SQL,3
+201647,Yuki Wang,Technical Product Manager,Risk & Compliance Tech,New York,SQL,3
+201648,Charlotte Mehta,Technical Product Manager,Investment Banking Tech,Charlotte,None,2
+201649,Ananya Thomas,Technical Product Manager,Investment Banking Tech,Dublin,Python,5
+201650,Kiran Jackson,Technical Product Manager,Platform & DevEx,Charlotte,Python,5
+201651,Grace Rao,Technical Product Manager,Core Banking & Payments,London,None,2
+201652,Chloe Kapoor,Technical Product Manager,Core Banking & Payments,New York,SQL,4
+201653,Elena Agarwal,Technical Product Manager,Platform & DevEx,Singapore,SQL,2
+201654,Noah Kelly,Technical Product Manager,Investment Banking Tech,Mumbai,Python,3
+201655,Fatima Kelly,Technical Product Manager,Retail & Digital Banking,Pune,None,2
+201656,Sean Johnson,Technical Product Manager,Core Banking & Payments,Singapore,Python,3
+201657,Noah Malhotra,Technical Product Manager,Investment Banking Tech,Dublin,None,4
+201658,Ananya Brown,Technical Product Manager,Risk & Compliance Tech,Pune,SQL,2
+201659,Conor Mehta,Technical Product Manager,Risk & Compliance Tech,London,None,5
+201660,Daniel Martin,Technical Product Manager,Risk & Compliance Tech,New York,SQL,5
+201661,Rohan Smith,Technical Product Manager,Retail & Digital Banking,Charlotte,Python,3
+201662,Aoife Pillai,Technical Product Manager,Platform & DevEx,Singapore,None,3
+201663,Charlotte Clark,Technical Product Manager,Retail & Digital Banking,Singapore,Python,5
+201664,Wei Nguyen,Technical Product Manager,Investment Banking Tech,Singapore,None,4
+201665,Fatima Chen,Technical Product Manager,Risk & Compliance Tech,Pune,Python,2
+201666,Hiroshi Young,Technical Product Manager,Platform & DevEx,Dublin,Python,4
+201667,Priya Byrne,Technical Product Manager,Risk & Compliance Tech,Charlotte,Python,2
+201668,Omar Ryan,Technical Product Manager,Platform & DevEx,Charlotte,SQL,5
+201669,Ethan Harris,Technical Product Manager,Core Banking & Payments,Dublin,None,2
+201670,Ethan Zhang,Technical Product Manager,Platform & DevEx,Toronto,SQL,2
+201671,Omar Singh,Technical Product Manager,Core Banking & Payments,Dublin,Python,4
+201672,Yuki Thomas,Technical Product Manager,Risk & Compliance Tech,London,Python,5
+201673,Saoirse Garcia,Technical Product Manager,Retail & Digital Banking,New York,SQL,5
+201674,Akira Shah,Technical Product Manager,Platform & DevEx,Dublin,SQL,3
+201675,Conor Johnson,Technical Product Manager,Investment Banking Tech,Singapore,Python,4
+201676,Isabella Shah,Technical Product Manager,Investment Banking Tech,London,SQL,2
+201677,Zara Wang,Technical Product Manager,Platform & DevEx,Dublin,None,3
+201678,Rohan Mehta,Technical Product Manager,Risk & Compliance Tech,Toronto,None,3
+201679,Yuki Shah,Technical Product Manager,Investment Banking Tech,Mumbai,SQL,4
+201680,Priya Singh,Technical Product Manager,Investment Banking Tech,Mumbai,Python,2
+201681,Rahul Gupta,Technical Product Manager,Risk & Compliance Tech,New York,SQL,3
+201682,Sneha Rao,Technical Product Manager,Retail & Digital Banking,Dublin,Python,5
+201683,Sophia Joshi,Technical Product Manager,Retail & Digital Banking,Singapore,SQL,4
+201684,Rohan Wang,Technical Product Manager,Investment Banking Tech,Mumbai,None,3
+201685,Sakura Walker,Technical Product Manager,Platform & DevEx,London,None,3
+201686,Aarav Pillai,Technical Product Manager,Investment Banking Tech,Mumbai,Python,2
+201687,Daniel Taylor,Technical Product Manager,Platform & DevEx,Pune,Python,4
+201688,Rahul Jackson,Technical Product Manager,Platform & DevEx,Singapore,SQL,5
+201689,Aoife Harris,Technical Product Manager,Investment Banking Tech,Mumbai,SQL,3
+201690,Saoirse Jackson,Technical Product Manager,Risk & Compliance Tech,Mumbai,SQL,5
+201691,Priya Smith,Technical Product Manager,Risk & Compliance Tech,Toronto,SQL,4
+201692,Grace Young,Technical Product Manager,Platform & DevEx,Dublin,None,5
+201693,Niamh Mehta,Technical Product Manager,Investment Banking Tech,Charlotte,SQL,2
+201694,Daniel Malhotra,Technical Product Manager,Platform & DevEx,Toronto,None,5
+201695,Rahul Reddy,Technical Product Manager,Platform & DevEx,Dublin,Python,3
+201696,Marcus Thomas,Technical Product Manager,Investment Banking Tech,Charlotte,Python,5
+201697,Olivia Nakamura,Technical Product Manager,Retail & Digital Banking,Mumbai,None,5
+201698,Isabella Patel,Technical Product Manager,Core Banking & Payments,London,SQL,2
+201699,James Jackson,Technical Product Manager,Retail & Digital Banking,Pune,None,5
+201700,Sanjay Anderson,Technical Product Manager,Platform & DevEx,Dublin,SQL,3
+201701,Yuki Johnson,Technical Product Manager,Core Banking & Payments,Charlotte,Python,2
+201702,Chen Garcia,Technical Product Manager,Risk & Compliance Tech,Pune,None,5
+201703,Jack Wang,Technical Product Manager,Core Banking & Payments,Pune,Python,5
+201704,Ananya Pillai,Technical Product Manager,Core Banking & Payments,London,SQL,2
+201705,Rohan Ryan,Technical Product Manager,Risk & Compliance Tech,New York,SQL,3
+201706,Akira Sharma,Technical Product Manager,Core Banking & Payments,Singapore,SQL,5
+201707,Zara Anderson,Technical Product Manager,Platform & DevEx,Dublin,Python,4
+201708,Olivia Reddy,Technical Product Manager,Core Banking & Payments,Singapore,SQL,3
+201709,Zara White,Technical Product Manager,Risk & Compliance Tech,Mumbai,Python,3
+201710,Liam Robinson,Technical Product Manager,Core Banking & Payments,Dublin,Python,4
+201711,Liam Singh,Technical Product Manager,Platform & DevEx,Toronto,SQL,4
+201712,Yuki Li,Technical Product Manager,Core Banking & Payments,Singapore,Python,2
+201713,Declan Jackson,Technical Product Manager,Retail & Digital Banking,Charlotte,None,5
+201714,Isabella Kelly,Technical Product Manager,Platform & DevEx,Singapore,None,4
+201715,Noah Wang,Technical Product Manager,Retail & Digital Banking,Toronto,None,2
+201716,Mia Banerjee,Technical Product Manager,Platform & DevEx,Singapore,None,2
+201717,Mateo Brown,Technical Product Manager,Retail & Digital Banking,Mumbai,SQL,5
+201718,Omar Johnson,Technical Product Manager,Investment Banking Tech,Toronto,None,4
+201719,Chen Mehta,Technical Product Manager,Core Banking & Payments,Singapore,SQL,3
+201720,Marcus Byrne,Technical Product Manager,Core Banking & Payments,Singapore,Python,2
+201721,Saoirse Chen,Technical Product Manager,Investment Banking Tech,London,SQL,2
+201722,Takeshi Zhang,Technical Product Manager,Investment Banking Tech,Singapore,SQL,4
+201723,Grace Kapoor,Technical Product Manager,Retail & Digital Banking,New York,Python,3
+201724,Wei Patel,Technical Product Manager,Core Banking & Payments,London,Python,2
+201725,Kiran O'Brien,Technical Product Manager,Core Banking & Payments,New York,Python,5
+201726,Yuki Zhang,Technical Product Manager,Core Banking & Payments,Toronto,None,5
+201727,Marcus Kelly,Technical Product Manager,Retail & Digital Banking,Dublin,SQL,3
+201728,Olivia Garcia,Technical Product Manager,Platform & DevEx,Toronto,SQL,5
+201729,Isabella Anderson,Technical Product Manager,Platform & DevEx,Pune,Python,2
+201730,Chloe Chen,Technical Product Manager,Retail & Digital Banking,Charlotte,SQL,5
+201731,Saoirse Wang,Technical Product Manager,Retail & Digital Banking,London,None,3
+201732,Benjamin Das,Technical Product Manager,Core Banking & Payments,London,SQL,4
+201733,Benjamin Smith,Technical Product Manager,Investment Banking Tech,Toronto,SQL,4
+201734,Charlotte Jackson,Technical Product Manager,Investment Banking Tech,Charlotte,SQL,3
+201735,Charlotte Verma,Technical Product Manager,Platform & DevEx,Toronto,SQL,3
+201736,Arjun Malhotra,Technical Product Manager,Retail & Digital Banking,Toronto,None,5
+201737,Ananya Sharma,Technical Product Manager,Core Banking & Payments,Mumbai,SQL,4
+201738,Aarav Garcia,Technical Product Manager,Investment Banking Tech,Dublin,None,3
+201739,Fatima Malhotra,Technical Product Manager,Investment Banking Tech,Mumbai,Python,4
+201740,Ethan Reddy,Technical Product Manager,Platform & DevEx,Toronto,SQL,3
+201741,Layla O'Brien,Technical Product Manager,Investment Banking Tech,Dublin,None,3
+201742,Akira Hall,Technical Product Manager,Platform & DevEx,New York,Python,4
+201743,Daniel Smith,Technical Product Manager,Risk & Compliance Tech,Charlotte,None,4
+201744,Aarav Joshi,Technical Product Manager,Risk & Compliance Tech,Dublin,None,2
+201745,Priya Garcia,Technical Product Manager,Retail & Digital Banking,Dublin,None,5
+201746,Grace Byrne,Technical Product Manager,Platform & DevEx,Pune,Python,5
+201747,Pooja Mehta,Technical Product Manager,Platform & DevEx,London,SQL,5
+201748,Mia Malhotra,Technical Product Manager,Investment Banking Tech,Charlotte,None,3
+201749,Hana Robinson,Technical Product Manager,Platform & DevEx,Pune,None,4
+201750,Mateo Agarwal,Technical Product Manager,Core Banking & Payments,Dublin,None,3
+201751,Olivia Thompson,SRE / Ops,Retail & Digital Banking,Dublin,Bash,8
+201752,Declan Pillai,SRE / Ops,Risk & Compliance Tech,Dublin,Go,6
+201753,Wei Joshi,SRE / Ops,Retail & Digital Banking,London,Bash,5
+201754,Arjun Reddy,SRE / Ops,Platform & DevEx,Pune,Bash,8
+201755,Takeshi Martinez,SRE / Ops,Core Banking & Payments,Mumbai,Python,6
+201756,James Martinez,SRE / Ops,Retail & Digital Banking,Singapore,Python,7
+201757,Omar Agarwal,SRE / Ops,Retail & Digital Banking,Pune,Go,6
+201758,Declan Walsh,SRE / Ops,Platform & DevEx,Charlotte,Python,8
+201759,Takeshi Brown,SRE / Ops,Platform & DevEx,Dublin,Python,8
+201760,Mateo Taylor,SRE / Ops,Investment Banking Tech,Charlotte,Python,5
+201761,Sean Young,SRE / Ops,Platform & DevEx,Mumbai,Python,8
+201762,Sneha Ryan,SRE / Ops,Platform & DevEx,Mumbai,Go,7
+201763,Rahul Brown,SRE / Ops,Core Banking & Payments,Dublin,Python,8
+201764,Takeshi Walsh,SRE / Ops,Risk & Compliance Tech,Singapore,Go,8
+201765,Yuki Agarwal,SRE / Ops,Platform & DevEx,Toronto,Go,5
+201766,Conor Robinson,SRE / Ops,Platform & DevEx,New York,Go,5
+201767,Sean Jackson,SRE / Ops,Investment Banking Tech,Pune,Go,7
+201768,Olivia Taylor,SRE / Ops,Retail & Digital Banking,Singapore,Go,8
+201769,Pooja Martinez,SRE / Ops,Core Banking & Payments,Mumbai,Go,5
+201770,Jack White,SRE / Ops,Platform & DevEx,Singapore,Python,5
+201771,Yuki Young,SRE / Ops,Platform & DevEx,Singapore,Python,6
+201772,Marcus Verma,SRE / Ops,Retail & Digital Banking,London,Python,5
+201773,Hana Jackson,SRE / Ops,Platform & DevEx,Pune,Bash,7
+201774,Rohan Harris,SRE / Ops,Core Banking & Payments,London,Python,8
+201775,Sneha Joshi,SRE / Ops,Investment Banking Tech,Dublin,Python,8
+201776,Akira Verma,SRE / Ops,Retail & Digital Banking,London,Python,5
+201777,Ananya Thomas,SRE / Ops,Core Banking & Payments,Singapore,Python,5
+201778,Sean Walsh,SRE / Ops,Investment Banking Tech,Charlotte,Bash,8
+201779,Aoife Johnson,SRE / Ops,Risk & Compliance Tech,Dublin,Bash,5
+201780,Sophia Thomas,SRE / Ops,Investment Banking Tech,New York,Python,6
+201781,Omar Nguyen,SRE / Ops,Core Banking & Payments,Toronto,Go,8
+201782,Zara Joshi,SRE / Ops,Risk & Compliance Tech,Pune,Go,5
+201783,Fatima Agarwal,SRE / Ops,Retail & Digital Banking,Pune,Bash,7
+201784,Daniel Verma,SRE / Ops,Core Banking & Payments,Singapore,Python,5
+201785,Sakura Chen,SRE / Ops,Investment Banking Tech,London,Python,5
+201786,Ethan Clark,SRE / Ops,Retail & Digital Banking,London,Bash,8
+201787,Daniel Wang,SRE / Ops,Retail & Digital Banking,Pune,Bash,8
+201788,Sneha White,SRE / Ops,Retail & Digital Banking,Mumbai,Python,7
+201789,Priya O'Brien,SRE / Ops,Investment Banking Tech,Charlotte,Go,8
+201790,Sanjay Martinez,SRE / Ops,Risk & Compliance Tech,Dublin,Bash,6
+201791,Rohan Agarwal,SRE / Ops,Retail & Digital Banking,Dublin,Python,7
+201792,Ananya Agarwal,SRE / Ops,Platform & DevEx,New York,Bash,7
+201793,Layla Das,SRE / Ops,Risk & Compliance Tech,London,Go,6
+201794,Elena Walker,SRE / Ops,Risk & Compliance Tech,Toronto,Bash,7
+201795,Liam Wang,SRE / Ops,Risk & Compliance Tech,Toronto,Go,5
+201796,Ethan Taylor,SRE / Ops,Investment Banking Tech,New York,Go,8
+201797,Akira Jackson,SRE / Ops,Core Banking & Payments,Dublin,Go,8
+201798,Olivia Wang,SRE / Ops,Investment Banking Tech,Singapore,Python,7
+201799,Rohan Malhotra,SRE / Ops,Platform & DevEx,Mumbai,Bash,6
+201800,Noah White,SRE / Ops,Platform & DevEx,Pune,Python,6
+201801,Takeshi Sharma,SRE / Ops,Core Banking & Payments,Toronto,Bash,8
+201802,Zara Banerjee,SRE / Ops,Platform & DevEx,Toronto,Python,5
+201803,Ethan Li,SRE / Ops,Risk & Compliance Tech,Singapore,Python,8
+201804,Aoife Clark,SRE / Ops,Risk & Compliance Tech,New York,Go,5
+201805,Charlotte Walsh,SRE / Ops,Platform & DevEx,Dublin,Python,6
+201806,Rahul White,SRE / Ops,Core Banking & Payments,Charlotte,Python,5
+201807,Charlotte Robinson,SRE / Ops,Risk & Compliance Tech,Singapore,Bash,5
+201808,Omar Tanaka,SRE / Ops,Risk & Compliance Tech,New York,Python,6
+201809,Yuki Wang,SRE / Ops,Platform & DevEx,Mumbai,Python,8
+201810,Akira Singh,SRE / Ops,Investment Banking Tech,Dublin,Python,5
+201811,Daniel Nguyen,SRE / Ops,Retail & Digital Banking,New York,Bash,7
+201812,Kiran Nguyen,SRE / Ops,Platform & DevEx,London,Bash,6
+201813,Liam Wilson,SRE / Ops,Core Banking & Payments,Charlotte,Go,7
+201814,Ethan Zhang,SRE / Ops,Retail & Digital Banking,Charlotte,Python,6
+201815,Sean Jackson,SRE / Ops,Risk & Compliance Tech,Toronto,Bash,7
+201816,Sophia Shah,SRE / Ops,Retail & Digital Banking,Toronto,Bash,5
+201817,Wei Mehta,SRE / Ops,Platform & DevEx,Pune,Go,7
+201818,Wei Gupta,SRE / Ops,Risk & Compliance Tech,New York,Go,7
+201819,Lucas Malhotra,SRE / Ops,Investment Banking Tech,Charlotte,Python,8
+201820,Chloe Joshi,SRE / Ops,Investment Banking Tech,New York,Bash,7
+201821,Layla Reddy,SRE / Ops,Investment Banking Tech,Mumbai,Bash,8
+201822,Sneha Smith,SRE / Ops,Investment Banking Tech,Mumbai,Bash,6
+201823,Akira Patel,SRE / Ops,Risk & Compliance Tech,Mumbai,Python,6
+201824,Sean Clark,SRE / Ops,Risk & Compliance Tech,Charlotte,Bash,5
+201825,Olivia Singh,SRE / Ops,Core Banking & Payments,Charlotte,Bash,8
+201826,Ethan Garcia,SRE / Ops,Risk & Compliance Tech,Dublin,Python,6
+201827,Niamh O'Brien,SRE / Ops,Risk & Compliance Tech,Toronto,Bash,6
+201828,Elena Zhang,SRE / Ops,Core Banking & Payments,Singapore,Python,6
+201829,Ananya Kapoor,SRE / Ops,Risk & Compliance Tech,Pune,Bash,5
+201830,Ananya Hall,SRE / Ops,Platform & DevEx,Mumbai,Python,6
+201831,Declan Kapoor,SRE / Ops,Core Banking & Payments,Toronto,Bash,7
+201832,Ava Hall,SRE / Ops,Retail & Digital Banking,Pune,Go,8
+201833,Olivia O'Brien,SRE / Ops,Retail & Digital Banking,Dublin,Go,5
+201834,Jack Mehta,SRE / Ops,Retail & Digital Banking,Toronto,Go,6
+201835,Jack Kelly,SRE / Ops,Investment Banking Tech,Pune,Go,8
+201836,Pooja White,SRE / Ops,Investment Banking Tech,Dublin,Go,6
+201837,Benjamin Robinson,SRE / Ops,Platform & DevEx,Pune,Go,7
+201838,Chen Joshi,SRE / Ops,Platform & DevEx,London,Go,6
+201839,Sean Gupta,SRE / Ops,Core Banking & Payments,Pune,Go,7
+201840,Ananya Wilson,SRE / Ops,Platform & DevEx,Dublin,Python,6
+201841,Charlotte Reddy,SRE / Ops,Platform & DevEx,Pune,Go,8
+201842,Olivia Johnson,SRE / Ops,Investment Banking Tech,Charlotte,Python,8
+201843,Pooja Agarwal,SRE / Ops,Platform & DevEx,Charlotte,Go,8
+201844,Benjamin Rao,SRE / Ops,Platform & DevEx,Dublin,Bash,7
+201845,Chloe Nakamura,SRE / Ops,Platform & DevEx,Pune,Go,6
+201846,Rohan Das,SRE / Ops,Core Banking & Payments,Singapore,Python,5
+201847,Aoife Iyer,SRE / Ops,Risk & Compliance Tech,New York,Go,6
+201848,Declan Thomas,SRE / Ops,Platform & DevEx,Mumbai,Bash,6
+201849,Layla Wilson,SRE / Ops,Platform & DevEx,Singapore,Python,7
+201850,Yuki Thomas,SRE / Ops,Core Banking & Payments,Charlotte,Go,8
+201851,Aarav Walker,SRE / Ops,Retail & Digital Banking,Pune,Go,5
+201852,Ananya Walsh,SRE / Ops,Investment Banking Tech,London,Go,7
+201853,Grace Clark,SRE / Ops,Risk & Compliance Tech,Toronto,Bash,6
+201854,Conor Iyer,SRE / Ops,Core Banking & Payments,Pune,Go,7
+201855,Priya Byrne,SRE / Ops,Risk & Compliance Tech,Charlotte,Python,8
+201856,Isabella Chen,SRE / Ops,Platform & DevEx,New York,Bash,5
+201857,Liam Reddy,SRE / Ops,Platform & DevEx,London,Bash,8
+201858,Mia Singh,SRE / Ops,Retail & Digital Banking,Pune,Go,5
+201859,Aarav Malhotra,SRE / Ops,Investment Banking Tech,New York,Bash,5
+201860,Rohan Nakamura,SRE / Ops,Investment Banking Tech,Dublin,Go,6
+201861,Conor Shah,SRE / Ops,Platform & DevEx,Mumbai,Go,7
+201862,Declan Thompson,SRE / Ops,Risk & Compliance Tech,Pune,Bash,6
+201863,Layla Malhotra,SRE / Ops,Core Banking & Payments,Mumbai,Bash,8
+201864,Omar Reddy,SRE / Ops,Platform & DevEx,Pune,Bash,5
+201865,Kiran Tanaka,SRE / Ops,Retail & Digital Banking,Mumbai,Python,7
+201866,Sean Pillai,SRE / Ops,Risk & Compliance Tech,Dublin,Bash,8
+201867,Liam Kelly,SRE / Ops,Core Banking & Payments,New York,Python,7
+201868,Aarav Thompson,SRE / Ops,Investment Banking Tech,Charlotte,Go,8
+201869,Takeshi Patel,SRE / Ops,Investment Banking Tech,London,Python,8
+201870,Ananya Kumar,SRE / Ops,Risk & Compliance Tech,Dublin,Bash,5
+201871,Mia Jackson,SRE / Ops,Investment Banking Tech,Toronto,Go,6
+201872,Wei Iyer,SRE / Ops,Retail & Digital Banking,Toronto,Python,6
+201873,Pooja Shah,SRE / Ops,Risk & Compliance Tech,Toronto,Bash,6
+201874,Liam Joshi,SRE / Ops,Investment Banking Tech,Charlotte,Go,8
+201875,Hana Gupta,SRE / Ops,Platform & DevEx,Toronto,Go,5
+201876,Conor Chen,SRE / Ops,Investment Banking Tech,London,Bash,6
+201877,Kiran Wang,SRE / Ops,Investment Banking Tech,London,Go,8
+201878,Rohan Anderson,SRE / Ops,Risk & Compliance Tech,Mumbai,Python,8
+201879,Ava Kelly,SRE / Ops,Platform & DevEx,Singapore,Bash,8
+201880,Grace Young,SRE / Ops,Platform & DevEx,New York,Go,6
+201881,Layla Robinson,SRE / Ops,Investment Banking Tech,Singapore,Python,6
+201882,Zara Clark,SRE / Ops,Retail & Digital Banking,London,Go,8
+201883,Conor Robinson,SRE / Ops,Platform & DevEx,New York,Go,7
+201884,Takeshi Ryan,SRE / Ops,Investment Banking Tech,London,Python,5
+201885,Elena Smith,SRE / Ops,Investment Banking Tech,Singapore,Go,5
+201886,Takeshi Hall,SRE / Ops,Core Banking & Payments,Dublin,Bash,8
+201887,Yuki Banerjee,SRE / Ops,Risk & Compliance Tech,Toronto,Go,7
+201888,Ethan Kelly,SRE / Ops,Platform & DevEx,Charlotte,Bash,8
+201889,Pooja Hall,SRE / Ops,Retail & Digital Banking,London,Python,7
+201890,Fatima Patel,SRE / Ops,Risk & Compliance Tech,Pune,Go,7
+201891,Elena Verma,SRE / Ops,Retail & Digital Banking,New York,Bash,7
+201892,Mia Martin,SRE / Ops,Risk & Compliance Tech,Charlotte,Go,7
+201893,Sakura Iyer,SRE / Ops,Retail & Digital Banking,Singapore,Bash,6
+201894,Saoirse Murphy,SRE / Ops,Retail & Digital Banking,New York,Go,5
+201895,Hiroshi Nguyen,SRE / Ops,Risk & Compliance Tech,Mumbai,Bash,6
+201896,Marcus Byrne,SRE / Ops,Platform & DevEx,London,Bash,8
+201897,Grace Garcia,SRE / Ops,Core Banking & Payments,Dublin,Bash,6
+201898,Mia Thomas,SRE / Ops,Investment Banking Tech,Mumbai,Python,6
+201899,Mateo Sharma,SRE / Ops,Core Banking & Payments,Mumbai,Python,6
+201900,Priya Jackson,SRE / Ops,Investment Banking Tech,Pune,Go,8
+201901,Fatima Nakamura,SRE / Ops,Risk & Compliance Tech,Charlotte,Python,8
+201902,James Wang,SRE / Ops,Platform & DevEx,Charlotte,Python,8
+201903,Daniel Thomas,SRE / Ops,Investment Banking Tech,New York,Go,8
+201904,Takeshi Rao,SRE / Ops,Risk & Compliance Tech,Pune,Go,5
+201905,Mei Martin,SRE / Ops,Risk & Compliance Tech,Mumbai,Go,6
+201906,Akira Reddy,SRE / Ops,Core Banking & Payments,New York,Bash,7
+201907,Noah Zhang,SRE / Ops,Risk & Compliance Tech,London,Go,5
+201908,Declan White,SRE / Ops,Investment Banking Tech,Dublin,Python,7
+201909,Ethan Robinson,SRE / Ops,Core Banking & Payments,London,Go,6
+201910,Zara Iyer,SRE / Ops,Platform & DevEx,Dublin,Python,8
+201911,James Tanaka,SRE / Ops,Platform & DevEx,New York,Go,5
+201912,Emma Malhotra,SRE / Ops,Core Banking & Payments,Toronto,Bash,6
+201913,Omar Pillai,SRE / Ops,Retail & Digital Banking,Singapore,Bash,8
+201914,Divya Rao,SRE / Ops,Retail & Digital Banking,New York,Python,5
+201915,Mei Kelly,SRE / Ops,Retail & Digital Banking,London,Go,8
+201916,Hana Joshi,SRE / Ops,Platform & DevEx,Dublin,Go,5
+201917,Zara Reddy,SRE / Ops,Retail & Digital Banking,Toronto,Bash,8
+201918,Yuki Walker,SRE / Ops,Risk & Compliance Tech,Pune,Python,5
+201919,Ava Garcia,SRE / Ops,Risk & Compliance Tech,New York,Bash,5
+201920,Ethan Brown,SRE / Ops,Risk & Compliance Tech,Pune,Bash,5
+201921,Liam Malhotra,SRE / Ops,Platform & DevEx,Singapore,Go,8
+201922,James Wang,SRE / Ops,Risk & Compliance Tech,London,Bash,5
+201923,Declan Reddy,SRE / Ops,Platform & DevEx,Dublin,Go,6
+201924,Aarav Li,SRE / Ops,Investment Banking Tech,New York,Python,5
+201925,Takeshi Harris,SRE / Ops,Platform & DevEx,London,Python,8
+201926,Declan Kapoor,SRE / Ops,Investment Banking Tech,New York,Python,8
+201927,Lucas Reddy,SRE / Ops,Retail & Digital Banking,Pune,Bash,5
+201928,Hiroshi Sharma,SRE / Ops,Risk & Compliance Tech,Toronto,Go,6
+201929,Marcus Nguyen,SRE / Ops,Risk & Compliance Tech,Mumbai,Bash,7
+201930,Wei Iyer,SRE / Ops,Retail & Digital Banking,Mumbai,Bash,5
+201931,Saoirse Sharma,SRE / Ops,Risk & Compliance Tech,New York,Go,8
+201932,Sean Sharma,SRE / Ops,Core Banking & Payments,New York,Go,8
+201933,Daniel Iyer,SRE / Ops,Risk & Compliance Tech,Toronto,Bash,5
+201934,Arjun Kelly,SRE / Ops,Investment Banking Tech,Pune,Bash,8
+201935,Ethan Murphy,SRE / Ops,Investment Banking Tech,London,Go,7
+201936,Sophia Martinez,SRE / Ops,Platform & DevEx,Singapore,Bash,6
+201937,Liam Gupta,SRE / Ops,Retail & Digital Banking,Toronto,Go,5
+201938,Marcus Patel,SRE / Ops,Core Banking & Payments,Charlotte,Bash,5
+201939,Sean Smith,SRE / Ops,Risk & Compliance Tech,Dublin,Go,6
+201940,Ethan Mehta,SRE / Ops,Retail & Digital Banking,Mumbai,Go,7
+201941,Sneha Ryan,SRE / Ops,Retail & Digital Banking,Mumbai,Python,7
+201942,Ananya Hall,SRE / Ops,Core Banking & Payments,Dublin,Go,7
+201943,Niamh Byrne,SRE / Ops,Platform & DevEx,Toronto,Python,5
+201944,Niamh Byrne,SRE / Ops,Investment Banking Tech,Dublin,Python,6
+201945,Sneha Rao,SRE / Ops,Core Banking & Payments,New York,Python,6
+201946,Fatima Byrne,SRE / Ops,Retail & Digital Banking,Dublin,Python,6
+201947,Hiroshi Jackson,SRE / Ops,Core Banking & Payments,Mumbai,Python,5
+201948,Chen Li,SRE / Ops,Platform & DevEx,Pune,Python,5
+201949,Divya Pillai,SRE / Ops,Core Banking & Payments,New York,Python,7
+201950,Aarav Kelly,SRE / Ops,Investment Banking Tech,Singapore,Bash,7
+201951,Saoirse Kapoor,SRE / Ops,Core Banking & Payments,Dublin,Bash,8
+201952,Jack Banerjee,SRE / Ops,Platform & DevEx,Mumbai,Python,8
+201953,Emma Nakamura,SRE / Ops,Platform & DevEx,London,Go,6
+201954,Hiroshi Malhotra,SRE / Ops,Retail & Digital Banking,London,Go,8
+201955,Ethan Iyer,SRE / Ops,Risk & Compliance Tech,New York,Go,6
+201956,Saoirse Walsh,SRE / Ops,Investment Banking Tech,New York,Go,6
+201957,Divya Pillai,SRE / Ops,Platform & DevEx,Charlotte,Go,7
+201958,Omar Taylor,SRE / Ops,Core Banking & Payments,Dublin,Bash,8
+201959,Declan Mehta,SRE / Ops,Platform & DevEx,New York,Bash,8
+201960,James Sharma,SRE / Ops,Retail & Digital Banking,London,Python,6
+201961,Wei Brown,SRE / Ops,Retail & Digital Banking,Singapore,Bash,7
+201962,Aarav Wang,SRE / Ops,Risk & Compliance Tech,Mumbai,Go,7
+201963,Aarav Das,SRE / Ops,Retail & Digital Banking,London,Bash,5
+201964,Sophia Jackson,SRE / Ops,Platform & DevEx,Pune,Python,8
+201965,Takeshi Pillai,SRE / Ops,Risk & Compliance Tech,Pune,Bash,5
+201966,Isabella Malhotra,SRE / Ops,Retail & Digital Banking,Singapore,Bash,5
+201967,Noah Kapoor,SRE / Ops,Retail & Digital Banking,Pune,Bash,6
+201968,Sakura Zhang,SRE / Ops,Platform & DevEx,Dublin,Python,8
+201969,Ethan Robinson,SRE / Ops,Platform & DevEx,Dublin,Go,8
+201970,Charlotte Harris,SRE / Ops,Investment Banking Tech,Charlotte,Python,8
+201971,Fatima Singh,SRE / Ops,Risk & Compliance Tech,Charlotte,Python,5
+201972,Aarav Chen,SRE / Ops,Platform & DevEx,Pune,Go,5
+201973,Priya Wang,SRE / Ops,Investment Banking Tech,London,Go,6
+201974,Daniel Martin,SRE / Ops,Retail & Digital Banking,New York,Python,8
+201975,Chloe Kumar,SRE / Ops,Investment Banking Tech,Charlotte,Bash,5
+201976,Emma Ryan,SRE / Ops,Core Banking & Payments,Mumbai,Python,5
+201977,Pooja Banerjee,SRE / Ops,Platform & DevEx,Toronto,Python,8
+201978,Sneha Anderson,SRE / Ops,Investment Banking Tech,New York,Bash,5
+201979,Akira Smith,SRE / Ops,Core Banking & Payments,New York,Bash,6
+201980,Aarav Banerjee,SRE / Ops,Platform & DevEx,Singapore,Go,8
+201981,Arjun O'Brien,SRE / Ops,Investment Banking Tech,Pune,Bash,6
+201982,Mia Jackson,SRE / Ops,Risk & Compliance Tech,Singapore,Bash,7
+201983,Noah Anderson,SRE / Ops,Retail & Digital Banking,Charlotte,Go,6
+201984,Daniel Rao,SRE / Ops,Risk & Compliance Tech,New York,Go,5
+201985,Mei O'Brien,SRE / Ops,Investment Banking Tech,Singapore,Python,7
+201986,Conor Hall,SRE / Ops,Investment Banking Tech,Mumbai,Python,8
+201987,Jack Pillai,SRE / Ops,Platform & DevEx,Mumbai,Python,5
+201988,Lucas Kelly,SRE / Ops,Retail & Digital Banking,Singapore,Bash,6
+201989,Aarav Garcia,SRE / Ops,Risk & Compliance Tech,Singapore,Go,5
+201990,Sean Robinson,SRE / Ops,Retail & Digital Banking,Mumbai,Bash,8
+201991,Aoife Rao,SRE / Ops,Platform & DevEx,Singapore,Go,8
+201992,Niamh O'Brien,SRE / Ops,Risk & Compliance Tech,Mumbai,Bash,5
+201993,Ananya Thompson,SRE / Ops,Platform & DevEx,London,Bash,8
+201994,Akira Gupta,SRE / Ops,Risk & Compliance Tech,Pune,Bash,7
+201995,Noah Martinez,SRE / Ops,Investment Banking Tech,Singapore,Python,5
+201996,Mia Robinson,SRE / Ops,Retail & Digital Banking,Mumbai,Python,8
+201997,Chloe Young,SRE / Ops,Platform & DevEx,Charlotte,Python,7
+201998,Noah Anderson,SRE / Ops,Retail & Digital Banking,London,Python,8
+201999,Liam O'Brien,SRE / Ops,Core Banking & Payments,London,Go,7
+202000,Isabella Byrne,SRE / Ops,Retail & Digital Banking,Singapore,Go,8
