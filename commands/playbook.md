@@ -4,7 +4,7 @@ description: Compile the take-home playbook — every decision, every stakeholde
 
 # /catalyst:playbook
 
-The walk-away artifact. Read everything: `catalyst_state.json` (full verdict history, rounds, overrides), `rollout_plan_FINAL.md`, everything under `responses/`, and the git log (`git log --oneline`) which shows the re-planning story.
+The walk-away artifact. Requires simulation artifacts: `catalyst_state.json` and `rollout_plan_FINAL.md`. If either is missing, stop and explain the playbook is available after the simulation has produced a final plan. Then read everything: `catalyst_state.json` (full verdict history, rounds, overrides), `rollout_plan_FINAL.md`, everything under `responses/` if present, and the git log (`git log --oneline`) which shows the re-planning story.
 
 Build `catalyst_playbook.html` — a single self-contained HTML file (inline CSS, no external dependencies, print-friendly) with:
 

@@ -4,7 +4,7 @@ description: Re-deliver the Project Catalyst briefing — the CTO mandate, your 
 
 # /catalyst:brief
 
-Read `catalyst_state.json`. If mode is `advisory`, summarize their engagement instead: what's in `COMPANY_PROFILE.md`, what's been produced so far, and the advisory commands available (`/catalyst:assess`, `/catalyst:plan`, `/catalyst:stress-test`).
+Read `catalyst_state.json`. If it is missing, say nothing has started yet and point to `/catalyst:start`. If mode is `advisory`, summarize their engagement instead: what's in `COMPANY_PROFILE.md`, what's been produced so far, and the advisory commands available (`/catalyst:assess`, `/catalyst:plan`, `/catalyst:stress-test`).
 
 In simulation mode, deliver the in-character briefing:
 

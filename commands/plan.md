@@ -4,7 +4,11 @@ description: "Advisory mode: generate your organization's tailored rollout plan 
 
 # /catalyst:plan
 
-Requires `COMPANY_PROFILE.md`; use `MATURITY_ASSESSMENT.md` and any real data in `data/` if present (run intake/assessment first if missing — offer to).
+Requires both `COMPANY_PROFILE.md` and `MATURITY_ASSESSMENT.md`.
+
+- If `COMPANY_PROFILE.md` is missing, stop and offer to run `/catalyst:my-company`.
+- If `MATURITY_ASSESSMENT.md` is missing, stop and offer to run `/catalyst:assess`.
+- Use any real data in `data/` if present.
 
 Load the `adoption-playbook` skill.
 

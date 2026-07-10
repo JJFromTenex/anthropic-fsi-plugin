@@ -4,7 +4,7 @@ description: "Advisory mode: assess your organization's Claude Code adoption mat
 
 # /catalyst:assess
 
-Requires `COMPANY_PROFILE.md` (if missing, run the `/catalyst:my-company` intake first — offer to start it now).
+Requires `COMPANY_PROFILE.md`. If it is missing, stop, explain that the intake has to run first, and offer to start `/catalyst:my-company` now.
 
 Load the `adoption-playbook` skill; the maturity pillars and technical-readiness references are the scoring framework.
 

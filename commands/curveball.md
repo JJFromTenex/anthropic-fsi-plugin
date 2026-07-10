@@ -5,7 +5,7 @@ argument-hint: "<1 | 2>"
 
 # /catalyst:curveball
 
-Facilitator-triggered. `$ARGUMENTS` must be `1` or `2` — anything else, explain usage and stop.
+Facilitator-triggered. Normalize `$ARGUMENTS` by trimming whitespace; it must be exactly `1` or `2` — anything else, explain usage and stop.
 
 Read `catalyst_state.json` first. Guards:
 - Mode must be `simulation` and the state file must exist (otherwise: run `/catalyst:start` first).
@@ -23,7 +23,7 @@ cp "${CLAUDE_PLUGIN_ROOT}/scenario/curveballs/_staged/developer_census_v2.csv" d
 git add -A && git commit -m "C1: SR 26-11 regulatory bulletin + critical_function census"
 ```
 
-Update state: add `1` to `curveballs_dropped`, set `gates.gate_1.status` to `"active"`. Commit.
+Only if the copy and git commit succeeded: update state by adding `1` to `curveballs_dropped`, set `gates.gate_1.status` to `"active"`, then commit the state file. If any prior step failed, stop without changing state.
 
 Then deliver the reveal — read it as **Marcus Webb, Chief Risk Officer**, verbatim:
 
@@ -43,7 +43,7 @@ cp "${CLAUDE_PLUGIN_ROOT}/scenario/curveballs/_staged/budget_FY_v2.csv" data/bud
 git add -A && git commit -m "C2: CFO budget revision + adjacent roles"
 ```
 
-Update state: add `2` to `curveballs_dropped`, set `gates.gate_2.status` to `"active"`. Commit.
+Only if the copy and git commit succeeded: update state by adding `2` to `curveballs_dropped`, set `gates.gate_2.status` to `"active"`, then commit the state file. If any prior step failed, stop without changing state.
 
 Deliver the reveal as **David Okafor, CFO** — slightly weary, non-negotiable:
 

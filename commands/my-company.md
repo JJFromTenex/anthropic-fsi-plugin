@@ -4,9 +4,13 @@ description: "Advisory mode: intake interview about your real organization — b
 
 # /catalyst:my-company
 
-Advisory mode for the user's real company. If `catalyst_state.json` says `simulation`, check intent — they may want a fresh folder for this (recommend one; the simulation and their real work shouldn't share a directory).
+Advisory mode for the user's real company. Read `catalyst_state.json` if it exists:
 
-Ensure `catalyst_state.json` exists with `{ "mode": "advisory" }` (create if needed).
+- If it says `simulation`, stop and recommend a fresh folder; the simulation and their real work should not share a directory.
+- If it says `advisory`, preserve existing fields and continue.
+- If it is missing, create it with `{ "mode": "advisory", "started_at": "<timestamp>" }`.
+
+Ensure `data/` and `docs/` exist before inviting the user to drop files there.
 
 Load the `adoption-playbook` skill for the frameworks before interviewing.
 

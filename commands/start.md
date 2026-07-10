@@ -9,9 +9,11 @@ You are setting up Project Catalyst in the current working directory.
 
 ## 1. Determine mode
 
-- If `$ARGUMENTS` contains `simulation` → simulation mode.
-- If `$ARGUMENTS` contains `my-company` or `advisory` → advisory mode.
-- Otherwise ask the user: **"Are you running the workshop simulation (Meridian Global Bank), or running Catalyst for your own company?"** and wait for the answer.
+Normalize `$ARGUMENTS` first: trim leading/trailing whitespace and compare the remaining token exactly.
+
+- `simulation` → simulation mode.
+- `my-company` or `advisory` → advisory mode.
+- Empty or anything else → ask the user: **"Are you running the workshop simulation (Meridian Global Bank), or running Catalyst for your own company?"** and wait for the answer.
 
 ## 2. Simulation mode
 
@@ -68,5 +70,8 @@ Follow with a short orientation:
 
 ## 3. Advisory mode
 
+- Guards first:
+  - If `catalyst_state.json` already exists here, say the exercise is already set up and show current progress (same output as `/catalyst:status`). Stop.
+  - If the directory contains existing unrelated simulation files (`rollout_plan_FINAL.md`, `curveballs/`, Meridian `data/`/`docs/`), recommend a fresh folder and continue only after an explicit yes.
 - Write `catalyst_state.json` with `{ "mode": "advisory", "started_at": "<timestamp>" }`.
 - Then run the intake interview exactly as specified in the `/catalyst:my-company` command — proceed directly into it now rather than telling the user to run another command.

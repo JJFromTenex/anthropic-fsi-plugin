@@ -4,7 +4,7 @@ description: Draft the 3-minute board pitch from the finished plan — four requ
 
 # /catalyst:pitch
 
-Read `rollout_plan_FINAL.md` (simulation) or `ROLLOUT_PLAN.md` (advisory). If the final gate hasn't passed yet (check `catalyst_state.json`), note it — the pitch is stronger after the full panel signs off — but don't block.
+Determine mode from `catalyst_state.json` if present. Read `rollout_plan_FINAL.md` in simulation mode, or `ROLLOUT_PLAN.md` in advisory mode. If mode is unknown and exactly one of those files exists, use that file; if both exist, ask which plan to pitch from and stop; if neither exists, stop and point the user to `/catalyst:plan` (advisory) or the simulation template. In simulation only, if the final gate hasn't passed yet, note it — the pitch is stronger after the full panel signs off — but don't block.
 
 Draft talking points for a **3-minute verbal pitch, presented from the plan doc — no new slides**. It must land these four beats, in order:
 
