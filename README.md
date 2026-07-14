@@ -7,8 +7,8 @@ The experience is designed for a 90-minute facilitated workshop. It is light eno
 ## Participant flow
 
 1. Enter the hosted workshop code.
-2. Create or join a fictional bank and claim an executive role.
-3. Enter the market when the leadership team is ready.
+2. Create or join a fictional bank.
+3. At each stage, choose a concrete way to contribute—investigate data, test assumptions, map constraints, or synthesize the decision.
 4. Pull resources from the Intelligence Library.
 5. Analyze them with Excel, Claude, or both.
 6. Add findings and lock an evidence-backed decision.
@@ -16,7 +16,7 @@ The experience is designed for a 90-minute facilitated workshop. It is light eno
 8. Revise when the sector-wide alert changes the conditions.
 9. Complete the board review and real-company action card.
 
-The driver facilitates. Attendees investigate, prompt Claude, debate, and decide.
+Contributions reset with each stage, so nobody is locked into a persona. The driver facilitates; attendees investigate, prompt Claude, debate, and decide.
 
 ## Install the Claude Code plugin
 

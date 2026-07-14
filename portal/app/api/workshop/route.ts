@@ -28,8 +28,8 @@ export async function GET(request: NextRequest) {
        execution_score, created_at FROM teams WHERE workshop_id = ? ORDER BY created_at`,
     ).bind(workshop.id).all();
     const teamIds = (teams.results as Array<{ id: string }>).map((team) => team.id);
-    const participants = teamIds.length
-      ? await db.prepare(`SELECT id, team_id, display_name, role, joined_at FROM participants WHERE team_id IN (${teamIds.map(() => "?").join(",")}) ORDER BY joined_at`).bind(...teamIds).all()
+    const contributions = teamIds.length
+      ? await db.prepare(`SELECT id, team_id, stage, task_key, task_title, participant_name, claimed_at FROM contributions WHERE team_id IN (${teamIds.map(() => "?").join(",")}) ORDER BY claimed_at`).bind(...teamIds).all()
       : { results: [] };
     const findings = teamIds.length
       ? await db.prepare(`SELECT id, team_id, participant_name, insight, source, implication, created_at FROM findings WHERE team_id IN (${teamIds.map(() => "?").join(",")}) ORDER BY created_at`).bind(...teamIds).all()
@@ -42,7 +42,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({
       workshop: { id: workshop.id, code: workshop.code, stage: workshop.stage, paused: Boolean(workshop.paused), expiresAt: workshop.expires_at },
       teams: teams.results,
-      participants: participants.results,
+      contributions: contributions.results,
       findings: findings.results,
       decisions: decisions.results,
       events: events.results,
@@ -86,7 +86,7 @@ export async function POST(request: NextRequest) {
       await db.prepare("INSERT INTO teams (id, workshop_id, name, ticker, team_token, created_at) VALUES (?, ?, ?, ?, ?, ?)")
         .bind(id, workshop.id, name, ticker, teamToken, now).run();
       await db.prepare("INSERT INTO events (id, workshop_id, team_id, type, title, body, created_at) VALUES (?, ?, ?, 'listing', ?, ?, ?)")
-        .bind(crypto.randomUUID(), workshop.id, id, `${ticker} enters pre-market`, `${name} is assembling its leadership team.`, now).run();
+        .bind(crypto.randomUUID(), workshop.id, id, `${ticker} enters pre-market`, `${name} is ready to investigate its first deployment decision.`, now).run();
       return NextResponse.json({ teamId: id, teamToken, ticker });
     }
 
@@ -97,21 +97,23 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ teamId: team.id, teamToken: team.team_token, ticker: team.ticker });
     }
 
-    if (action === "joinRole") {
+    if (action === "claimContribution" || action === "releaseContribution") {
       const teamId = String(body.teamId || "");
       const teamToken = String(body.teamToken || "");
       if (!(await teamByToken(db, teamId, teamToken))) return jsonError("Invalid team access", 403);
-      const displayName = String(body.displayName || "").trim().slice(0, 50);
-      const role = String(body.role || "").trim().slice(0, 60);
-      if (!displayName || !role) return jsonError("Name and role are required");
-      const claimed = await db.prepare("SELECT id FROM participants WHERE team_id = ? AND role = ?").bind(teamId, role).first();
-      if (claimed) return jsonError("That role has already been claimed");
-      await db.prepare("INSERT INTO participants (id, team_id, display_name, role, joined_at) VALUES (?, ?, ?, ?, ?)")
-        .bind(crypto.randomUUID(), teamId, displayName, role, now).run();
-      const count = await db.prepare("SELECT COUNT(*) AS count FROM participants WHERE team_id = ?").bind(teamId).first<{ count: number }>();
-      if ((count?.count || 0) >= 4) {
-        await db.prepare("UPDATE teams SET status = 'listed' WHERE id = ?").bind(teamId).run();
+      if (action === "releaseContribution") {
+        await db.prepare("DELETE FROM contributions WHERE id = ? AND team_id = ?").bind(String(body.contributionId || ""), teamId).run();
+        return NextResponse.json({ ok: true });
       }
+      const participantName = String(body.participantName || "").trim().slice(0, 50);
+      const stage = String(body.stage || "").trim();
+      const taskKey = String(body.taskKey || "").trim().slice(0, 50);
+      const taskTitle = String(body.taskTitle || "").trim().slice(0, 100);
+      if (!participantName || !taskKey || !taskTitle) return jsonError("Name and contribution are required");
+      if (stage !== workshop.stage) return jsonError("The workshop has moved to a new stage. Refresh and choose again.");
+      await db.prepare("INSERT OR IGNORE INTO contributions (id, team_id, stage, task_key, task_title, participant_name, claimed_at) VALUES (?, ?, ?, ?, ?, ?, ?)")
+        .bind(crypto.randomUUID(), teamId, stage, taskKey, taskTitle, participantName, now).run();
+      await db.prepare("UPDATE teams SET status = 'investigating' WHERE id = ? AND status = 'forming'").bind(teamId).run();
       return NextResponse.json({ ok: true });
     }
 

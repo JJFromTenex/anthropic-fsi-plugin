@@ -17,6 +17,11 @@ const statements = [
     id TEXT PRIMARY KEY, team_id TEXT NOT NULL, display_name TEXT NOT NULL,
     role TEXT NOT NULL, joined_at TEXT NOT NULL
   )`,
+  `CREATE TABLE IF NOT EXISTS contributions (
+    id TEXT PRIMARY KEY, team_id TEXT NOT NULL, stage TEXT NOT NULL,
+    task_key TEXT NOT NULL, task_title TEXT NOT NULL,
+    participant_name TEXT NOT NULL, claimed_at TEXT NOT NULL
+  )`,
   `CREATE TABLE IF NOT EXISTS findings (
     id TEXT PRIMARY KEY, team_id TEXT NOT NULL, participant_name TEXT NOT NULL,
     insight TEXT NOT NULL, source TEXT NOT NULL, implication TEXT NOT NULL, created_at TEXT NOT NULL
@@ -31,6 +36,8 @@ const statements = [
   )`,
   `CREATE INDEX IF NOT EXISTS teams_workshop_idx ON teams(workshop_id)`,
   `CREATE INDEX IF NOT EXISTS participants_team_idx ON participants(team_id)`,
+  `CREATE INDEX IF NOT EXISTS contributions_team_idx ON contributions(team_id)`,
+  `CREATE UNIQUE INDEX IF NOT EXISTS contributions_claim_idx ON contributions(team_id, stage, task_key, participant_name)`,
   `CREATE INDEX IF NOT EXISTS events_workshop_idx ON events(workshop_id)`,
 ];
 
@@ -41,6 +48,7 @@ export async function ensureSchema() {
   const expired = "SELECT id FROM workshops WHERE expires_at < ?";
   await env.DB.batch([
     env.DB.prepare(`DELETE FROM participants WHERE team_id IN (SELECT id FROM teams WHERE workshop_id IN (${expired}))`).bind(now),
+    env.DB.prepare(`DELETE FROM contributions WHERE team_id IN (SELECT id FROM teams WHERE workshop_id IN (${expired}))`).bind(now),
     env.DB.prepare(`DELETE FROM findings WHERE team_id IN (SELECT id FROM teams WHERE workshop_id IN (${expired}))`).bind(now),
     env.DB.prepare(`DELETE FROM decisions WHERE team_id IN (SELECT id FROM teams WHERE workshop_id IN (${expired}))`).bind(now),
     env.DB.prepare(`DELETE FROM events WHERE workshop_id IN (${expired})`).bind(now),

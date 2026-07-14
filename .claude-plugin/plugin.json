@@ -1,7 +1,7 @@
 {
   "name": "catalyst",
   "description": "Project Catalyst — Claude Code adoption workshop for financial services. Simulation mode: play Meridian Global Bank's AI Enablement Office and get your rollout plan past a panel of stakeholder sub-agents. Advisory mode: run the same playbook against your own company.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": {
     "name": "Tenex"
   }

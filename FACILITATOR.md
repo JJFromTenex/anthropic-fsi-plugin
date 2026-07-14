@@ -12,7 +12,7 @@
 
 | Time | Stage |
 |---:|---|
-| 0–10 | Teams enter, name their banks, claim roles, and join the market |
+| 0–10 | Teams enter, name their banks, and claim their first contributions |
 | 10–18 | Deliver the mandate and explain the decision canvas |
 | 18–30 | Attendees investigate resources and make the baseline decision |
 | 30–40 | Stakeholder review and one revision |
@@ -25,7 +25,7 @@
 
 ## Driver posture
 
-The driver manages time and participation. The driver does not research, prompt Claude, vote, or make the decision. If one attendee dominates, ask which executive lens has not yet been heard.
+The driver manages time and participation. The driver does not research, prompt Claude, vote, or make the decision. At each stage, read the decision aloud, invite attendees to claim the available work individually or in pairs, then reconvene around one shared recommendation. If one attendee dominates, ask which contribution or source has not yet been heard.
 
 ## Hints and clues
 

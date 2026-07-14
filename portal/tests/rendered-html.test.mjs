@@ -19,10 +19,10 @@ test("builds the Project Catalyst experience without starter residue", async () 
 test("ships the full workshop surface and resource library", async () => {
   const app = await readFile(new URL("app/CatalystApp.tsx", root), "utf8");
   const api = await readFile(new URL("app/api/workshop/route.ts", root), "utf8");
-  for (const text of ["Create instructor room", "Enter the banking market", "Banking Leadership Index", "Intelligence library", "Your 30-day action card"]) {
+  for (const text of ["Create instructor room", "Enter the banking market", "Banking Leadership Index", "Team huddle", "Ways to contribute", "Intelligence library", "Your 30-day action card"]) {
     assert.match(app, new RegExp(text));
   }
-  for (const action of ["createWorkshop", "createTeam", "joinRole", "addFinding", "addDecision", "releaseHint", "releaseCurveball"]) {
+  for (const action of ["createWorkshop", "createTeam", "claimContribution", "releaseContribution", "addFinding", "addDecision", "releaseHint", "releaseCurveball"]) {
     assert.match(api, new RegExp(action));
   }
   for (const path of [
@@ -34,5 +34,6 @@ test("ships the full workshop surface and resource library", async () => {
     "public/resources/ai_policy_and_regulation.md",
     "public/resources/SR-26-11_regulatory_bulletin.md",
     "drizzle/0000_goofy_christian_walker.sql",
+    "drizzle/0001_gifted_screwball.sql",
   ]) await access(new URL(path, root));
 });
