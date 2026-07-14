@@ -1,77 +1,68 @@
 ---
-description: Start Project Catalyst — scaffold the Meridian workshop simulation into this folder, or begin advisory mode for your own company
-argument-hint: "[simulation | my-company]"
+description: Start Project Catalyst locally and optionally pair this workspace with a hosted workshop team
+argument-hint: "simulation [--portal URL --workshop CODE --team ID --token TOKEN] | my-company"
 ---
 
 # /catalyst:start
 
-You are setting up Project Catalyst in the current working directory.
+Normalize `$ARGUMENTS`. `my-company` and `advisory` continue into the existing `/catalyst:my-company` flow. Everything below applies to simulation mode.
 
-## 1. Determine mode
+## Guards
 
-Normalize `$ARGUMENTS` first: trim leading/trailing whitespace and compare the remaining token exactly.
+- If `catalyst_state.json` exists, show `/catalyst:status` and stop.
+- If the directory contains unrelated files, explain that Catalyst creates a small team workspace and require confirmation.
 
-- `simulation` → simulation mode.
-- `my-company` or `advisory` → advisory mode.
-- Empty or anything else → ask the user: **"Are you running the workshop simulation (Meridian Global Bank), or running Catalyst for your own company?"** and wait for the answer.
+## Scaffold the lean workspace
 
-## 2. Simulation mode
-
-**Guards first:**
-- If `catalyst_state.json` already exists here, say the exercise is already set up and show current progress (same output as `/catalyst:status`). Stop.
-- If the directory contains existing unrelated files (anything beyond dotfiles/empty dirs), warn the user this command scaffolds ~2MB of scenario files here and get an explicit yes before continuing.
-
-**Scaffold** (the scenario ships inside this plugin at `${CLAUDE_PLUGIN_ROOT}/scenario/`):
+Copy only the neutral workshop materials:
 
 ```bash
 cp "${CLAUDE_PLUGIN_ROOT}/scenario/CLAUDE.md" .
 cp "${CLAUDE_PLUGIN_ROOT}/scenario/README.md" .
-cp -R "${CLAUDE_PLUGIN_ROOT}/scenario/data" .
-cp -R "${CLAUDE_PLUGIN_ROOT}/scenario/docs" .
 cp -R "${CLAUDE_PLUGIN_ROOT}/scenario/templates" .
 cp -R "${CLAUDE_PLUGIN_ROOT}/scenario/.claude" .
+mkdir -p evidence .catalyst
+cp "templates/rollout_plan_TEMPLATE.md" rollout_plan_FINAL.md
 ```
 
-**CRITICAL: never copy `scenario/curveballs/` or `scenario/SETUP_TECH_RUNNER.md`.** The curveball files are dropped later by `/catalyst:curveball` on the facilitator's cue. Copying them now spoils the exercise. Do not read, summarize, or mention their contents at any point.
+Do not scaffold `scenario/data/`, `scenario/docs/`, `scenario/curveballs/`, or facilitator material. Attendees choose evidence from the hosted Intelligence Library.
 
-**Initialize git** (the git history is part of the lesson — regenerable artifacts, visible re-planning):
+## Optional hosted pairing
 
-```bash
-git init 2>/dev/null; git add -A && git commit -m "Starter state — Project Catalyst begins"
-```
+Parse these plain-text options when present: `--portal`, `--workshop`, `--team`, `--token`. Never execute option values as shell fragments.
 
-**Write `catalyst_state.json`** (use `date -u +%Y-%m-%dT%H:%M:%SZ` for the timestamp):
+If all four are present, write `.catalyst/connection.json`:
 
 ```json
 {
-  "mode": "simulation",
-  "started_at": "<timestamp>",
-  "curveballs_dropped": [],
-  "gates": {
-    "gate_1": { "status": "locked", "rounds": [] },
-    "gate_2": { "status": "locked", "rounds": [] },
-    "final":  { "status": "locked", "rounds": [] }
-  }
+  "portal_url": "<URL>",
+  "workshop_code": "<CODE>",
+  "team_id": "<ID>",
+  "team_token": "<TOKEN>"
 }
 ```
 
-Commit it too.
+Add `.catalyst/connection.json` to `.gitignore`. Run the bundled sync helper and confirm the workshop stage without printing the token:
 
-**Then deliver the kickoff.** Print, styled as a memo:
+```bash
+python3 "${CLAUDE_PLUGIN_ROOT}/scripts/catalyst_sync.py" pull
+```
 
-> *"Welcome to Day 1 of the AI Enablement Office. Six months from now, every one of Meridian's ten thousand engineers will be shipping with Claude Code — or I'll be explaining to the board why not. You have the pilot data, the budget, the census, and the policy landscape in the repo in front of you. I need a plan I can take to the board: six sections, one document, defensible numbers. Go."*
-> — Anika Rao, CTO
+If pairing details are absent, continue in local/offline mode and point to `/catalyst:sync` when the team is ready to connect.
 
-Follow with a short orientation:
-- Deliverable: fill in `templates/rollout_plan_TEMPLATE.md`, save as `rollout_plan_FINAL.md` — all six sections.
-- The repo is more than you can read manually. That's the point — use Claude Code as your analyst, writer, and modeler.
-- Useful commands: `/catalyst:segment` (census → wave design), `/catalyst:roi` (pilot data → ROI model), `/catalyst:status` (where you are), `/catalyst:brief` (re-read this briefing).
-- "Conditions may change. Real ones always do."
+## State
 
-## 3. Advisory mode
+Write `catalyst_state.json`:
 
-- Guards first:
-  - If `catalyst_state.json` already exists here, say the exercise is already set up and show current progress (same output as `/catalyst:status`). Stop.
-  - If the directory contains existing unrelated simulation files (`rollout_plan_FINAL.md`, `curveballs/`, Meridian `data/`/`docs/`), recommend a fresh folder and continue only after an explicit yes.
-- Write `catalyst_state.json` with `{ "mode": "advisory", "started_at": "<timestamp>" }`.
-- Then run the intake interview exactly as specified in the `/catalyst:my-company` command — proceed directly into it now rather than telling the user to run another command.
+```json
+{
+  "version": 2,
+  "mode": "simulation",
+  "started_at": "<UTC timestamp>",
+  "active_round": 1,
+  "curveball_revealed": false,
+  "reviews": []
+}
+```
+
+Initialize git when needed, commit the starter state, and deliver the CTO mandate. Explain that the first task is not to fill every section: it is to determine what evidence the board’s questions require.

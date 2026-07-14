@@ -1,12 +1,15 @@
-# Meridian Catalyst — Starter Repo
+# Project Catalyst — Team Workspace
 
-You are the **AI Enablement Office**. Your job: a 6-month plan to roll Claude Code out to 10,000 engineers.
+You are a group leading Claude Code deployment for a fictional financial institution competing to become the market’s most trusted and effective banking option.
 
-**Start here:**
-1. Skim `docs/executive_mandate.md` (2 min)
-2. Open `templates/rollout_plan_TEMPLATE.md` — that's your deliverable shape
-3. Ask Claude Code to help you understand `data/developer_census.csv` — it's 10,000 rows
+## How to work
 
-**Your deliverable:** `rollout_plan_FINAL.md` in the repo root, all six sections complete.
+1. Join the hosted workshop and choose a useful contribution for the current stage.
+2. Investigate resources from the Intelligence Library individually or in pairs.
+3. Add selected files to `evidence/` when they should inform Claude’s analysis.
+4. Ask Claude to compare options and expose assumptions.
+5. Reconvene and make one shared decision.
+6. Save the resulting strategy in `rollout_plan_FINAL.md`.
+7. Run `/catalyst:review` when the team wants stakeholder pressure.
 
-Claude Code has already read `CLAUDE.md` and knows the project context. Use it as your analyst, writer, and modeler — not just a Q&A bot.
+The driver facilitates. Attendees conduct the research, collaborate with Claude, debate tradeoffs, and own the decisions.

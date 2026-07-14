@@ -1,53 +1,41 @@
-# Project Catalyst — Claude Code Adoption Workshop Plugin
+# Project Catalyst — FSI Executive Simulation
 
-You've been handed a mandate: roll Claude Code out to an entire engineering organization. This plugin is the workshop — and the tool you take home afterward.
+Project Catalyst helps senior leaders practice the decisions required to deploy Claude Code across a financial institution. Teams compete as fictional banks, investigate shared evidence, make executive decisions, face stakeholder pressure, and respond to a sector-wide shock.
 
-**Two modes, one playbook:**
+The experience is designed for a 90-minute facilitated workshop. It is light enough to run confidently and substantive enough to teach evidence-led sequencing, proportionate governance, credible ROI, and workforce trust.
 
-- **Simulation** — play the AI Enablement Office at *Meridian Global Bank* (fictional: $1.2T assets, 10,000 engineers, five divisions, eight countries). Build a board-ready 6-month rollout plan while the conditions change under you. Your work is judged by a panel of stakeholder sub-agents — a CTO, CFO, CRO, CISO, and a skeptical staff engineer — and you don't advance until all of them are satisfied.
-- **Advisory** — point the same machinery at your **own company**: an intake interview, a maturity assessment, a tailored rollout plan, and the same five-stakeholder panel stress-testing it, constructively.
+## Participant flow
 
-## Install
+1. Enter the hosted workshop code.
+2. Create or join a fictional bank.
+3. At each stage, choose a concrete way to contribute—investigate data, test assumptions, map constraints, or synthesize the decision.
+4. Pull resources from the Intelligence Library.
+5. Analyze them with Excel, Claude, or both.
+6. Add findings and lock an evidence-backed decision.
+7. Run `/catalyst:review` in the shared Claude workspace.
+8. Revise when the sector-wide alert changes the conditions.
+9. Complete the board review and real-company action card.
 
-```
-/plugin marketplace add <org>/catalyst        # this repo
+Contributions reset with each stage, so nobody is locked into a persona. The driver facilitates; attendees investigate, prompt Claude, debate, and decide.
+
+## Install the Claude Code plugin
+
+```text
+/plugin marketplace add JJFromTenex/anthropic-fsi-plugin
 /plugin install catalyst@catalyst
 ```
 
-## Run the simulation
+From the team room, copy the generated pairing command into the shared Claude Code workspace. The hosted portal remains the shared room state; local plans and evidence remain in the team workspace.
 
-```bash
-mkdir meridian && cd meridian
-claude
-> /catalyst:start simulation
-```
+## Core commands
 
-That scaffolds the Meridian repo (10,000-row developer census, pilot results, budget, policy docs — deliberately more than you can read manually; that's the point) and delivers the CTO's mandate.
-
-| Command | What it does |
+| Command | Purpose |
 |---|---|
-| `/catalyst:brief` | Re-read the mandate, deliverable, and ground rules |
-| `/catalyst:segment` | Census → data-driven wave design |
-| `/catalyst:roi` | Pilot results → CFO-credible ROI model |
-| `/catalyst:rebudget` | Re-cut the budget under a new envelope |
-| `/catalyst:respond` | Write up the table's response to a curveball |
-| `/catalyst:review` | Face the stakeholder panel — all must be satisfied to advance |
-| `/catalyst:status` | Where you are in the arc |
-| `/catalyst:pitch` | 3-minute board pitch from the finished plan |
-| `/catalyst:playbook` | Compile the take-home artifact: every decision, every verdict, the final plan |
+| `/catalyst:start` | Create and optionally pair the team workspace |
+| `/catalyst:sync` | Pull the current workshop stage, hints, and market events |
+| `/catalyst:review` | Pressure-test the current strategy without supplying the answer |
+| `/catalyst:status` | Show the current decision, evidence, and next useful action |
+| `/catalyst:pitch` | Prepare the final board position |
+| `/catalyst:playbook` | Compile the local decision and review record |
 
-`/catalyst:curveball 1|2` is facilitator-only — it changes the conditions mid-exercise. If you're re-running solo at home, you're your own facilitator: drop them on yourself.
-
-Your deliverable: `rollout_plan_FINAL.md` — six sections (Wave Design, Change & Adoption, Governance & Guardrails, ROI Framework, Budget Allocation, Risk Register). The repo's `CLAUDE.md` is pre-loaded; Claude Code is your only analyst, comms writer, financial modeler, and policy researcher. Use it accordingly.
-
-## Run it for your company
-
-```bash
-mkdir our-rollout && cd our-rollout
-claude
-> /catalyst:start my-company
-```
-
-Then: `/catalyst:assess` → `/catalyst:plan` → `/catalyst:stress-test`. Drop real data (census export, pilot metrics, survey results, your current AI policy) into `data/` and `docs/` — everything gets sharper with real rows. All analysis happens locally in your repo.
-
-The scenario is entirely fictional; every name, number, and document in it was generated for this workshop.
+The original advisory commands remain available for post-workshop work against a participant’s real organization.

@@ -1,0 +1,10 @@
+line_item,amount_usd
+"Licenses (10,000 seats @ avg blended rate)",6800000
+"Enablement & training (curriculum, workshops, LMS)",2100000
+"Champion network (20% time backfill, 45 champions)",1350000
+"Platform integration (SSO, audit logging, IDE plugins)",1400000
+Governance & model-risk validation,600000
+Comms & change management,450000
+Measurement & analytics tooling,500000
+Contingency (6%),800000
+TOTAL,14000000
