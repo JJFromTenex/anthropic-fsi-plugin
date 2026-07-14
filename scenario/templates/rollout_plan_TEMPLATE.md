@@ -1,73 +1,37 @@
-# Project Catalyst — 6-Month Rollout Plan
+# Project Catalyst — Executive Deployment Strategy
 
-**Prepared by:** AI Enablement Office
-**For:** Meridian Board of Directors
+**Prepared by:** Executive Leadership Team
+**For:** Board of Directors
 **Status:** DRAFT
 
----
+## Executive position
 
-## Executive Summary
-*3–5 sentences. What's the plan, what will it cost, what will it deliver, what's the biggest risk.*
+What is the strategy, what value should it create, and what is the leadership team choosing not to do?
 
----
+## 1. Who moves first?
 
-## 1. Wave Design
+Define the initial populations and sequence. Explain why this order is defensible.
 
-*Who onboards when, and why that order. Ground it in `data/developer_census.csv`.*
+## 2. How will people adopt it safely?
 
-| Wave | Month | Population | Headcount | Rationale |
-|---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| ... | | | | |
+Define the leadership approach to trust, enablement, management behavior, and workforce concerns.
 
----
+## 3. What must be controlled?
 
-## 2. Change & Adoption
+Define proportionate guardrails, decision rights, exception paths, and the authority to pause deployment.
 
-*Champion network, training model, comms cadence, and how you handle the 21% "concerned." Reference `data/change_champions.csv` and `docs/developer_sentiment_survey.md`.*
+## 4. How will the board know it is working?
 
----
+Define the baseline, Month-3 proof point, measurement source, and what happens if results underperform.
 
-## 3. Governance & Guardrails
+## 5. How will capacity and budget be allocated?
 
-*Code review, data handling, IP, audit trail. Must reconcile with `docs/infosec_ai_policy.md` and `docs/regulatory_landscape.md`. Propose policy amendments if needed — with justification.*
+Show where limited capacity goes, the financial tradeoff, and the contingency retained.
 
----
+## 6. What could break the strategy?
 
-## 4. ROI Framework
+Name the material risks, owners, mitigations, and triggers that require the plan to change.
 
-*Baseline, per-wave targets, measurement approach. Define exactly what you'll show the CFO at the **Month-3 checkpoint**. Use `data/pilot_results.csv` to anchor assumptions.*
+## Decisions and tradeoffs
 
-| Metric | Baseline | M3 Target | M6 Target | Source |
-|---|---|---|---|---|
-| | | | | |
-
----
-
-## 5. Budget Allocation
-
-*The $14M across licenses, enablement, platform, governance, contingency. Numbers, not vibes. Start from `data/budget_FY.csv` and reallocate with rationale.*
-
-| Line item | $ | % | Rationale |
-|---|---|---|---|
-| | | | |
-| **Total** | | 100% | |
-
----
-
-## 6. Risk Register
-
-| # | Risk | Likelihood | Impact | Mitigation | Owner |
-|---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-
----
-
-## Appendix — Decisions & Tradeoffs
-*What you chose NOT to do, and why. The board will ask.*
+Record the evidence used, assumptions made, alternatives rejected, accountable executive, and revisit trigger for each major decision.
