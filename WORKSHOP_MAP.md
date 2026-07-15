@@ -33,7 +33,7 @@ Match on the **tab name**, not the number — Mission Control renumbers its side
 | Mission Control tab | Run this | What it gets you |
 |---|---|---|
 | **The Mandate** | `/catalyst:brief` | Anika's mandate, the deliverable, the ground rules — restated so the table can draft against it |
-| **Intelligence Sweep** | `/catalyst:segment` | The census actually read: division, seniority, critical-function split, the numbers your answer needs to cite |
+| **Intelligence Sweep** | `/catalyst:sweep` | The whole library read at once — census, sentiment, pilot telemetry, policy clauses — reduced to three findings with numbers, the biggest risk, and the evidence that's missing |
 | **The First Strategy** | `/catalyst:segment` → `/catalyst:roi` | Wave design grounded in the census, then a CFO-credible ROI model off the pilot data |
 | **The Gauntlet** | `/catalyst:gauntlet` | All five stakeholder challenges, verbatim, with a drafting slot under each — then `/catalyst:review` grades them before you paste |
 | **The Regulator Calls** | `/catalyst:curveball 1` → `/catalyst:respond` | SR 26-11 dropped into the repo, then the two-track response written against it |
@@ -76,6 +76,8 @@ Then walk it:
 | `/catalyst:assess` | Maturity assessment against the playbook's pillars, grounded in your answers |
 | `/catalyst:plan` | A rollout plan for *your* company — same six-section structure the board judged today |
 | `/catalyst:stress-test` | The same five stakeholders, adapted to your context, arguing with your real plan |
+| `/catalyst:sweep` | Whatever real evidence you have, read at once → three findings, the biggest risk, what's missing |
+| `/catalyst:playbook` | The whole thing compiled into one HTML artifact — the version you forward to your sponsor |
 
 Drop real data into `data/` and `docs/` — a census export, pilot metrics, survey results, your current AI policy — and everything gets sharper. All analysis stays local to your repo.
 

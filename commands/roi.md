@@ -19,4 +19,4 @@ Read `catalyst_state.json` if present to determine whether the active plan is si
 
 ---
 
-*Workshop: this feeds **Stage 3 — The First Strategy** in Mission Control. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*
+*Workshop: this feeds **The First Strategy** in Mission Control — the capacity & budget field. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*

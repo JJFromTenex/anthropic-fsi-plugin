@@ -13,7 +13,19 @@ Normalize `$ARGUMENTS` first: trim leading/trailing whitespace and compare the r
 
 - `simulation` → simulation mode.
 - `my-company` or `advisory` → advisory mode.
-- Empty or anything else → ask the user: **"Are you running the workshop simulation (Meridian Global Bank), or running Catalyst for your own company?"** and wait for the answer.
+- Empty or anything else → present both options and wait for the answer. Don't guess, and don't default:
+
+  > **Two ways to run Catalyst:**
+  >
+  > **1. Run the exercise** — `/catalyst:start simulation`
+  > Play the AI Enablement Office at Meridian Global Bank: 10,000 engineers, five divisions, eight countries, a board that has to approve your rollout plan. The data is scaffolded for you, the conditions change under you, and five stakeholder sub-agents judge your work. This is the workshop.
+  >
+  > **2. Run it for your company** — `/catalyst:start my-company`
+  > Same playbook, your real org. An intake interview, a maturity assessment, a rollout plan tailored to your constraints, and the same five stakeholders stress-testing it before your real ones do. Nothing leaves your repo.
+  >
+  > Which one?
+
+  Then normalize their reply the same way: anything meaning the simulation/exercise/Meridian → simulation mode; anything meaning their own company/org/real work → advisory mode. If it's genuinely ambiguous, ask once more rather than picking.
 
 ## 2. Simulation mode
 
@@ -66,7 +78,7 @@ Commit it too.
 Follow with a short orientation:
 - Deliverable: fill in `templates/rollout_plan_TEMPLATE.md`, save as `rollout_plan_FINAL.md` — all six sections.
 - The repo is more than you can read manually. That's the point — use Claude Code as your analyst, writer, and modeler.
-- Useful commands: `/catalyst:segment` (census → wave design), `/catalyst:roi` (pilot data → ROI model), `/catalyst:gauntlet` (once the baseline plan exists — the five stakeholders challenge it directly), `/catalyst:status` (where you are), `/catalyst:brief` (re-read this briefing).
+- Useful commands: `/catalyst:sweep` (read the whole library → three findings, the biggest risk, the missing evidence), `/catalyst:segment` (census → wave design), `/catalyst:roi` (pilot data → ROI model), `/catalyst:gauntlet` (once the baseline plan exists — the five stakeholders challenge it directly), `/catalyst:status` (where you are), `/catalyst:brief` (re-read this briefing).
 - "Conditions may change. Real ones always do."
 
 ## 3. Advisory mode

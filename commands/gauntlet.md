@@ -85,4 +85,4 @@ Then coach, briefly:
 
 ---
 
-*Workshop: this is **Stage 4 — The Gauntlet** in Mission Control. Answer all five here, run `/catalyst:review` to pre-grade, then paste each answer into its field. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*
+*Workshop: this is **The Gauntlet** in Mission Control. Answer all five here, run `/catalyst:review` to pre-grade, then paste each answer into its field. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*

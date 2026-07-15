@@ -22,6 +22,13 @@ In simulation mode, deliver the in-character briefing:
 
 5. **Current position** — from `catalyst_state.json`: which curveballs have dropped, which gates are passed/active, and the sensible next action.
 
+6. **Draft the two answers The Mandate asks for** — then offer them as a starting point, clearly labelled as a draft for the table to sharpen, not a submission:
+
+   - **The ask in your own words** — what the board actually approved: population, budget, window, checkpoint, success criteria, and the constraints that bind — *with the numbers*. Pull every figure from `docs/executive_mandate.md` and `data/budget_FY.csv` rather than from memory; a wrong number here is the cheapest possible way to lose Anika.
+   - **Top 3 questions the board must answer** — three sharp, decision-shaped questions the memo leaves *open*. Decision-shaped means answerable with a choice, not a paragraph: "Do critical-function engineers get the same tooling as everyone else?" beats "How do we handle risk?" Prefer questions the mandate's own numbers force — where the 85% target, the $14M ceiling, and the 6-month window contradict each other.
+
+   Say plainly that these are the table's to own: the memo is written to be read closely, and the questions it *doesn't* answer are the point of the exercise.
+
 ---
 
-*Workshop: this is **Stage 1 — The Mandate** in Mission Control. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*
+*Workshop: this is **The Mandate** in Mission Control — the two drafts above map to its two fields. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*

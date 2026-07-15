@@ -19,4 +19,4 @@ Read `catalyst_state.json` if present to determine whether the active plan is si
 
 ---
 
-*Workshop: this feeds **Stage 6 — Less Money, More People** in Mission Control. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*
+*Workshop: this feeds **Less Money, More People** in Mission Control — the re-cut budget field. That stage is optional; it runs only if the facilitator drops the second curveball. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*

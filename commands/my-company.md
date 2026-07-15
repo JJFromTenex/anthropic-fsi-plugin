@@ -29,4 +29,4 @@ Invite real data: census/roster exports, pilot metrics, survey results → `data
 
 ## Output
 
-Write `COMPANY_PROFILE.md` — organized, complete, their words preserved, gaps marked `[UNKNOWN — affects X]`. Close with the path: `/catalyst:assess` (where you stand) → `/catalyst:plan` (your tailored rollout plan) → `/catalyst:stress-test` (the stakeholder panel reads it).
+Write `COMPANY_PROFILE.md` — organized, complete, their words preserved, gaps marked `[UNKNOWN — affects X]`. Close with the path: `/catalyst:assess` (where you stand) → `/catalyst:plan` (your tailored rollout plan) → `/catalyst:stress-test` (the stakeholder panel reads it) → `/catalyst:playbook` (the whole thing as one artifact you can forward). If they dropped real files into `data/` or `docs/`, mention `/catalyst:sweep` too — it reads the lot and names the three findings, the biggest risk, and the evidence still missing.

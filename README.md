@@ -27,6 +27,7 @@ That scaffolds the Meridian repo (10,000-row developer census, pilot results, bu
 | Command | What it does |
 |---|---|
 | `/catalyst:brief` | Re-read the mandate, deliverable, and ground rules |
+| `/catalyst:sweep` | Read the whole evidence library → three findings, the biggest risk, the missing evidence |
 | `/catalyst:segment` | Census → data-driven wave design |
 | `/catalyst:roi` | Pilot results → CFO-credible ROI model |
 | `/catalyst:gauntlet` | Face all five stakeholders' challenges to your first strategy at once |
@@ -35,7 +36,7 @@ That scaffolds the Meridian repo (10,000-row developer census, pilot results, bu
 | `/catalyst:review` | Face the stakeholder panel — all must be satisfied to advance |
 | `/catalyst:status` | Where you are in the arc |
 | `/catalyst:pitch` | 3-minute board pitch from the finished plan |
-| `/catalyst:playbook` | Compile the take-home artifact: every decision, every verdict, the final plan |
+| `/catalyst:playbook` | Compile the take-home artifact: every decision, every verdict, the plan — works in either mode |
 
 `/catalyst:curveball 1|2` is facilitator-only — it changes the conditions mid-exercise. If you're re-running solo at home, you're your own facilitator: drop them on yourself.
 
@@ -45,7 +46,7 @@ Your deliverable: `rollout_plan_FINAL.md` — six sections (Wave Design, Change 
 
 If you're running this alongside **Mission Control** — the web app that drives the FSI workshop — install the plugin at the start and keep a terminal open next to it. Mission Control holds the briefings, the evidence, and the scoring; this plugin is your table's analyst: it reads the census, sums the budget, cross-references the policy, and drafts the memo you paste in. It never submits on your behalf.
 
-**[WORKSHOP_MAP.md](WORKSHOP_MAP.md)** maps all eight stages to the commands that answer them, and covers the one trick worth knowing: `/catalyst:review` uses the same rubric as Mission Control's judges, so you can pre-grade your answer before it counts.
+**[WORKSHOP_MAP.md](WORKSHOP_MAP.md)** maps every Mission Control tab to the commands that answer it, and covers the one trick worth knowing: `/catalyst:review` uses the same rubric as Mission Control's judges, so you can pre-grade your answer before it counts.
 
 ## Run it for your company
 
@@ -55,6 +56,19 @@ claude
 > /catalyst:start my-company
 ```
 
-Then: `/catalyst:assess` → `/catalyst:plan` → `/catalyst:stress-test`. Drop real data (census export, pilot metrics, survey results, your current AI policy) into `data/` and `docs/` — everything gets sharper with real rows. All analysis happens locally in your repo.
+`/catalyst:start my-company` walks you straight into the intake. From there:
+
+| Command | What it does |
+|---|---|
+| `/catalyst:my-company` | Intake interview — your org, your regulators, your estate, your constraints → `COMPANY_PROFILE.md` |
+| `/catalyst:assess` | Maturity assessment against the playbook's pillars → `MATURITY_ASSESSMENT.md` |
+| `/catalyst:plan` | A rollout plan for *your* company, same six-section shape → `ROLLOUT_PLAN.md` |
+| `/catalyst:stress-test` | The same five stakeholders, adapted to your org, arguing with your real plan — constructively |
+| `/catalyst:sweep` | Point it at whatever real evidence you have → three findings, the biggest risk, what's missing |
+| `/catalyst:playbook` | Compile it all into one HTML artifact you can forward to your sponsor |
+
+Drop real data (census export, pilot metrics, survey results, your current AI policy) into `data/` and `docs/` — everything gets sharper with real rows. All analysis happens locally in your repo.
+
+`/catalyst:curveball` and `/catalyst:respond` are simulation-only — they're the facilitator's mid-exercise condition changes. In advisory mode, your curveballs arrive on their own schedule; `/catalyst:plan` re-cuts the affected sections when they do.
 
 The scenario is entirely fictional; every name, number, and document in it was generated for this workshop.

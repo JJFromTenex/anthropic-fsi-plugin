@@ -22,4 +22,4 @@ Read `catalyst_state.json` if present to determine whether the active plan is si
 
 ---
 
-*Workshop: this feeds **Stage 2 — Intelligence Sweep** and **Stage 3 — The First Strategy** in Mission Control. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*
+*Workshop: this feeds **The First Strategy** in Mission Control — the rollout waves field. For **Intelligence Sweep**, run `/catalyst:sweep` first. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*
