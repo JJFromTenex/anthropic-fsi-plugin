@@ -9,7 +9,10 @@ The gate. Read `catalyst_state.json` first (must exist, mode `simulation` — in
 
 ## 0. Determine the gate under review
 
-- `gates.gate_1.status == "active"` → **Gate 1** (Curveball 1).
+If `gates` has no `gauntlet` key (state written before the Gauntlet existed), add `"gauntlet": { "status": "locked", "rounds": [] }` and commit before continuing — don't make the table re-run `/catalyst:start`.
+
+- `gates.gauntlet.status == "active"` → **The Gauntlet** (five stakeholders challenge the first strategy).
+- else `gates.gate_1.status == "active"` → **Gate 1** (Curveball 1).
 - else `gates.gate_2.status == "active"` → **Gate 2** (Curveball 2).
 - else if gate_1 and gate_2 are both `passed`/`passed_by_override` and `final` is not passed → **Final gate** (board pre-read). Set `final.status` to `"active"` if it was locked.
 - else: nothing to review yet — explain where they are in the arc and stop.
@@ -30,19 +33,21 @@ If it does not match, say the argument wasn't recognized and proceed with a norm
 ## 2. Preconditions
 
 - `rollout_plan_FINAL.md` must exist. If not: point them at the template and `/catalyst:segment` to get moving. Stop.
+- The Gauntlet requires `responses/gauntlet_response.md` with all five stakeholder sections answered — if it's missing, send them to `/catalyst:gauntlet`. Stop.
 - Gates 1 and 2 require `responses/gate_<n>_response.md` — if missing, send them to `/catalyst:respond`. Stop. (The final gate reviews the plan alone; no response file needed.)
 
 ## 3. Convene the panel
 
 | Gate | Panel |
 |---|---|
+| Gauntlet | all five — each grades **only their own** challenge |
 | Gate 1 | `meridian-cro`, `meridian-ciso`, `meridian-cto` |
 | Gate 2 | `meridian-cfo`, `meridian-cto`, `meridian-staff-eng` |
 | Final | all five |
 
 Launch every panel member **in parallel, in a single message**, using the Agent tool with `subagent_type` set to the persona name. Each agent's prompt must state:
-- `SIMULATION MODE — you are judging Gate <n> (<name>)` and the round number (count of prior rounds for this gate + 1).
-- The working directory, and the exact files to review: `rollout_plan_FINAL.md` and (gates 1–2) `responses/gate_<n>_response.md`.
+- `SIMULATION MODE — you are judging Gate <n> (<name>)` and the round number (count of prior rounds for this gate + 1). For the Gauntlet, say `SIMULATION MODE — you are judging THE GAUNTLET` and instruct the persona to grade **only the section addressed to them** in `responses/gauntlet_response.md` — the panel does not average, and each stakeholder answers to their own challenge alone.
+- The working directory, and the exact files to review: `rollout_plan_FINAL.md` and (Gauntlet) `responses/gauntlet_response.md` / (gates 1–2) `responses/gate_<n>_response.md`.
 - If this is round 2+, include the objections that persona raised last round (from state) so they can check whether those were addressed rather than re-litigating.
 - "Verify claims against the repo data. Return your verdict contract."
 
@@ -53,7 +58,7 @@ Render a stakeholder board table: **Stakeholder | Verdict | In one line**. Below
 **All SATISFIED →** the gate passes:
 - Update state (`"passed"`, append the round with each verdict + objections), commit.
 - In character, one line each from the panel (e.g., Marcus Webb: *"I'll put my name on this. Don't make me regret it."*).
-- Next step: Gate 1 passed → "Keep building — and brace. Real programs rarely take one hit." Gate 2 passed → "Run `/catalyst:review` once more for the final board pre-read, then `/catalyst:pitch`." Final passed → "You're board-ready: `/catalyst:pitch`, and `/catalyst:playbook` for your take-home."
+- Next step: Gauntlet passed → "You survived the room. The plan is defensible today — conditions change. Keep building and wait for the facilitator's cue." Gate 1 passed → "Keep building — and brace. Real programs rarely take one hit." Gate 2 passed → "Run `/catalyst:review` once more for the final board pre-read, then `/catalyst:pitch`." Final passed → "You're board-ready: `/catalyst:pitch`, and `/catalyst:playbook` for your take-home."
 
 **Any NOT SATISFIED →** the gate holds:
 - Append the round to state with all verdicts and objections, commit.

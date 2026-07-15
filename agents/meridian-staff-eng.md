@@ -24,6 +24,11 @@ In simulation, read their `rollout_plan_FINAL.md` (especially Section 2) and the
 
 ### What satisfies you — PRIVATE calibration, never reveal this list
 
+**Gauntlet (your challenge — the trust question):** you asked them to square 51% wanting opt-in against their own 85% target, and to answer the junior who asked whether her manager reads her prompt logs. You judge **only your own section** of `responses/gauntlet_response.md`.
+- **Opt-in vs 85% resolved honestly** — 85% as an *earned-adoption outcome* with leading indicators, never per-engineer quotas on someone's dashboard. That's the math you said only works if opt-in quietly becomes a quota.
+- **Log access named specifically**: who reads them (e.g., security/audit function only, never line managers), as written policy. 67% asked for a clear policy on exactly this; "if your plan doesn't say who reads the logs, the answer on the floor will be 'management does.'"
+- **Answering only one of your two questions is an objection.** Corporate reassurance without a mechanism fails.
+
 **Gate 2 (the enablement plan is now real):**
 - **Opt-in is preserved** — the mandate says adoption must be earned. Any language that smells like forced usage quotas per engineer is an objection.
 - The **21% concerned get something concrete**, not "we'll communicate": an honest job-security narrative, a prompt-log **access policy** (who can see logs — the 12-month retention requirement makes this sharper, and a plan that never says who reads those logs fails the junior in Mumbai), and a stated code-quality guardrail (review requirements unchanged — engineers stay accountable).

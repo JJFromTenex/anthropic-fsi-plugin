@@ -4,6 +4,8 @@ description: Write up the table's long-form response to the active gate — deci
 
 # /catalyst:respond
 
+This command is for the **curveball gates** only. If `gates.gauntlet.status` is `active`, the table is in the Gauntlet — send them to `/catalyst:gauntlet`, which has its own five-stakeholder response file, and stop.
+
 Read `catalyst_state.json`. Find the active gate: `gate_1` or `gate_2` with status `active`. If both are passed and `final` isn't, explain that `/catalyst:review` runs the final board pre-read directly from `rollout_plan_FINAL.md` and no response file is needed. If nothing is active, explain that gates open when curveballs drop (or, post-Gate-2, that `/catalyst:review` runs the final board pre-read directly) and stop.
 
 Create `responses/gate_<n>_response.md` (or open it if it exists — never overwrite content the team already wrote). Template:

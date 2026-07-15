@@ -16,3 +16,7 @@ Draft talking points for a **3-minute verbal pitch, presented from the plan doc 
 Format: a spoken-word script with time marks (0:00 / 0:45 / 1:30 / 2:30), short sentences, numbers rounded for the ear ("about five thousand", not "4,946"). Close with one line the presenter can end on with confidence.
 
 Then prep them for Q&A — list the three hardest questions this specific plan invites (read it critically: the soft budget line, the optimistic target, the hand-waved risk), each with a one-line honest answer.
+
+---
+
+*Workshop: this feeds **Stage 7 — The Final Pitch** in Mission Control. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*

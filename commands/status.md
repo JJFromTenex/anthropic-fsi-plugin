@@ -4,7 +4,7 @@ description: Where the table is in the Project Catalyst arc — curveballs dropp
 
 # /catalyst:status
 
-Read `catalyst_state.json` (if missing: nothing started — point to `/catalyst:start`).
+Read `catalyst_state.json` (if missing: nothing started — point to `/catalyst:start`). If `gates` has no `gauntlet` key, treat it as `locked` and report it as such — don't error on state written before the Gauntlet existed.
 
 **Advisory mode:** report which artifacts exist (`COMPANY_PROFILE.md`, `MATURITY_ASSESSMENT.md`, `ROLLOUT_PLAN.md`), and the sensible next command (`/catalyst:my-company` → `/catalyst:assess` → `/catalyst:plan` → `/catalyst:stress-test`).
 
@@ -14,6 +14,7 @@ Read `catalyst_state.json` (if missing: nothing started — point to `/catalyst:
 |---|---|
 | Scenario scaffolded | started_at timestamp |
 | Baseline plan | does `rollout_plan_FINAL.md` exist / which of the 6 sections have content |
+| The Gauntlet — all five | locked / active (N rounds so far) / passed / passed by override |
 | Curveball 1 — The Regulator Calls | not dropped / dropped |
 | Gate 1 — CRO · CISO · CTO | locked / active (N rounds so far) / passed / passed by override |
 | Curveball 2 — Less Money, More People | not dropped / dropped |

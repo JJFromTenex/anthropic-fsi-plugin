@@ -19,3 +19,7 @@ Read `catalyst_state.json` if present to determine whether the active plan is si
 4. Propose a wave table in the exact shape of Section 1 of the template: Wave | Month | Population | Headcount | Rationale. Headcounts must sum to the full population; every rationale must cite data ("Platform & DevEx first: 61% excited, low risk posture, 700 people — fast proof").
 5. Flag the landmines you noticed (timezone/geo coverage, high-concern divisions, critical-function dependencies) — one line each.
 6. Offer to write this into Section 1 of the active plan: `rollout_plan_FINAL.md` in simulation mode, or `ROLLOUT_PLAN.md` in advisory mode. If yes, write it (in simulation, create from `templates/rollout_plan_TEMPLATE.md` if the file doesn't exist yet; in advisory, create the six-section plan skeleton if needed).
+
+---
+
+*Workshop: this feeds **Stage 2 — Intelligence Sweep** and **Stage 3 — The First Strategy** in Mission Control. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*

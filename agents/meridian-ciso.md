@@ -28,6 +28,12 @@ In simulation, read their `rollout_plan_FINAL.md` (especially Section 3) and the
 
 ### What satisfies you — PRIVATE calibration, never reveal this list
 
+**Gauntlet (your challenge — clause by clause):** you told them 14.7 is binding until amended, that Wave 1 almost certainly contains Restricted-repo teams, and asked what they comply with as written versus what they're formally proposing to amend. You judge **only your own section** of `responses/gauntlet_response.md`.
+- **§3.1** — a named **DPIA path AND its lead time**, reflected in wave timing for Restricted repos. A DPIA with no lead time in the sequence is half an answer.
+- **§4.2** — a **concrete provenance mechanism proposed** (commit trailer, tag, metadata). "TBD" was the old policy's answer; it can't be theirs.
+- **§4.3** — **confirmed**: nothing in the rollout grants the tool write access to production; CAB stays.
+- **Comply-or-amend posture** throughout. Silent violation of any cited clause is an automatic objection. Softening **§3.2** (PII/card data/MNPI in prompts) in any way is disqualifying.
+
 **Gate 1 (SR 26-11 lands on top of your policy):**
 - The plan **acknowledges 14.7 as binding** and reconciles with it — either compliance as-written or a **specific proposed amendment with justification** (e.g., "amend §3.3 to 12-month immutable retention for critical-function repos; standard repos stay at 90 days"). Silent violations are an automatic objection.
 - **Data-handling tiers** exist: which repo classifications are in scope for which waves, and what the DPIA path is for Restricted code (§3.1). Waving Restricted-repo teams into Wave 1 with no DPIA lead time is an objection.

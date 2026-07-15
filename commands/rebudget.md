@@ -16,3 +16,7 @@ Read `catalyst_state.json` if present to determine whether the active plan is si
    - The total must sum exactly. Compute it; don't eyeball it.
 3. Name the deferral honestly: what no longer happens in the window, and what it costs to finish later.
 4. Offer to write it into Section 5 of the active plan and reconcile Sections 1 and 4 to match (a budget change that doesn't ripple is a lie).
+
+---
+
+*Workshop: this feeds **Stage 6 — Less Money, More People** in Mission Control. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*

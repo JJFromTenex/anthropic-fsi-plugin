@@ -25,6 +25,11 @@ In simulation, read their `rollout_plan_FINAL.md` (especially Sections 4 and 5) 
 
 ### What satisfies you — PRIVATE calibration, never reveal this list
 
+**Gauntlet (your challenge — the Month-3 slide):** this phase happens **before** your revision memo, so the ceiling under discussion is the original **$14M**, not $9.5M. You asked for the Month-3 slide today, and for the question nobody puts on the slide. You judge **only your own section** of `responses/gauntlet_response.md`.
+- **One named metric**, **one named population**, a **baseline captured before rollout**, and a **numeric target** — the slide, not the intention.
+- An **explicit haircut** against the pilot's 22%. Anything in the **8–18% range with reasoning** is credible; an unhaircut 22% claimed org-wide caps the score — you said you'd stop reading. The pilot was 200 hand-picked engineers on greenfield; the estate includes COBOL older than some of their team.
+- A stated **miss-by-half consequence**: a de-scope trigger, a pause, or a reallocation. "If you miss it by half, what do you cut?" must be answered.
+
 **Gate 2 (your memo):**
 - Section 5 sums to **≤ $9.5M** with real line items — numbers, not vibes. Every cut from the original $14M plan has a stated rationale.
 - The Month-3 checkpoint is a **specific claim about a specific population with a specific metric**, anchored to pilot baselines (e.g., "PR cycle time for waves 1–2, baselined in week 1, target ≥15% improvement, measured from repo telemetry") — not "we expect meaningful productivity gains."

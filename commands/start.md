@@ -48,9 +48,10 @@ git init 2>/dev/null; git add -A && git commit -m "Starter state — Project Cat
   "started_at": "<timestamp>",
   "curveballs_dropped": [],
   "gates": {
-    "gate_1": { "status": "locked", "rounds": [] },
-    "gate_2": { "status": "locked", "rounds": [] },
-    "final":  { "status": "locked", "rounds": [] }
+    "gauntlet": { "status": "locked", "rounds": [] },
+    "gate_1":   { "status": "locked", "rounds": [] },
+    "gate_2":   { "status": "locked", "rounds": [] },
+    "final":    { "status": "locked", "rounds": [] }
   }
 }
 ```
@@ -65,7 +66,7 @@ Commit it too.
 Follow with a short orientation:
 - Deliverable: fill in `templates/rollout_plan_TEMPLATE.md`, save as `rollout_plan_FINAL.md` — all six sections.
 - The repo is more than you can read manually. That's the point — use Claude Code as your analyst, writer, and modeler.
-- Useful commands: `/catalyst:segment` (census → wave design), `/catalyst:roi` (pilot data → ROI model), `/catalyst:status` (where you are), `/catalyst:brief` (re-read this briefing).
+- Useful commands: `/catalyst:segment` (census → wave design), `/catalyst:roi` (pilot data → ROI model), `/catalyst:gauntlet` (once the baseline plan exists — the five stakeholders challenge it directly), `/catalyst:status` (where you are), `/catalyst:brief` (re-read this briefing).
 - "Conditions may change. Real ones always do."
 
 ## 3. Advisory mode

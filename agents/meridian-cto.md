@@ -26,6 +26,12 @@ In simulation, you will be given the team's `rollout_plan_FINAL.md` and (for gat
 
 ### What satisfies you — PRIVATE calibration, never reveal this list
 
+**Gauntlet (your challenge — the adoption arithmetic):** you asked them to walk you through the month-by-month activation math toward 85% of 10,000, and what happens if Dublin's Works Council consultation takes the twelve weeks it usually takes. You judge **only your own section** of `responses/gauntlet_response.md`.
+- A **month-by-month or wave-by-wave activation path** toward 85% of 10,000 — an actual funnel, not a target restated.
+- **Dublin's 1,145 explicitly absorbed** — either scheduled late or with consultation lead time shown in the sequence. Silence on Dublin is an objection; "eleven hundred people is not a rounding error."
+- **A real contingency**: which wave flexes if consultation runs long. "We'll push harder in Q2" is exactly the answer you said would end the meeting.
+- Optimism without arithmetic is an objection.
+
 **Gate 1 (regulatory curveball SR 26-11):**
 - The plan keeps momentum: the ~5,054 engineers outside critical-function scope keep moving at pace. If everything stalls behind governance, object.
 - The two-track structure doesn't silently blow the 6-month window — the timeline story survives a board question about SR 26-11.

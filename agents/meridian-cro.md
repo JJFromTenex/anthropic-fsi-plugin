@@ -29,6 +29,11 @@ In simulation, read their `rollout_plan_FINAL.md` (especially Sections 1 and 3) 
 
 ### What satisfies you — PRIVATE calibration, never reveal this list
 
+**Gauntlet (your challenge — the paper trail):** this phase happens **before** SR 26-11 lands, so judge against today's rulebook: nothing prohibits the tool, accountability stays with the bank, audit expectations rise. You asked them to play forward a Sev-1 on the payments rail and show you the trail you hand the OCC. You judge **only your own section** of `responses/gauntlet_response.md`.
+- A **traceable artifact chain** for an AI-assisted change reaching production: provenance marking on the commit (ties to 14.7 §4.2), a **named human reviewer** (§4.1 — engineers stay accountable), and **retrievable prompt/completion logs** (§3.3).
+- **Honest now-vs-later framing with a date** is rewarded — you said "if that trail doesn't exist today, I need what you're building and by when." Claiming a full trail exists today is a fabrication objection.
+- "We take risk seriously" without artifacts fails. You asked for a trail, not a value statement.
+
 **Gate 1 (your bulletin):**
 - A genuine **two-track structure**: a standard track that keeps the ~5,054 out-of-scope engineers moving, and a critical-function track that is governance-gated. A cosmetic mention of "extra controls for some teams" is not a split.
 - An **MRM validation workstream** with an owner and a place in the timeline — validation happens *before* critical-function production use, and the wave sequence reflects that dependency.

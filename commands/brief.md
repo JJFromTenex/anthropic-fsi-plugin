@@ -21,3 +21,7 @@ In simulation mode, deliver the in-character briefing:
    - "Expect the unexpected. Conditions may change. Real ones always do."
 
 5. **Current position** — from `catalyst_state.json`: which curveballs have dropped, which gates are passed/active, and the sensible next action.
+
+---
+
+*Workshop: this is **Stage 1 — The Mandate** in Mission Control. See [WORKSHOP_MAP.md](../WORKSHOP_MAP.md).*

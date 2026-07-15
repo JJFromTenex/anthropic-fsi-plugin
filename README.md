@@ -10,7 +10,7 @@ You've been handed a mandate: roll Claude Code out to an entire engineering orga
 ## Install
 
 ```
-/plugin marketplace add <org>/catalyst        # this repo
+/plugin marketplace add JJFromTenex/anthropic-fsi-plugin
 /plugin install catalyst@catalyst
 ```
 
@@ -29,6 +29,7 @@ That scaffolds the Meridian repo (10,000-row developer census, pilot results, bu
 | `/catalyst:brief` | Re-read the mandate, deliverable, and ground rules |
 | `/catalyst:segment` | Census → data-driven wave design |
 | `/catalyst:roi` | Pilot results → CFO-credible ROI model |
+| `/catalyst:gauntlet` | Face all five stakeholders' challenges to your first strategy at once |
 | `/catalyst:rebudget` | Re-cut the budget under a new envelope |
 | `/catalyst:respond` | Write up the table's response to a curveball |
 | `/catalyst:review` | Face the stakeholder panel — all must be satisfied to advance |
@@ -39,6 +40,12 @@ That scaffolds the Meridian repo (10,000-row developer census, pilot results, bu
 `/catalyst:curveball 1|2` is facilitator-only — it changes the conditions mid-exercise. If you're re-running solo at home, you're your own facilitator: drop them on yourself.
 
 Your deliverable: `rollout_plan_FINAL.md` — six sections (Wave Design, Change & Adoption, Governance & Guardrails, ROI Framework, Budget Allocation, Risk Register). The repo's `CLAUDE.md` is pre-loaded; Claude Code is your only analyst, comms writer, financial modeler, and policy researcher. Use it accordingly.
+
+## At the live workshop
+
+If you're running this alongside **Mission Control** — the web app that drives the FSI workshop — install the plugin at the start and keep a terminal open next to it. Mission Control holds the briefings, the evidence, and the scoring; this plugin is your table's analyst: it reads the census, sums the budget, cross-references the policy, and drafts the memo you paste in. It never submits on your behalf.
+
+**[WORKSHOP_MAP.md](WORKSHOP_MAP.md)** maps all eight stages to the commands that answer them, and covers the one trick worth knowing: `/catalyst:review` uses the same rubric as Mission Control's judges, so you can pre-grade your answer before it counts.
 
 ## Run it for your company
 
