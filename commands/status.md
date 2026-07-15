@@ -17,9 +17,11 @@ Read `catalyst_state.json` (if missing: nothing started — point to `/catalyst:
 | The Gauntlet — all five | locked / active (N rounds so far) / passed / passed by override |
 | Curveball 1 — The Regulator Calls | not dropped / dropped |
 | Gate 1 — CRO · CISO · CTO | locked / active (N rounds so far) / passed / passed by override |
-| Curveball 2 — Less Money, More People | not dropped / dropped |
-| Gate 2 — CFO · CTO · Staff Eng | same |
+| Curveball 2 — Less Money, More People *(optional)* | not dropped / dropped |
+| Gate 2 — CFO · CTO · Staff Eng *(optional)* | same |
 | Final gate — full board pre-read | same |
+
+Curveball 2 is optional — the facilitator drops it only if the room has time. If it hasn't been dropped, report Gate 2 as "not run (optional)" rather than as something outstanding, and don't recommend it as the next action unless the table asks for it.
 
 For the active gate, list the outstanding objections from the most recent round (from state), verbatim.
 

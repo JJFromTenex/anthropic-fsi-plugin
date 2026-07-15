@@ -26,22 +26,26 @@ claude
 
 That scaffolds the same Meridian data Mission Control's evidence library shows you — census, pilot results, budget, policy docs — into a real repo you can grep, sum, and re-model. One person per table is enough; more is better.
 
-## The eight stages, and what to run for each
+## The stages, and what to run for each
 
-| # | Mission Control tab | Run this | What it gets you |
-|---|---|---|---|
-| 1 | **The Mandate** | `/catalyst:brief` | Anika's mandate, the deliverable, the ground rules — restated so the table can draft against it |
-| 2 | **Intelligence Sweep** | `/catalyst:segment` | The census actually read: division, seniority, critical-function split, the numbers your answer needs to cite |
-| 3 | **The First Strategy** | `/catalyst:segment` → `/catalyst:roi` | Wave design grounded in the census, then a CFO-credible ROI model off the pilot data |
-| 4 | **The Gauntlet** | `/catalyst:gauntlet` | All five stakeholder challenges, verbatim, with a drafting slot under each — then `/catalyst:review` grades them before you paste |
-| 5 | **The Regulator Calls** | `/catalyst:curveball 1` → `/catalyst:respond` | SR 26-11 dropped into the repo, then the two-track response written against it |
-| 6 | **Less Money, More People** | `/catalyst:curveball 2` → `/catalyst:rebudget` → `/catalyst:respond` | The revised envelope, the budget re-cut to the new ceiling, the deferrals named and costed |
-| 7 | **The Final Pitch** | `/catalyst:review` → `/catalyst:pitch` | The full board pre-read, then a 3-minute pitch from the finished plan |
-| 8 | **Take It Home** | `/catalyst:playbook` | Every decision, every verdict, the final plan — one artifact you keep |
+Match on the **tab name**, not the number — Mission Control renumbers its sidebar depending on which curveballs the facilitator turns on.
 
-**On stages 5 and 6:** `/catalyst:curveball` is normally facilitator-only. When you're following Mission Control, the app *is* the facilitator — once it reveals the curveball on screen, drop the matching one in your repo so your analyst sees what the room sees.
+| Mission Control tab | Run this | What it gets you |
+|---|---|---|
+| **The Mandate** | `/catalyst:brief` | Anika's mandate, the deliverable, the ground rules — restated so the table can draft against it |
+| **Intelligence Sweep** | `/catalyst:segment` | The census actually read: division, seniority, critical-function split, the numbers your answer needs to cite |
+| **The First Strategy** | `/catalyst:segment` → `/catalyst:roi` | Wave design grounded in the census, then a CFO-credible ROI model off the pilot data |
+| **The Gauntlet** | `/catalyst:gauntlet` | All five stakeholder challenges, verbatim, with a drafting slot under each — then `/catalyst:review` grades them before you paste |
+| **The Regulator Calls** | `/catalyst:curveball 1` → `/catalyst:respond` | SR 26-11 dropped into the repo, then the two-track response written against it |
+| **Less Money, More People** — *only if it appears* | `/catalyst:curveball 2` → `/catalyst:rebudget` → `/catalyst:respond` | The revised envelope, the budget re-cut to the new ceiling, the deferrals named and costed |
+| **The Final Pitch** | `/catalyst:review` → `/catalyst:pitch` | The full board pre-read, then a 3-minute pitch from the finished plan |
+| **Take It Home** | `/catalyst:playbook` | Every decision, every verdict, the final plan — one artifact you keep |
 
-**A useful trick for stages 4 and 7:** run `/catalyst:review` before you submit. The plugin's panel and Mission Control's judges are calibrated from the same rubric, so a `NOT SATISFIED` in your terminal is a very good predictor of a low score on the board — and it tells you which objection to fix, for free, before it counts.
+**"Less Money, More People" is optional.** It's the second curveball, and the facilitator switches it on only if the room has time. If it isn't in your sidebar, skip that row entirely — don't run `/catalyst:curveball 2`, and don't be thrown that The Final Pitch is numbered 06 rather than 07.
+
+**On the curveball stages:** `/catalyst:curveball` is normally facilitator-only. When you're following Mission Control, the app *is* the facilitator — once it reveals the curveball on screen, drop the matching one in your repo so your analyst sees what the room sees.
+
+**A useful trick for The Gauntlet and The Final Pitch:** run `/catalyst:review` before you submit. The plugin's panel and Mission Control's judges are calibrated from the same rubric, so a `NOT SATISFIED` in your terminal is a very good predictor of a low score on the board — and it tells you which objection to fix, for free, before it counts.
 
 ## The knowledge base behind all of it
 

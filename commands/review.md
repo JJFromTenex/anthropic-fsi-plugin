@@ -14,7 +14,8 @@ If `gates` has no `gauntlet` key (state written before the Gauntlet existed), ad
 - `gates.gauntlet.status == "active"` → **The Gauntlet** (five stakeholders challenge the first strategy).
 - else `gates.gate_1.status == "active"` → **Gate 1** (Curveball 1).
 - else `gates.gate_2.status == "active"` → **Gate 2** (Curveball 2).
-- else if gate_1 and gate_2 are both `passed`/`passed_by_override` and `final` is not passed → **Final gate** (board pre-read). Set `final.status` to `"active"` if it was locked.
+- else if gate_1 is `passed`/`passed_by_override`, gate_2 is **not** `active`, and `final` is not passed → **Final gate** (board pre-read). Set `final.status` to `"active"` if it was locked.
+  - Curveball 2 is optional — the facilitator drops it only if the room has time, so a still-`locked` gate_2 means it was skipped, not that the table jumped the queue. Don't block the final gate on it. Note it in one line ("Curveball 2 didn't run — reviewing against the plan as it stands") and, if they expected it, point them at `/catalyst:curveball 2` before continuing.
 - else: nothing to review yet — explain where they are in the arc and stop.
 
 ## 1. Facilitator override check
